@@ -1,0 +1,12 @@
+[
+  {"faseEvento": "Novos", "ordem": 0, "eventos": [
+    {"idEvento": 3194, "eventoNomeAbreviado": "TJ CE 25 NOTÁRIOS", "eventoNomeCompleto": null, "eventoTotalVagas": "44", "eventoSalarioMaximo": 0, "eventoURL": "TJ_CE_25_NOTARIOS", "eventoStatus": "novos", "eventoTipo": "concursos", "eventoAno": 2025}
+  ]},
+  {"faseEvento": "Inscrições Abertas", "ordem": 1, "eventos": [
+    {"idEvento": 3392, "eventoNomeAbreviado": "CGU 26 AFFC", "eventoNomeCompleto": null, "eventoTotalVagas": "60", "eventoSalarioMaximo": 20000, "eventoURL": "CGU_26_AFFC", "eventoStatus": "inscricoes-abertas", "eventoTipo": "concursos", "eventoAno": 2026}
+  ]},
+  {"faseEvento": "Em Andamento", "ordem": 2, "eventos": []},
+  {"faseEvento": "Encerrados", "ordem": 3, "eventos": [
+    {"idEvento": 2001, "eventoNomeAbreviado": "PF 21", "eventoNomeCompleto": null, "eventoTotalVagas": "1500", "eventoSalarioMaximo": 23692.74, "eventoURL": "PF_21", "eventoStatus": "encerrado", "eventoTipo": "concursos", "eventoAno": 2021}
+  ]}
+]

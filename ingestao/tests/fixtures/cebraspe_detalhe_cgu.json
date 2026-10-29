@@ -1,0 +1,27 @@
+{
+  "idEvento": 3392,
+  "eventoNomeAbreviado": "CGU 26 AFFC",
+  "eventoNomeCompleto": "CGU 26 AFFC",
+  "eventoTotalVagas": "60",
+  "eventoSalarioMaximo": 20000,
+  "strEventoSalarioMaximo": "R$ 20.000,00",
+  "eventoURL": "CGU_26_AFFC",
+  "eventoStatus": "Abertura",
+  "eventoTipo": "concursos",
+  "eventoAno": 2026,
+  "periodoInscricao": "De 10/10/2026 até 04/11/2026 às 18:00, horário oficial de Brasília/DF",
+  "eventoCargos": [
+    {"idArea": "01", "area": "CARGO 1: AUDITOR FEDERAL DE FINANÇAS E CONTROLE (AFFC) – ESPECIALIDADE: AUDITORIA"},
+    {"idArea": "02", "area": "CARGO 2: AUDITOR FEDERAL DE FINANÇAS E CONTROLE (AFFC) – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO – CIÊNCIA DE DADOS"}
+  ],
+  "arquivosEdital": [
+    {"tipoExtensaoArquivo": "_.html", "dataArquivo": "15/10/2026 10:00", "nomeArquivo": "B876E5E5.html", "descricaoArquivo": "Edital nº 2 – Retificação do subitem 6.2.4 e do Anexo I – Cronograma Previsto do Edital nº 1 - em VLibras", "dataArquivoObj": "2026-10-15T10:00:01"},
+    {"tipoExtensaoArquivo": "_.pdf", "dataArquivo": "15/10/2026 10:00", "nomeArquivo": "8CC969EF.pdf", "descricaoArquivo": "Edital nº 2 – Retificação do subitem 6.2.4 e do Anexo I – Cronograma Previsto do Edital nº 1 ", "dataArquivoObj": "2026-10-15T10:00:00"},
+    {"tipoExtensaoArquivo": "_.pdf", "dataArquivo": "09/10/2026 18:40", "nomeArquivo": "A26FBD90.pdf", "descricaoArquivo": "Comunicado – Pagamento da taxa de inscrição via Pix ficará temporariamente indisponível no dia 10 de outubro de 2026", "dataArquivoObj": "2026-10-09T18:40:00"},
+    {"tipoExtensaoArquivo": "_.pdf", "dataArquivo": "09/10/2026 10:00", "nomeArquivo": "FDEEFB41.pdf", "descricaoArquivo": "Edital nº 1 - Abertura - Atualizado conforme retificações", "dataArquivoObj": "2026-10-09T10:00:20"},
+    {"tipoExtensaoArquivo": "_.pdf", "dataArquivo": "09/10/2026 10:00", "nomeArquivo": "C7A60D15.pdf", "descricaoArquivo": "Edital nº 1 - Abertura", "dataArquivoObj": "2026-10-09T10:00:00"}
+  ],
+  "arquivosGabarito": [],
+  "aplicativos": null,
+  "isInscricaoAberta": true
+}
