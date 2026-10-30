@@ -99,7 +99,14 @@ def converter(evento: dict, detalhe: dict, bruto: bytes | None = None) -> Concur
                 )
             )
 
-    titulo = limpar_espacos(detalhe.get("eventoNomeCompleto") or evento.get("eventoNomeAbreviado") or slug)
+    # Às vezes eventoNomeCompleto é só a URL ("ADEAL_26"); aí a abreviação é melhor.
+    nomes = (
+        detalhe.get("eventoNomeCompleto"),
+        evento.get("eventoNomeCompleto"),
+        detalhe.get("eventoNomeAbreviado"),
+        evento.get("eventoNomeAbreviado"),
+    )
+    titulo = next((limpar_espacos(n) for n in nomes if n and n != slug), slug.replace("_", " "))
     return ConcursoExtraido(
         chave_externa=f"cebraspe:{slug}",
         titulo=titulo,

@@ -19,13 +19,15 @@ _REGRAS = [
     (
         Esfera.FEDERAL,
         r"\bfederal\b|\buniao\b|\bministerio d[aoe]s?\b|\bcnu\d?\b|\bcpnu\d?\b|\bnacional\b"
-        r"|\b(?:trf|trt|tre|tst|stj|stf|tse|stm|tcu|cgu|agu|pgfn|pf|prf|inss|ibge|ibama|anvisa|anac|anatel|aneel|anp|ans|antt|bacen|bcb|cvm|susep|receita|mre|irbr|abin|dpu|mpu|mpf|mpt|cnmp|cnj|camara dos deputados|senado|cd|ebserh|petrobras|caixa|banco do brasil|bnb|bnds|bndes|correios|serpro|dataprev|capes|cnpq|inb|abdi)\b",
+        r"|\b(?:trf|trt|tre|tst|stj|stf|tse|stm|tcu|cgu|agu|pgfn|pf|prf|inss|ibge|ibama|anvisa|anac|anatel|aneel|anp|ans|antt|bacen|bcb|cvm|susep|receita|mre|irbr|abin|dpu|mpu|mpf|mpt|cnmp|cnj|camara dos deputados|senado|cd|ebserh|petrobras|caixa|banco do brasil|bnb|bnds|bndes|correios|serpro|dataprev|capes|cnpq|inb|abdi|agsus)\b",
     ),
     (
         Esfera.ESTADUAL,
         r"\bestado\b|\bestadual\b|\bassembleia legislativa\b"
         rf"|\b(?:tj|tce|mp|pc|pm|cbm|dpe|pge|sefaz|seduc|sesa|sejus|detran|ale|al) ?{_UF}\b"
-        rf"|\b(?:tj|tce|mp|pc|pm|dpe|pge|sefaz|seduc|detran){_UF}\b",
+        rf"|\b(?:tj|tce|mp|pc|pm|dpe|pge|sefaz|seduc|detran){_UF}\b"
+        # Padrão Cebraspe "SIGLA UF AA" (ex.: "AGEPAR PR 26"); federais já casaram acima.
+        rf"|^[a-z]+ {_UF} \d{{2}}\b",
     ),
 ]
 _REGRAS_COMPILADAS = [(esfera, re.compile(padrao)) for esfera, padrao in _REGRAS]

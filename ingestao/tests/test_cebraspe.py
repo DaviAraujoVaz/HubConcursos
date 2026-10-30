@@ -41,6 +41,13 @@ class ConverterCebraspeTests(TesteComDados):
         self.assertEqual(len(c.documentos), 4)
         self.assertTrue(all(d.url.endswith(".pdf") for d in c.documentos))
 
+    def test_titulo_ignora_nome_completo_igual_ao_slug(self):
+        # Caso real (ADEAL, 29/10/2026): eventoNomeCompleto vem igual à URL.
+        evento = {"eventoURL": "ADEAL_26", "eventoNomeAbreviado": "ADEAL 26", "eventoStatus": "em-andamento"}
+        detalhe = {"eventoURL": "ADEAL_26", "eventoNomeAbreviado": "ADEAL 26", "eventoNomeCompleto": "ADEAL_26"}
+        self.assertEqual(converter(evento, detalhe).titulo, "ADEAL 26")
+        self.assertEqual(converter({"eventoURL": "X_26"}, {}).titulo, "X 26")
+
 
 class DadosReaisCebraspeTests(TesteComDados):
     """Amostra fiel da API real (PF 25, capturada em 29/10/2026)."""

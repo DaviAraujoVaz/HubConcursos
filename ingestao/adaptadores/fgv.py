@@ -7,6 +7,9 @@ Estrutura (inspecionada em conhecimento.fgv.br/concursos em 29/10/2026):
   detalhe: título em <h1>, situação em `.field--name-field-concurso-status`,
            arquivos em blocos `.paragraph--type--texto-data`, cada um com
            <time datetime=…> e um link para /sites/default/files/concursos/….pdf
+  índice:  alguns concursos (ex.: /concursos/prefeiturademacae24) não têm arquivos,
+           só links para um edital por órgão em <url>/1, <url>/2…, cada um com o
+           layout de detalhe. Cada subpágina vira um concurso.
 """
 import logging
 from urllib.parse import urljoin, urlparse
@@ -48,12 +51,35 @@ class FgvAdaptador(Adaptador):
     def coletar(self, incluir_encerrados: bool = False, apenas: list[str] | None = None, **_):
         for url, titulo_lista, em_andamento in self.listar(incluir_realizados=incluir_encerrados):
             caminho = urlparse(url).path.strip("/")
-            if apenas and caminho not in apenas:
+            if apenas and not any(a == caminho or a.startswith(caminho + "/") for a in apenas):
                 continue
             resposta = self.cliente.get(url)
-            yield ResultadoColeta(
-                concursos=[converter_detalhe(url, resposta.text, titulo_lista, em_andamento, resposta.content)]
-            )
+            concurso = converter_detalhe(url, resposta.text, titulo_lista, em_andamento, resposta.content)
+            filhas = subpaginas(url, resposta.text) if not concurso.documentos else []
+            if not filhas:
+                yield ResultadoColeta(concursos=[concurso])
+                continue
+            for url_filha, texto in filhas:
+                if apenas and caminho not in apenas and urlparse(url_filha).path.strip("/") not in apenas:
+                    continue
+                resposta = self.cliente.get(url_filha)
+                titulo = f"{titulo_lista} - {texto}" if texto else titulo_lista
+                yield ResultadoColeta(
+                    concursos=[converter_detalhe(url_filha, resposta.text, titulo, em_andamento, resposta.content)]
+                )
+
+
+def subpaginas(url: str, html: str) -> list[tuple[str, str]]:
+    """[(url, texto do link)] das páginas filhas de uma página índice (<url>/1, <url>/2…)."""
+    prefixo = urlparse(url).path.rstrip("/") + "/"
+    vistas: dict[str, str] = {}
+    for link in BeautifulSoup(html, "lxml").select("a[href]"):
+        destino = urljoin(url, link["href"])
+        partes = urlparse(destino)
+        if partes.netloc == urlparse(url).netloc and partes.path.startswith(prefixo) and len(partes.path) > len(prefixo):
+            texto = limpar_espacos(link.get_text()).lstrip("»").strip()
+            vistas.setdefault(destino.split("#")[0], texto)
+    return list(vistas.items())
 
 
 def parse_lista(html: str, incluir_realizados: bool = False) -> list[tuple[str, str, bool]]:

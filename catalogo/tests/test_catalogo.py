@@ -20,6 +20,10 @@ class EsferaTests(TestCase):
             "SEDF 26 PROFESSOR": Esfera.DISTRITAL,
             "Concurso Público para Tribunal de Justiça do Estado da Paraíba": Esfera.ESTADUAL,
             "Concurso Público Nacional Unificado 2": Esfera.FEDERAL,
+            # Padrão Cebraspe "SIGLA UF AA" (casos reais da primeira coleta)
+            "AGEPAR PR 26": Esfera.ESTADUAL,
+            "AGSUS 26 ACOLHEDORA": Esfera.FEDERAL,
+            "PF 25": Esfera.FEDERAL,
         }
         for titulo, esperada in casos.items():
             with self.subTest(titulo=titulo):

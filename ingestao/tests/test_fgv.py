@@ -1,5 +1,5 @@
 from catalogo.models import Concurso, Situacao
-from ingestao.adaptadores.fgv import URL_LISTA, FgvAdaptador, converter_detalhe, parse_lista
+from ingestao.adaptadores.fgv import URL_LISTA, FgvAdaptador, converter_detalhe, parse_lista, subpaginas
 from ingestao.models import Documento, TipoDocumento
 from ingestao.persistencia import persistir
 from ingestao.models import Fonte
@@ -43,6 +43,43 @@ class FgvTests(TesteComDados):
             [d.titulo for d in c.documentos], ["1ª Retificação", "Edital (retificado em 26/10/2026)"]
         )
         self.assertTrue(c.documentos[1].url.startswith("https://conhecimento.fgv.br/sites/default/files/"))
+
+    def test_pagina_indice_vira_um_concurso_por_subpagina(self):
+        # Caso real (29/10/2026): a página de Macaé não tem arquivos, só links para
+        # um edital por órgão em /1, /2 e /3, cada um com o layout normal de detalhe.
+        base = "https://conhecimento.fgv.br/concursos/prefeiturademacae24"
+        indice = fixture("fgv_indice_macae.html").decode()
+        self.assertEqual(converter_detalhe(base, indice).documentos, [])
+        self.assertEqual(
+            [u for u, _ in subpaginas(base, indice)], [f"{base}/1", f"{base}/2", f"{base}/3"]
+        )
+
+        lista = (
+            '<div class="view-id-concursos_em_andamento"><div class="views-field-title">'
+            f'<a href="/concursos/prefeiturademacae24">Concurso Público para a Prefeitura de Macaé</a></div></div>'
+        ).encode()
+        cliente = ClienteFalso(
+            {
+                URL_LISTA.format(pagina=0): lista,
+                URL_LISTA.format(pagina=1): b"<html></html>",
+                base: fixture("fgv_indice_macae.html"),
+                # /2 e /3 têm o mesmo layout; reaproveita a fixture de /1.
+                **{f"{base}/{n}": fixture("fgv_detalhe_macae1.html") for n in (1, 2, 3)},
+            }
+        )
+        concursos = [c for r in FgvAdaptador(cliente).coletar() for c in r.concursos]
+        self.assertEqual(
+            [c.chave_externa for c in concursos],
+            [f"fgv:concursos/prefeiturademacae24/{n}" for n in (1, 2, 3)],
+        )
+        c = concursos[0]
+        self.assertEqual(
+            c.titulo,
+            "Concurso Público para a Prefeitura de Macaé - Administração Pública Municipal Direta do Município de Macaé",
+        )
+        self.assertEqual(c.situacao, Situacao.ANDAMENTO)
+        self.assertEqual(c.ano, 2024)
+        self.assertGreater(len(c.documentos), 50)
 
     def test_persistencia_com_areas_e_esfera_pelo_titulo(self):
         url = "https://conhecimento.fgv.br/concursos/tjpb26"
