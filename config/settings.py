@@ -115,4 +115,6 @@ LOGGING = {
     "formatters": {"simples": {"format": "%(asctime)s %(levelname)s %(name)s: %(message)s"}},
     "handlers": {"console": {"class": "logging.StreamHandler", "formatter": "simples"}},
     "root": {"handlers": ["console"], "level": env("LOG_LEVEL", "INFO")},
+    # Fontes malformadas em PDFs de banca geram milhares de avisos inofensivos.
+    "loggers": {"pdfminer": {"level": "ERROR"}},
 }

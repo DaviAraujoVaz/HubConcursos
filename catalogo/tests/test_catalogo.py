@@ -24,6 +24,24 @@ class EsferaTests(TestCase):
             "AGEPAR PR 26": Esfera.ESTADUAL,
             "AGSUS 26 ACOLHEDORA": Esfera.FEDERAL,
             "PF 25": Esfera.FEDERAL,
+            "PREF ANDRADINA 25 PROCURADOR": Esfera.MUNICIPAL,
+            "PREF. DE BOA VISTA 25 SAUDE": Esfera.MUNICIPAL,
+            "PREF PORTO ALEGRE RS 26": Esfera.MUNICIPAL,
+            "SEFAZ/RJ 25 ANALISTA": Esfera.ESTADUAL,
+            "Concurso para provimento do cargo efetivo de Conselheiro Substituto (Auditor) do TCE/AC": Esfera.ESTADUAL,
+            "POLÍCIA MILITAR DE SANTA CATARINA": Esfera.ESTADUAL,
+            "Perícia Oficial de Natureza Criminal do Maranhão": Esfera.ESTADUAL,
+            "ALAGOAS PREVIDÊNCIA": Esfera.ESTADUAL,
+            "Concurso Público para o Tribunal de Justiça do Pará": Esfera.ESTADUAL,
+            "Concurso Público para a Agência X": "",  # "para" não é o estado do Pará
+            "ANTAQ 25 CF": Esfera.FEDERAL,
+            "FUNPRESP 26 JUD": Esfera.FEDERAL,
+            "DREI 26 EXAME APTIDÃO": Esfera.FEDERAL,
+            # FGV
+            "Concurso Público para a Amazônia Azul Tecnologias de Defesa S.A. - AMAZUL": Esfera.FEDERAL,
+            "Concurso Público para a Companhia de Pesquisa de Recursos Minerais - CPRM": Esfera.FEDERAL,
+            "Concurso Público para a NAV Brasil Serviços de Navegação Aérea S.A.": Esfera.FEDERAL,
+            "Concurso Público para o Cargo Especialista em Políticas Públicas e Gestão Governamental - SEAD/SE": Esfera.ESTADUAL,
         }
         for titulo, esperada in casos.items():
             with self.subTest(titulo=titulo):
@@ -44,6 +62,23 @@ class AreaTests(TestCase):
         self.assertEqual(self.nomes(areas_para("", "Seleção entre servidores", alvos=("orgao",))), [])
         self.assertEqual(self.nomes(areas_para("", "TRE SP 26", alvos=("orgao",))), ["Tribunais"])
         self.assertEqual(self.nomes(areas_para("Professora de Matemática", "", alvos=("cargo",))), ["Educação"])
+
+    def test_secretarias_de_estado_e_agencias_reguladoras(self):
+        # Títulos reais da primeira coleta da Cebraspe (01/11/2026).
+        casos = {
+            "Secretaria de Estado da Educação de Alagoas": ["Educação"],
+            "Secretaria de Estado da Saúde de Alagoas": ["Saúde"],
+            "Secretaria de Estado da Fazenda de Alagoas": ["Fiscal"],
+            "AGÊNCIA REGULADORA DE SERVIÇOS PÚBLICOS DO ESTADO DE ALAGOAS": ["Regulação"],
+            # FGV (sem cargos estruturados; a área sai do título)
+            "Concurso Público para a Prefeitura Municipal de Vitória - Guarda Municipal": ["Policial"],
+            "Concurso Público para a Prefeitura do Rio de Janeiro - Gestor de Segurança Municipal": ["Policial"],
+            "Concurso Público para a Secretaria de Administração Penitenciária e Ressocialização do Estado da Bahia - SEAP-BA": ["Policial"],
+            "Concurso Público para a Contadoria e Auditoria-Geral do Estado do Rio Grande do Sul (CAGE RS)": ["Controle"],
+        }
+        for titulo, esperadas in casos.items():
+            with self.subTest(titulo=titulo):
+                self.assertEqual(self.nomes(areas_para("", titulo, alvos=("orgao",))), esperadas)
 
     def test_concurso_recebe_uniao_dos_cargos_e_titulo(self):
         c = Concurso.objects.create(chave_externa="c", titulo="TJ PB 26")
