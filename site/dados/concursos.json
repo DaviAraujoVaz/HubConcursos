@@ -13893,6 +13893,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado do sorteio de ponto da Prova Oral (02/11)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-do-sorteio-do-ponto_02.11.pdf",
+     "data": "2026-11-02"
+    },
+    {
      "titulo": "Resultado do sorteio de ponto da Prova Oral (01/11)",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-do-sorteio-do-ponto_01.11.pdf",
@@ -13975,16 +13981,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/02_dpgerj-resultado-preliminar-prova-objetiva_negros.pdf",
      "data": "2026-09-25"
-    },
-    {
-     "titulo": "Resultado Preliminar Prova Objetiva",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/01_dpgerj-resultado-preliminar-prova-objetiva_ampla_r.pdf",
-     "data": "2026-09-25"
     }
    ],
-   "total_documentos": 46,
-   "ultima_publicacao": "2026-11-01T09:00-03:00",
+   "total_documentos": 47,
+   "ultima_publicacao": "2026-11-02T09:00-03:00",
    "primeiro_visto": null
   },
   {
