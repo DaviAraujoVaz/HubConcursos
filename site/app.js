@@ -57,7 +57,8 @@ function ehNovo(c) {
 function preparar(c) {
   c._abertas = inscricoesAbertas(c);
   c._novo = ehNovo(c);
-  c._busca = normalizar([c.titulo, ...(c.cargos || []), BANCAS[c.banca], ...(c.areas || [])].join(" "));
+  c.cargos = c.cargos || [];
+  c._busca = normalizar([c.titulo, ...c.cargos.map((x) => x.nome), BANCAS[c.banca], ...(c.areas || [])].join(" "));
   return c;
 }
 
@@ -114,16 +115,51 @@ function cartao(c) {
 
   const meta = el("p", { class: "meta" },
     c.vagas > 0 && el("span", {}, `${c.vagas.toLocaleString("pt-BR")} ${c.vagas === 1 ? "vaga" : "vagas"}`),
-    c.remuneracao_maxima > 0 && el("span", {}, `até ${fmtReais.format(c.remuneracao_maxima)}`),
+    faixaSalarial(c) && el("span", {}, faixaSalarial(c)),
     c.ultima_publicacao && el("span", {}, `última publicação em ${fmtData.format(new Date(c.ultima_publicacao))}`),
   );
 
-  const cargos = c.cargos || [];
-  const linhaCargos = cargos.length > 0 && el("p", { class: "cargos" },
-    cargos.slice(0, 3).join(" · ") + (cargos.length > 3 ? ` · e mais ${cargos.length - 3} ${cargos.length === 4 ? "cargo" : "cargos"}` : ""));
+  return el("li", { class: "cartao" },
+    selos,
+    el("h2", {}, el("a", { href: c.url, target: "_blank", rel: "noopener" }, c.titulo)),
+    linhaPrazo(c),
+    meta,
+    blocoCargos(c),
+    blocoDocumentos(c),
+  );
+}
 
+function faixaSalarial(c) {
+  const salarios = c.cargos.map((x) => x.remuneracao).filter((v) => v > 0);
+  if (salarios.length === 0) return c.remuneracao_maxima > 0 ? `até ${fmtReais.format(c.remuneracao_maxima)}` : "";
+  const menor = Math.min(...salarios), maior = Math.max(...salarios);
+  return menor === maior ? fmtReais.format(maior) : `${fmtReais.format(menor)} a ${fmtReais.format(maior)}`;
+}
+
+function linhaCargo(cargo) {
+  return el("li", {},
+    el("span", {}, cargo.nome),
+    el("span", { class: "salario" }, cargo.remuneracao > 0 ? fmtReais.format(cargo.remuneracao) : "—"));
+}
+
+// Com área filtrada, os cargos daquela área aparecem logo no cartão; os demais ficam na lista completa.
+function blocoCargos(c) {
+  if (c.cargos.length === 0) return null;
+  const daArea = estado.areas.size > 0 ? c.cargos.filter((x) => x.areas.some((a) => estado.areas.has(a))) : [];
+  const destaque = daArea.length > 0 && daArea.length < c.cargos.length && el("div", { class: "destaque" },
+    el("p", {}, `${daArea.length} ${daArea.length === 1 ? "cargo" : "cargos"} em ${[...estado.areas].join(", ")}:`),
+    el("ul", { class: "cargos" }, daArea.slice(0, 6).map(linhaCargo)),
+    daArea.length > 6 && el("p", { class: "mais" }, `e mais ${daArea.length - 6} na lista completa`));
+  return el("div", {},
+    destaque,
+    el("details", {},
+      el("summary", {}, `${c.cargos.length === 1 ? "Cargo e salário" : `Cargos e salários (${c.cargos.length})`}`),
+      el("ul", { class: "cargos" }, c.cargos.map(linhaCargo))));
+}
+
+function blocoDocumentos(c) {
   const docs = c.documentos || [];
-  const documentos = docs.length > 0 && el("details", {},
+  return docs.length > 0 && el("details", {},
     el("summary", {}, `Documentos recentes (${c.total_documentos})`),
     el("ul", { class: "docs" },
       docs.map((d) => el("li", {},
@@ -132,15 +168,6 @@ function cartao(c) {
           el("a", { href: d.url, target: "_blank", rel: "noopener" }, d.titulo))))),
     c.total_documentos > docs.length && el("p", {},
       el("a", { href: c.url, target: "_blank", rel: "noopener" }, "Ver todos na página oficial")),
-  );
-
-  return el("li", { class: "cartao" },
-    selos,
-    el("h2", {}, el("a", { href: c.url, target: "_blank", rel: "noopener" }, c.titulo)),
-    linhaPrazo(c),
-    meta,
-    linhaCargos,
-    documentos,
   );
 }
 

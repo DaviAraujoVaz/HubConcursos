@@ -11,7 +11,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: write   # gravar concursos.json quando mudar
+  contents: write   # gravar concursos.json e o cache de editais quando mudarem
   pages: write
   id-token: write
 
@@ -23,7 +23,9 @@ concurrency:
 jobs:
   coletar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # A coleta leva uns 5 minutos; uma leva grande de editais novos (ou VERSAO nova
+    # em edital.py, que manda reler todos) pode levar uns 20.
+    timeout-minutes: 60
     environment:
       name: github-pages
       url: ${{ steps.publicar.outputs.page_url }}
@@ -45,14 +47,14 @@ jobs:
         continue-on-error: true
         run: python -m concursohub.coletar
 
-      - name: Gravar concursos.json no repositório
+      - name: Gravar concursos.json e o cache de editais no repositório
         run: |
-          if git diff --quiet -- site/dados/concursos.json; then
+          if [ -z "$(git status --porcelain -- site/dados/concursos.json cache/)" ]; then
             echo "Nada mudou."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add site/dados/concursos.json
+            git add site/dados/concursos.json cache/
             git commit -m "Coleta de $(TZ=America/Sao_Paulo date '+%d/%m/%Y %H:%M')"
             git push
           fi

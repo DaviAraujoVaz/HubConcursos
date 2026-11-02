@@ -1,0 +1,127 @@
+Edital. Após essa data, o prazo estará precluso.
+3. DOS CARGOS
+3.1 A denominação dos cargos, dos perfis, das localidades, o valor da taxa de inscrição e o número de
+vagas estão estabelecidos nas tabelas a seguir:
+CARGO DE NÍVEL SUPERIOR
+Valor da Taxa de Inscrição: R$ 110,00
+Perfil Localidade
+Vagas Imediatas Cadastro de Reserva
+TOTAL
+AC PCD PP PI PQ TOTAL AC PCD PP PI PQ TOTAL
+1. ANÁLISE DE 
+NEGÓCIO DE TI
+Brasília / DF 3 1 1 0 0 5 32 2 13 2 1 50 55
+Rio de Janeiro / RJ 0 0 0 0 0 0 6 1 2 0 0 9 9
+São Paulo / SP 0 0 0 0 0 0 6 1 2 0 0 9 9
+Fortaleza / CE 0 0 0 0 0 0 6 1 2 0 0 9 9
+João Pessoa / PB 0 0 0 0 0 0 6 1 2 0 0 9 9
+Natal / RN 0 0 0 0 0 0 6 1 2 0 0 9 9
+Florianópolis / SC 0 0 0 0 0 0 6 1 2 0 0 9 9
+2. ARQUITETURA, 
+ENGENHARIA E 
+SUSTENTAÇÃO 
+TECNOLÓGICA
+Brasília / DF 6 1 3 0 0 10 32 2 12 2 1 49 59
+Rio de Janeiro / RJ 6 1 3 0 0 10 32 2 12 2 1 49 59
+São Paulo / SP 6 1 3 0 0 10 32 2 12 2 1 49 59
+Fortaleza / CE 0 0 0 0 0 0 5 1 3 0 0 9 9
+João Pessoa / PB 0 0 0 0 0 0 5 1 3 0 0 9 9
+Natal / RN 0 0 0 0 0 0 5 1 3 0 0 9 9
+Florianópolis / SC 0 0 0 0 0 0 5 1 3 0 0 9 9
+3.
+DESENVOLVIMENTO 
+DE SOFTWARE
+Brasília / DF 0 0 0 0 0 0 11 1 4 1 0 17 17
+Rio de Janeiro / RJ 0 0 0 0 0 0 11 1 4 1 0 17 17
+São Paulo / SP 0 0 0 0 0 0 11 1 4 1 0 17 17
+Fortaleza / CE 13 1 5 1 0 20 52 4 20 2 2 80 100
+João Pessoa / PB 13 1 5 1 0 20 52 4 20 2 2 80 100
+Natal / RN 13 1 5 1 0 20 52 4 20 2 2 80 100
+Florianópolis / SC 13 1 5 1 0 20 52 4 20 2 2 80 100
+4. INTELIGÊNCIA DA 
+INFORMAÇÃO
+Brasília / DF 3 1 1 0 0 5 15 1 6 1 1 24 29
+Rio de Janeiro / RJ 0 0 0 0 0 0 15 2 6 1 1 25 25
+São Paulo / SP 0 0 0 0 0 0 6 1 2 0 0 9 9
+Fortaleza / CE 6 1 3 0 0 10 32 2 12 2 1 49 59
+João Pessoa / PB 6 1 3 0 0 10 32 2 12 2 1 49 59
+Natal / RN 6 1 3 0 0 10 32 2 12 2 1 49 59
+Florianópolis / SC 6 1 3 0 0 10 32 2 12 2 1 49 59
+DATAPREV | CONCURSO PÚBLICO 2026 3
+Perfil Localidade
+Vagas Imediatas Cadastro de Reserva
+TOTAL
+AC PCD PP PI PQ TOTAL AC PCD PP PI PQ TOTAL
+5. SEGURANÇA 
+CIBERNÉTICA E 
+PROTEÇÃO DE
+DADOS
+Brasília / DF 3 1 1 0 0 5 12 1 5 1 1 20 25
+Rio de Janeiro / RJ 3 1 1 0 0 5 12 1 5 1 1 20 25
+São Paulo / SP 3 1 1 0 0 5 12 1 5 1 1 20 25
+Fortaleza / CE 0 0 0 0 0 0 3 1 1 0 0 5 5
+João Pessoa / PB 0 0 0 0 0 0 11 1 4 1 0 17 17
+Natal / RN 0 0 0 0 0 0 3 1 1 0 0 5 5
+Florianópolis / SC 1 1 0 0 0 2 10 0 4 1 0 15 17
+6. GESTÃO DE 
+SERVIÇOS DE TIC
+Brasília / DF 3 1 1 0 0 5 28 2 11 2 1 44 49
+Rio de Janeiro / RJ 10 1 4 0 0 15 38 3 15 2 2 60 75
+São Paulo / SP 10 1 4 0 0 15 38 3 15 2 2 60 75
+7. ADVOCACIA
+Brasília / DF 0 0 0 0 0 0 18 2 7 1 1 29 29
+Rio de Janeiro / RJ 0 0 0 0 0 0 15 2 6 1 1 25 25
+8. CONTABILIDADE Rio de Janeiro / RJ 0 0 0 0 0 0 15 2 6 1 1 25 25
+9. COMUNICAÇÃO 
+SOCIAL
+Brasília / DF 0 0 0 0 0 0 5 1 3 0 0 9 9
+Rio de Janeiro / RJ 0 0 0 0 0 0 5 1 3 0 0 9 9
+10. GESTÃO 
+ECONÔMICO-FINANCEIRA
+Rio de Janeiro / RJ 0 0 0 0 0 0 18 2 7 1 1 29 29
+11.
+ADMINISTRAÇÃO E 
+GOVERNANÇA
+Brasília / DF 0 0 0 0 0 0 18 2 7 1 1 29 29
+Rio de Janeiro / RJ 0 0 0 0 0 0 26 2 10 1 1 40 40
+São Paulo / SP 0 0 0 0 0 0 18 2 7 1 1 29 29
+Fortaleza / CE 0 0 0 0 0 0 18 2 7 1 1 29 29
+João Pessoa / PB 0 0 0 0 0 0 18 2 7 1 1 29 29
+Natal / RN 0 0 0 0 0 0 18 2 7 1 1 29 29
+Florianópolis / SC 0 0 0 0 0 0 18 2 7 1 1 29 29
+12. ENGENHARIA
+Brasília / DF 0 0 0 0 0 0 5 1 3 0 0 9 9
+Rio de Janeiro / RJ 0 0 0 0 0 0 5 1 3 0 0 9 9
+São Paulo / SP 0 0 0 0 0 0 5 1 3 0 0 9 9
+Fortaleza / CE 0 0 0 0 0 0 5 1 3 0 0 9 9
+João Pessoa / PB 0 0 0 0 0 0 5 1 3 0 0 9 9
+Natal / RN 0 0 0 0 0 0 5 1 3 0 0 9 9
+Florianópolis / SC 0 0 0 0 0 0 5 1 3 0 0 9 9
+TOTAL 133 20 55 4 0 212 1001 94 398 51 37 1581 1793
+Perfil Localidade Vagas Imediatas Cadastro de Reserva TOTAL
+AC PCD PP PI PQ TOTAL AC PCD PP PI PQ TOTAL
+13. ANALISTA 
+DE
+PROCESSAMEN 
+TO
+Brasília / DF 0 0 0 0 0 0 6 1 3 0 0 10 10
+Rio de Janeiro / 
+RJ 0 0 0 0 0 0 6 1 3 0 0 10 10
+São Paulo / SP 0 0 0 0 0 0 6 1 3 0 0 10 10
+TOTAL 0 0 0 0 0 0 18 3 9 0 0 30 30
+(*) AC corresponde à ampla concorrência; PCD, à pessoa com deficiência; PP à Pessoa Preta ou Parda; PI à pessoa indígena e PQ à pessoa quilombola.
+3.2 Os requisitos e atribuições dos cargos/perfis estão definidos no Anexo II deste Edital.
+3.3 Os candidatos admitidos farão jus a salário, benefícios e vantagens em vigor na época de sua admissão 
+ANEXO III – REMUNERAÇÃO, BENEFÍCIOS E VANTAGENS
+CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO (Todos os perfis)
+(40H SEMANAIS)
+SALÁRIO NOMINAL ADICIONAL DE ATIVIDADE REMUNERAÇÃO INICIAL
+R$ 9.423,30 R$ 1.262,14 R$ 10.685,44
+CARGO: ANALISTA DE PROCESSAMENTO (30H SEMANAIS)
+SALÁRIO NOMINAL ADICIONAL DE ATIVIDADE REMUNERAÇÃO INICIAL
+R$ 7.011,80 R$ 1.262,14 R$ 8.273,94
+BENEFÍCIOS e VANTAGENS, CONFORME ACORDO COLETIVO DE TRABALHO E NORMATIVOS INTERNOS
+Ticket Alimentação/Refeição: R$ 1.357,20
+Auxílio Pré-Escolar ou Escolar para Filhos: Até R$ 1.758,35
+Auxílio Tratamento Especializado (filhos deficientes): Até R$ 1.230,00 
+Seguro de Vida em Grupo.

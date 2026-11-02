@@ -1,0 +1,27 @@
+3. DOS CARGOS
+3.1 A denominação dos cargos, dos perfis e o número de vagas estão estabelecidos na tabela a seguir:
+ NÍVEL SUPERIOR – CARGO: ANALISTA
+ CARGA HORÁRIA: 30 horas semanais
+ VENCIMENTO: R$ 7.526,14 *
+Especialidade Vagas AC PCD PN PI PQ Vencimento
+Judiciária 25 15 2 6 1 1 R$ 7.526,14
+TI –
+Desenvolvimento 
+de Sistemas
+10 6 1 3 0 0 R$ 7.526,14
+TI – Banco de Dados 1 1 0 0 0 0 R$ 7.526,14
+TI – Infraestrutura 
+de TI 1 1 0 0 0 0 R$ 7.526,14
+TI – Gestão de 
+Governança de TI 2 1 0 1 0 0 R$ 7.526,14
+TI – Segurança da 
+Informação 2 1 0 1 0 0 R$ 7.526,14
+TI – Inteligência 
+Artificial 3 2 0 1 0 0 R$ 7.526,14
+TI – Ciência e 
+Análise de Dados 1 1 0 0 0 0 R$ 7.526,14
+Contabilidade 5 4 0 1 0 0 R$ 7.526,14
+TOTAL 50 32 3 13 1 1
+ *Verbas indenizatórias: Auxílio Alimentação: R$ 2.200,00 e Auxílio Saúde: R$ 1.800,00
+3.2 Osrequisitos e as atribuições dos cargos estão definidos no Anexo II deste Edital.
+TRIBUNAL DE JUSTIÇA DO ESTADO DA PARAÍBA | CONCURSO PÚBLICO 2026 3

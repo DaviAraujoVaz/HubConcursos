@@ -8,7 +8,7 @@ Não precisa de servidor nem banco de dados, e não custa nada:
 GitHub Actions (a cada 6 h)  →  coleta as bancas  →  site/dados/concursos.json  →  GitHub Pages (site estático)
 ```
 
-- **Coleta:** um script Python lê a API da Cebraspe e as páginas da FGV, classifica cada concurso (área, esfera, tipo de documento) e grava um JSON.
+- **Coleta:** um script Python lê a API da Cebraspe e as páginas da FGV, baixa o edital de abertura de cada concurso (uma vez só) para tirar os cargos e salários, classifica tudo (área, esfera, tipo de documento) e grava um JSON.
 - **Site:** HTML e JavaScript puros, que leem o JSON e filtram no navegador. Funciona no celular, e os filtros ficam na URL, então dá para salvar nos favoritos uma busca como "TI, federal, inscrições abertas".
 - **Histórico:** o `concursos.json` fica no Git e só muda quando algo muda, então o histórico de commits mostra o que apareceu em cada coleta.
 
@@ -17,6 +17,8 @@ GitHub Actions (a cada 6 h)  →  coleta as bancas  →  site/dados/concursos.js
 Abra o site publicado no GitHub Pages: https://daviaraujovaz.github.io/HubConcursos/
 
 - **Abas:** Todos, Inscrições abertas, Previstos, Em andamento. Inscrições abertas vêm primeiro, das que terminam antes para as que terminam depois.
+- **Áreas:** um concurso aparece em todas as áreas dos seus cargos. O Dataprev 2026, por exemplo, tem perfis de TI, Advocacia, Contabilidade, Engenharia e Comunicação, e aparece em todas essas áreas. Com uma área filtrada, o cartão destaca os cargos daquela área.
+- **Cargos e salários:** lidos do edital de abertura. A faixa salarial aparece no cartão e a lista completa em "Cargos e salários".
 - **Selo "novo":** o concurso apareceu nos últimos 7 dias. O que já existia na primeira coleta não recebe o selo.
 - **Rodapé:** quando foi a última coleta e se alguma banca falhou. Se uma banca falhar, o site continua mostrando os dados anteriores dela, e o GitHub te avisa por e-mail que a execução falhou.
 
@@ -41,8 +43,10 @@ Coletar só uma banca: `python -m concursohub.coletar cebraspe`. As outras ficam
 | Caminho | O que tem |
 | --- | --- |
 | `concursohub/adaptadores/` | Um arquivo por banca: `cebraspe.py` (API JSON) e `fgv.py` (HTML). Só extraem dados, não classificam nem gravam |
-| `concursohub/coletar.py` | Roda os adaptadores, classifica e grava `site/dados/concursos.json` e `status.json` |
-| `concursohub/areas.py` | Áreas de atuação e as palavras que levam a cada uma |
+| `concursohub/coletar.py` | Roda os adaptadores, lê os editais, classifica e grava `site/dados/concursos.json` e `status.json` |
+| `concursohub/edital.py` | Escolhe o edital de abertura, extrai o texto do PDF e lê os cargos e a remuneração |
+| `cache/editais.json` | O que já foi lido de cada edital (pela URL do PDF), para não baixar de novo |
+| `concursohub/areas.py` | Áreas de atuação e as palavras que levam a cada uma, por título e por cargo |
 | `concursohub/inferencia.py` | Esfera a partir do título |
 | `concursohub/classificador.py` | Tipo de documento (edital, retificação, resultado…) |
 | `concursohub/http.py` | Cliente educado: identifica o robô, espera 1 s entre requisições e tenta de novo |
@@ -57,13 +61,15 @@ Coletar só uma banca: `python -m concursohub.coletar cebraspe`. As outras ficam
 
 ## Ajustes comuns
 
-- **Área ou esfera errada:** adicione o caso em `tests/test_classificacao.py`, ajuste a regra em `areas.py` ou `inferencia.py` e rode os testes.
+- **Área ou esfera errada:** adicione o caso em `tests/test_classificacao.py`, ajuste a regra em `areas.py` ou `inferencia.py` e rode os testes. Cargo com perfil ou especialidade é classificado pelo perfil: "Analista de TI – Perfil: Advocacia" é Jurídica.
+- **Cargo ou salário lido errado de um edital:** salve o trecho do edital em `tests/fixtures/editais/`, escreva o teste em `tests/test_edital.py`, ajuste `edital.py` e aumente `VERSAO` nele. A próxima coleta relê todos os editais (uns 10 minutos).
 - **Banca mudou o layout:** a correção fica só no adaptador dela. Salve a resposta nova em `tests/fixtures/` e atualize o teste.
 - **Banca nova:** crie `concursohub/adaptadores/<banca>.py` com uma classe `@registrar` que herda de `Adaptador`. O `coletar()` dela devolve `ConcursoExtraido`. Importe o módulo em `adaptadores/__init__.py`, inclua o nome em `BANCAS` no `site/app.js` e escreva um teste com uma resposta real.
 
 ## Limites conhecidos
 
-- **FGV:** sem cargos, vagas e datas de inscrição, porque a página não traz essas informações. Só a leitura do edital em PDF resolveria isso.
+- **Leitura dos editais é heurística.** Os da Cebraspe seguem um padrão e saem bem: todos os concursos com cargos e quase todos com salário. Os da FGV variam muito: cerca de um terço sai com cargos. Ficam de fora os editais com o quadro de vagas num anexo (MPU, Ebserh, CPNU) e os de cargo único (juiz, promotor), que mesmo assim recebem a área pelo título. Quando a tabela não é entendida, o site não mostra cargos, em vez de mostrar lixo.
+- **FGV:** sem datas de inscrição, porque a página não traz essa informação.
 - **A lista da FGV inclui exames que não são concurso** (Exame de Suficiência do CFC, ENAM, residências).
 - **Só concursos ativos:** os encerrados saem do site quando a banca os tira da lista de ativos.
 - **IPs do GitHub:** se uma banca bloquear os IPs do GitHub, a coleta pode rodar no seu computador e você faz o push do `concursos.json`.
