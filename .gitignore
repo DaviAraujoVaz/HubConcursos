@@ -1,7 +1,10 @@
 __pycache__/
 *.pyc
-.env
-db.sqlite3
-dados/
-staticfiles/
 .venv/
+.env
+# Gerado a cada coleta; vai só para o site publicado.
+site/dados/status.json
+# Restos da versão em Django (tag django-completo), se ainda estiverem na pasta.
+/db.sqlite3
+/dados/
+.claude/

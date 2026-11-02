@@ -1,176 +1,77 @@
 # ConcursoHub
 
-Hub pessoal de concursos públicos. Coleta automaticamente os concursos da **Cebraspe** e da **FGV** e os atos sobre concursos publicados no **Diário Oficial da União**. Organiza tudo num painel com filtros por **banca, esfera e área de atuação**, e manda um resumo diário por e-mail com o que interessa.
+Site pessoal para consultar os concursos da **Cebraspe** e da **FGV**: quais estão com inscrições abertas, previstos ou em andamento, com filtros por **área de atuação**, **esfera** e banca, e links para os documentos oficiais.
 
-Toda informação aponta para o documento oficial de onde saiu, e cada arquivo baixado fica guardado sem alteração.
+Não precisa de servidor nem banco de dados, e não custa nada:
 
----
+```
+GitHub Actions (a cada 6 h)  →  coleta as bancas  →  site/dados/concursos.json  →  GitHub Pages (site estático)
+```
 
-## Rodando pela primeira vez
+- **Coleta:** um script Python lê a API da Cebraspe e as páginas da FGV, classifica cada concurso (área, esfera, tipo de documento) e grava um JSON.
+- **Site:** HTML e JavaScript puros, que leem o JSON e filtram no navegador. Funciona no celular, e os filtros ficam na URL, então dá para salvar nos favoritos uma busca como "TI, federal, inscrições abertas".
+- **Histórico:** o `concursos.json` fica no Git e só muda quando algo muda, então o histórico de commits mostra o que apareceu em cada coleta.
 
-Há dois jeitos: direto no Windows, com Python (é como roda hoje), ou com Docker (o caminho para uma VPS).
+## Usando
 
-### No Windows, sem Docker
+Abra o site publicado no GitHub Pages: https://daviaraujovaz.github.io/HubConcursos/
+
+- **Abas:** Todos, Inscrições abertas, Previstos, Em andamento. Inscrições abertas vêm primeiro, das que terminam antes para as que terminam depois.
+- **Selo "novo":** o concurso apareceu nos últimos 7 dias. O que já existia na primeira coleta não recebe o selo.
+- **Rodapé:** quando foi a última coleta e se alguma banca falhou. Se uma banca falhar, o site continua mostrando os dados anteriores dela, e o GitHub te avisa por e-mail que a execução falhou.
+
+Para coletar na hora, sem esperar as 6 h: aba **Actions** do repositório → **Coletar e publicar** → **Run workflow**.
+
+## Rodando no seu computador
 
 Pré-requisito: Python 3.13.
 
-```powershell
-# 1. Ambiente e configuração
+```bash
 python -m venv .venv
-.venv\Scripts\pip install -r requirements.txt
-copy .env.example .env        # abra o .env e preencha (ver abaixo)
-
-# 2. Banco (SQLite em db.sqlite3) e seu usuário do painel
-.venv\Scripts\python manage.py migrate
-.venv\Scripts\python manage.py createsuperuser
-
-# 3. Primeira coleta (só concursos ativos; leva de 1 a 3 horas por causa dos PDFs)
-.venv\Scripts\python manage.py coletar cebraspe fgv
-
-# 4. Painel em http://localhost:8000
-.venv\Scripts\python manage.py runserver
-
-# 5. Coleta e resumo automáticos a cada 3 h (Agendador de Tarefas do Windows)
-powershell -ExecutionPolicy Bypass -File scripts\agendar_rotina.ps1
+.venv/Scripts/pip install -r requirements.txt     # no Linux/macOS: .venv/bin/pip
+.venv/Scripts/python -m concursohub.coletar       # leva uns 5 minutos (1 s entre requisições)
+.venv/Scripts/python -m http.server -d site 8000  # abra http://localhost:8000
+.venv/Scripts/python -m unittest                  # testes; nenhum acessa a internet
 ```
 
-A tarefa roda `scripts\rotina.ps1`, que guarda a saída em `dados\logs\rotina.log`. Ela só roda com o computador ligado. Se ele estava desligado no horário, roda assim que possível.
+Coletar só uma banca: `python -m concursohub.coletar cebraspe`. As outras ficam como estavam.
 
-### Com Docker
+## Como está organizado
 
-Pré-requisito: [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado.
+| Caminho | O que tem |
+| --- | --- |
+| `concursohub/adaptadores/` | Um arquivo por banca: `cebraspe.py` (API JSON) e `fgv.py` (HTML). Só extraem dados, não classificam nem gravam |
+| `concursohub/coletar.py` | Roda os adaptadores, classifica e grava `site/dados/concursos.json` e `status.json` |
+| `concursohub/areas.py` | Áreas de atuação e as palavras que levam a cada uma |
+| `concursohub/inferencia.py` | Esfera a partir do título |
+| `concursohub/classificador.py` | Tipo de documento (edital, retificação, resultado…) |
+| `concursohub/http.py` | Cliente educado: identifica o robô, espera 1 s entre requisições e tenta de novo |
+| `site/` | O site: `index.html`, `app.js`, `estilo.css` e os dados |
+| `tests/` | Testes com respostas reais de cada banca |
+| `.github/workflows/coletar.yml` | Coleta a cada 6 h e publica no Pages |
+
+**De onde vêm os dados** (mapeado em 29/10/2026):
+
+- **Cebraspe:** a API JSON que o próprio site usa (`apis.cebraspe.org.br/cebraspe/eventos/...`). Traz cargos, total de vagas, salário máximo, período de inscrição e os PDFs.
+- **FGV:** o HTML de `conhecimento.fgv.br/concursos` e da página de cada concurso. Traz título, situação e PDFs. Não traz cargos nem datas de inscrição, então as áreas saem do título.
+
+## Ajustes comuns
+
+- **Área ou esfera errada:** adicione o caso em `tests/test_classificacao.py`, ajuste a regra em `areas.py` ou `inferencia.py` e rode os testes.
+- **Banca mudou o layout:** a correção fica só no adaptador dela. Salve a resposta nova em `tests/fixtures/` e atualize o teste.
+- **Banca nova:** crie `concursohub/adaptadores/<banca>.py` com uma classe `@registrar` que herda de `Adaptador`. O `coletar()` dela devolve `ConcursoExtraido`. Importe o módulo em `adaptadores/__init__.py`, inclua o nome em `BANCAS` no `site/app.js` e escreva um teste com uma resposta real.
+
+## Limites conhecidos
+
+- **FGV:** sem cargos, vagas e datas de inscrição, porque a página não traz essas informações. Só a leitura do edital em PDF resolveria isso.
+- **A lista da FGV inclui exames que não são concurso** (Exame de Suficiência do CFC, ENAM, residências).
+- **Só concursos ativos:** os encerrados saem do site quando a banca os tira da lista de ativos.
+- **IPs do GitHub:** se uma banca bloquear os IPs do GitHub, a coleta pode rodar no seu computador e você faz o push do `concursos.json`.
+
+## Versão anterior
+
+Até 02/11/2026 o projeto era um painel em Django com banco de dados, download e leitura dos PDFs, resumo diário por e-mail e base para estatísticas. Para ter um MVP gratuito e sem servidor, essa versão foi guardada na tag `django-completo`:
 
 ```bash
-# 1. Configuração
-cp .env.example .env          # abra o .env e preencha (ver abaixo)
-
-# 2. Subir banco, painel e agendador
-docker compose up -d --build
-
-# 3. Criar seu usuário do painel
-docker compose exec web python manage.py createsuperuser
-
-# 4. Primeira coleta (só concursos ativos; leva de 1 a 3 horas por causa dos PDFs)
-docker compose exec web python manage.py coletar cebraspe fgv
+git checkout django-completo
 ```
-
-Abra **http://localhost:8000** e entre com o usuário criado.
-
-A partir daí, o serviço `agendador` roda sozinho a cada 3 horas. Ele coleta as fontes ativas (o DOU no máximo a cada 6 h) e envia o resumo do dia.
-
-A primeira coleta de cada fonte não gera avisos: ela traz o acervo inteiro, e você não quer centenas de novidades de uma vez.
-
-### O que preencher no `.env`
-
-| Variável | Para quê |
-| --- | --- |
-| `DJANGO_SECRET_KEY` | Qualquer texto longo e aleatório |
-| `POSTGRES_PASSWORD` | Senha do banco local |
-| `INLABS_EMAIL`, `INLABS_SENHA` | Conta **gratuita** em [inlabs.in.gov.br](https://inlabs.in.gov.br), para baixar o DOU. Sem isso, o DOU é pulado |
-| `AVISOS_EMAIL_PARA` | Para onde vai o resumo diário. Sem isso, o resumo vai só para o log |
-| `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD` | Conta que envia o e-mail. No Gmail, use uma "senha de app" (instruções no `.env.example`), nunca a senha da conta |
-| `AVISOS_HORA` | A partir de que hora sai o resumo do dia (padrão: 7) |
-| `CALENDARIO_TOKEN` | Senha do link do calendário |
-
----
-
-## Usando o painel
-
-- **Concursos:** a lista principal. Os filtros ficam à direita: banca, esfera, área de atuação, situação, maturidade e ano, além dos atributos que você criar. Clique num concurso para ver cargos, documentos (com link para o PDF oficial) e datas.
-- **Revisado:** marque depois de conferir um concurso com o edital. A partir daí a coleta só atualiza a situação e as datas de inscrição, e o resto que você corrigiu fica preservado.
-- **Documentos → "vinculado a concurso: Não":** aqui aparecem os atos do DOU (autorizações, editais, homologações). Use a ação "Criar concurso a partir do documento" ou vincule a um concurso existente.
-- **Filtros de alerta:** defina o que quer acompanhar, por exemplo "Cebraspe + área TI + esfera federal" ou "palavra-chave: TJ". Só eventos que casam com algum filtro entram no resumo. Falhas de coleta sempre entram.
-- **Resumos de avisos:** o histórico dos e-mails enviados, com o texto de cada um e os eventos que ele avisou. Se o envio falhar (senha errada, sem internet), o erro aparece aqui e os eventos ficam para o próximo resumo.
-- **Áreas de atuação:** a taxonomia e as regras de classificação são editáveis. Se ajustar as áreas de um concurso ou cargo à mão, ele não é mais reclassificado automaticamente. Para a correção valer para casos parecidos, crie uma regra e rode `python manage.py reclassificar_areas`.
-- **Definições de atributo:** cadastre um campo novo (ex.: `exige_cnh`, tipo sim/não, filtrável). Ele vira filtro no painel sem mexer em código. O valor fica no campo "atributos" do concurso, como `{"exige_cnh": true}`.
-- **Fontes e Execuções:** mostram a saúde de cada coletor: última execução, último sucesso e erro.
-
-### Resumo diário por e-mail
-
-Sai uma vez por dia, na primeira rotina a partir de `AVISOS_HORA`. Traz:
-
-- **Inscrições terminando** nos próximos 7 dias, dos concursos que casam com seus filtros;
-- **Novidades** por concurso: concurso novo, mudança de situação e documentos novos, com o link do PDF oficial;
-- **Atos sem concurso vinculado** (DOU);
-- **Falhas de coleta.**
-
-Para não virar enxurrada, ficam de fora os documentos publicados há mais de 15 dias e os concursos que já chegam encerrados (coleta de histórico). Cada resumo lista até 40 concursos e soma o resto em "e mais N". Se não houver nada, nenhum e-mail sai.
-
-### Calendário no celular
-
-Assine `http://localhost:8000/calendario.ics?token=SEU_TOKEN` no Google Agenda ou no app de calendário. Ele traz o último dia de inscrição dos concursos ativos e os eventos cadastrados.
-
-> Para o celular alcançar o endereço, o painel precisa estar acessível na rede. Por padrão ele só abre no seu computador. Veja "Rodando numa VPS".
-
----
-
-## Comandos úteis
-
-```bash
-docker compose exec web python manage.py coletar cebraspe            # uma fonte
-docker compose exec web python manage.py coletar todas               # todas as ativas
-docker compose exec web python manage.py coletar cebraspe --encerrados  # inclui histórico (centenas de concursos)
-docker compose exec web python manage.py coletar cebraspe --apenas CGU_26_AFFC PF_25
-docker compose exec web python manage.py coletar fgv --sem-arquivos   # só links, sem baixar PDFs
-docker compose exec web python manage.py coletar dou --de 2026-10-01 --ate 2026-10-29 --secoes DO1,DO3
-docker compose exec web python manage.py avisar --previa            # mostra o resumo sem enviar
-docker compose exec web python manage.py avisar --agora             # envia já, sem esperar o horário
-docker compose exec web python manage.py avisar --silenciar-pendentes  # marca tudo como lido, sem avisar
-docker compose exec web python manage.py reclassificar_areas
-docker compose exec web python manage.py test                        # 47 testes
-docker compose logs -f agendador                                     # acompanhar a coleta automática
-```
-
----
-
-## Como funciona
-
-```
-fonte (API / HTML / XML)  →  adaptador  →  persistência  →  catálogo  →  eventos  →  avisos / calendário
-                                               │
-                                               └→ dados/bruto/ (arquivos originais, nomeados pelo hash)
-```
-
-| Pasta | O que tem |
-| --- | --- |
-| `catalogo/` | Modelos (órgão, banca, concurso, cargo, vaga, etapa, evento, estatística), áreas de atuação, inferência de esfera, painel, calendário |
-| `ingestao/adaptadores/` | Um arquivo por fonte: `cebraspe.py`, `fgv.py`, `dou.py` |
-| `ingestao/persistencia.py` | Grava qualquer fonte no catálogo, sem duplicar, e emite eventos |
-| `ingestao/classificador.py` | Regras que reconhecem o tipo de ato (edital, retificação, resultado…) |
-| `ingestao/avisos.py` | Monta o resumo diário por e-mail com os eventos que casam com os filtros de alerta |
-| `scripts/` | Rotina e tarefa do Agendador do Windows, para rodar sem Docker |
-| `ingestao/tests/` | Testes com respostas reais e de exemplo de cada fonte, sem acessar a internet |
-
-**De onde vem cada fonte** (mapeado em 29/10/2026):
-
-- **Cebraspe:** a API JSON que o próprio site usa (`apis.cebraspe.org.br/cebraspe/eventos/...`). Traz cargos, vagas totais, salário máximo, período de inscrição e todos os PDFs.
-- **FGV:** o HTML de `conhecimento.fgv.br/concursos` e das páginas de cada concurso. Traz título, situação e PDFs. Os cargos não estão estruturados na página, então as áreas vêm do título.
-- **DOU:** os ZIPs diários do INLABS, como no [script oficial da Imprensa Nacional](https://github.com/Imprensa-Nacional/inlabs). Só entram matérias que falam de concurso ou processo seletivo.
-
-### Adicionando uma banca nova
-
-1. Crie `ingestao/adaptadores/<banca>.py` com uma classe `@registrar` que herda de `Adaptador` e implementa `coletar()`. O método devolve `ConcursoExtraido` com `DocumentoExtraido` e não toca no banco (use `cebraspe.py` como modelo).
-2. Importe o módulo em `ingestao/adaptadores/__init__.py`.
-3. Cadastre a banca no painel (Bancas) e a fonte (Fontes) com o mesmo slug.
-4. Salve uma resposta real em `ingestao/tests/fixtures/` e escreva um teste.
-
-Persistência, eventos, avisos, filtros e calendário funcionam sem mudança.
-
----
-
-## Limites conhecidos e próximos passos
-
-- **DOU:** o leitor de XML segue o formato do INLABS, mas só pôde ser testado com XML de exemplo, porque o download exige login. Na primeira coleta real, confira em Documentos se os atos chegaram bem. Os atos do DOU ainda não são vinculados sozinhos aos concursos das bancas; por ora isso é feito no painel.
-- **Vagas por cargo, localidade e cota:** a Cebraspe só informa o total. O detalhamento está no PDF do edital (texto já extraído em `Documento.texto`), e extraí-lo é o próximo passo natural.
-- **Datas do cronograma:** a API da Cebraspe expõe "aplicativos" com datas (consultas, recursos), que podem virar `Evento` no calendário.
-- **Estatísticas** (candidatos por vaga, nota de corte): o modelo `Estatistica` está pronto. Falta o extrator dos PDFs de demanda e de resultado final.
-- **PDF escaneado:** fica marcado como "precisa revisão". O ponto para plugar OCR (Tesseract) é `ingestao/pdf.py`.
-
-## Rodando numa VPS
-
-O mesmo `docker compose up -d` funciona numa VPS pequena, e a coleta segue mesmo com seu computador desligado. Antes de expor à internet:
-
-- troque `DJANGO_DEBUG=false`;
-- ajuste `DJANGO_ALLOWED_HOSTS`;
-- coloque um proxy com HTTPS (Caddy, por exemplo) na frente;
-- remova o `127.0.0.1:` da porta no `docker-compose.yml`.

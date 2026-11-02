@@ -1,92 +1,81 @@
 # ConcursoHub — contexto para o Claude Code
 
-Hub **pessoal** de concursos públicos do Davi. Por enquanto é **um único usuário, sem contas nem site público**: o "app" é o Django admin, com um resumo diário de avisos por e-mail e calendário ICS. Abrir para outros usuários é uma fase futura; não adicione autenticação de usuários finais, SEO ou front-end público sem pedido explícito.
+Site **pessoal** do Davi para consultar concursos públicos: quais estão com inscrições abertas, previstos ou em andamento. Um único usuário, sem contas.
 
-Código, nomes de modelos/campos, mensagens e documentação são em **português**. Mantenha assim.
+Código, nomes, mensagens e documentação são em **português**. Mantenha assim.
 
-## Origem e decisões já tomadas
+## Escopo atual: MVP estático e gratuito (desde 02/11/2026)
 
-O projeto nasceu de uma conversa no claude.ai (29/10/2026). A arquitetura completa está no doc "Hub de Concursos — Arquitetura e Estratégia de Dados": https://claude.ai/artifact/EbVWH3VX84UuHMG6nJWPbP
+O Davi pediu um MVP utilizável, **sem custo e sem depender de servidor nem do PC dele**:
 
-Decisões principais:
+```
+GitHub Actions (cron a cada 6 h) → python -m concursohub.coletar → site/dados/concursos.json → GitHub Pages
+```
 
-- **Fontes oficiais primeiro.** Diários oficiais e sites das bancas são a fonte do dado. Agregadores (PCI, blogs) servem no máximo como pista de descoberta e nunca como fonte, porque o conteúdo é protegido e frágil.
-- **Toda informação tem proveniência.** Cada dado aponta para um `ingestao.Documento` (URL, data, sha256). Os arquivos brutos são **imutáveis**, salvos em `dados/bruto/<fonte>/<hash>`, para que dê para reprocessar sem baixar de novo.
-- **Monólito modular.** Django + PostgreSQL em Docker; cron simples (serviço `agendador`). Fila de tarefas, busca dedicada (Meilisearch) e Next.js/PWA ficam para "quando houver usuários".
-- **Fontes como plugins.** Cada banca/diário é um adaptador em `ingestao/adaptadores/`. O adaptador só devolve dataclasses (`ConcursoExtraido`, `DocumentoExtraido`) e nunca toca no banco. Gravar, deduplicar e emitir eventos fica em `ingestao/persistencia.py`, igual para todas as fontes.
-- **Parâmetros extensíveis sem migração.** Os campos variáveis ficam em `atributos` (JSON). `catalogo.AtributoDefinicao` registra cada chave, e o admin cria os filtros dinamicamente (`FiltrosDinamicosMixin`).
-- **Eventos de domínio** (`ingestao.EventoDominio`, padrão outbox) alimentam avisos e futuras features, sem mexer na coleta.
-- **Revisão humana.** Um concurso com `revisado=True` não é sobrescrito pela coleta, que atualiza só a situação e as datas de inscrição. Áreas ajustadas à mão (`areas_manuais=True`) não são reclassificadas.
-- **Oficial vs. estimado:** `catalogo.Estatistica.tipo` separa os dois. A nota de corte esperada será sempre uma faixa rotulada como estimativa.
-- **Avisos por e-mail, um resumo por dia** (01/11/2026). O Davi não quer Telegram nem WhatsApp. O resumo sai na primeira rotina a partir de `AVISOS_HORA`, e os eventos só são marcados como processados depois que o e-mail sai (`ResumoAviso` registra cada tentativa).
-- **Sem enxurrada de avisos:** a primeira coleta de cada fonte é silenciada (`coleta.silenciar_eventos`), documentos com mais de 15 dias e concursos que já chegam encerrados não entram, e o resumo tem limite de concursos.
-- **LGPD:** listas de resultado têm nomes. Use-as só para agregados (corte, distribuição) e não guarde dados nominais.
+- **Sem banco, sem Django, sem download de PDF.** A coleta só lê metadados (título, situação, datas, cargos, links dos documentos).
+- **Repositório público** (exigência do GitHub Pages gratuito). Nunca grave segredos no repositório.
+- **Sem avisos por e-mail no MVP**, por escolha do Davi. Se voltar a ser pedido, o caminho é o Actions comparar o JSON novo com o anterior.
+- A versão anterior (Django + Postgres/SQLite, PDFs, OCR planejado, estatísticas, resumo por e-mail, DOU) está na tag **`django-completo`**. Não reintroduza essas peças sem pedido explícito: elas exigem servidor e foram cortadas de propósito.
+
+## Decisões que continuam valendo
+
+- **Fontes oficiais primeiro.** Os dados vêm dos sites das bancas. Agregadores (PCI, blogs) não são fonte.
+- **Fontes como plugins.** Cada banca é um adaptador em `concursohub/adaptadores/` que só devolve `ConcursoExtraido`/`DocumentoExtraido`. Classificar e gravar fica em `coletar.py`, igual para todas.
+- **Área de atuação e esfera são filtros independentes:** um "Analista de TI de tribunal" entra em Tribunais **e** em TI.
+- **Robustez:** se uma fonte falhar, `coletar.py` mantém os dados anteriores dela e sai com código 1 (o job do Actions fica vermelho e o GitHub manda e-mail).
+- **"Novo":** `primeiro_visto` fica vazio para o acervo da primeira coleta de cada fonte; depois, é a data em que o concurso apareceu.
+- **LGPD:** não colete nem publique listas nominais de resultado.
 
 ## Preferências do Davi
 
-- Bancas que mais acompanha: **FGV e Cebraspe** (já têm adaptadores). Priorize essas.
-- Filtros que importam: **área de atuação** (TI, Tribunais, Fiscal, Controle, Policial…) e **esfera** (federal/estadual/distrital/municipal). São independentes: um "Analista de TI de tribunal" entra em Tribunais **e** em TI.
-- Ambiente: Windows (`C:\Users\davia\ProjetosPessoais\HubConcursos`), sem Docker por enquanto: `.venv` (Python 3.13) + SQLite em modo WAL, com o `.env` lido pelo próprio `settings.py`. A rotina roda pelo Agendador de Tarefas (`scripts/agendar_rotina.ps1`). Docker fica para quando houver um servidor sempre ligado.
+- Bancas que mais acompanha: **FGV e Cebraspe**.
+- Filtros que importam: **área de atuação** (TI, Tribunais, Fiscal, Controle, Policial…) e **esfera** (federal/estadual/distrital/municipal).
+- Ambiente: Windows (`C:\Users\davia\ProjetosPessoais\HubConcursos`), Python 3.13 em `.venv`.
 
 ## Como as fontes funcionam (mapeado em 29/10/2026)
 
-- **Cebraspe** (`ingestao/adaptadores/cebraspe.py`): usa a API JSON que o próprio site consome.
+- **Cebraspe** (`adaptadores/cebraspe.py`): API JSON que o próprio site consome.
   - Lista: `https://apis.cebraspe.org.br/cebraspe/eventos/tipo/concursos/` (fases: novos, inscricoes-abertas, em-andamento, encerrado).
-  - Detalhe: `https://apis.cebraspe.org.br/cebraspe/eventos/<eventoURL>` (eventoCargos, arquivosEdital, arquivosGabarito, periodoInscricao, aplicativos).
-  - PDFs: `https://cdn.cebraspe.org.br/concursos/<eventoURL>/arquivos/<nomeArquivo>`. Cada arquivo também vem numa versão `.html` (VLibras), que é ignorada.
-- **FGV** (`fgv.py`): HTML de Drupal. Lista em `conhecimento.fgv.br/concursos?page=N` (`.view-id-concursos_em_andamento` / `concursos_realizados`). No detalhe, o título está em `<h1>`, a situação em `.field--name-field-concurso-status` e os arquivos em `.paragraph--type--texto-data`. A página não estrutura os cargos, então as áreas saem do título.
-- **DOU** (`dou.py`): ZIP diário por seção via INLABS (conta gratuita; `INLABS_EMAIL`/`INLABS_SENHA`), seguindo o script oficial `github.com/Imprensa-Nacional/inlabs`. Só entram matérias que falam de concurso ou processo seletivo, e elas chegam sem concurso vinculado; o vínculo é feito no admin. **O parser só foi testado com XML de exemplo**: valide com dados reais na primeira coleta.
+  - Detalhe: `https://apis.cebraspe.org.br/cebraspe/eventos/<eventoURL>` (eventoCargos, arquivosEdital, arquivosGabarito, periodoInscricao).
+  - PDFs: `https://cdn.cebraspe.org.br/concursos/<eventoURL>/arquivos/<nomeArquivo>`. A versão `.html` (VLibras) de cada arquivo é ignorada.
+  - Às vezes `eventoNomeCompleto` vem igual ao slug ("ADEAL_26"); aí usa a abreviação.
+- **FGV** (`adaptadores/fgv.py`): HTML de Drupal. Lista em `conhecimento.fgv.br/concursos?page=N` (`.view-id-concursos_em_andamento` / `concursos_realizados`). No detalhe: título em `<h1>`, situação em `.field--name-field-concurso-status`, arquivos em `.paragraph--type--texto-data`. Páginas índice sem arquivos (ex.: Macaé) apontam para `<url>/1`, `/2`…, e cada subpágina vira um concurso. Não há cargos nem datas de inscrição.
 
 ## Estrutura
 
 ```
-config/                  settings (tudo via env; sem DATABASE_URL usa SQLite)
-catalogo/                Orgao, Banca, AreaAtuacao, RegraArea, Concurso, Cargo, Vaga, Etapa, Evento,
-                         Estatistica, AtributoDefinicao, FiltroAlerta; admin (a interface), calendário ICS
-  classificacao.py       áreas por regras (palavra inteira; "*" no fim = prefixo)
-  inferencia.py          esfera inferida do título quando não há órgão vinculado
-  migrations/0003_…      bancas e taxonomia/regras de área iniciais
-ingestao/                Fonte, Documento, Execucao, EventoDominio
-  adaptadores/           base.py (interface + REGISTRO), cebraspe.py, fgv.py, dou.py
-  persistencia.py        grava qualquer fonte, idempotente; baixa PDFs e extrai texto
-  classificador.py       tipo do ato (edital, retificação, resultado, homologação…); a ordem das regras importa
-  coleta.py              executa um adaptador e registra Execucao/saúde da Fonte
-  avisos.py              EventoDominio → resumo diário por e-mail (ou log), conforme FiltroAlerta
-  management/commands/   coletar, avisar, rotina (o que o cron roda), reclassificar_areas
-  templates/ingestao/    resumo_email.html
-  tests/                 fixtures reais/fiéis por fonte; nenhum teste acessa a internet
-scripts/                 rotina.ps1 (log em dados/logs) e agendar_rotina.ps1 (Agendador do Windows)
+concursohub/
+  adaptadores/   base.py (dataclasses + REGISTRO), cebraspe.py, fgv.py
+  coletar.py     roda os adaptadores, classifica, grava site/dados/concursos.json e status.json
+  areas.py       taxonomia de áreas e termos (palavra inteira; "*" no fim = prefixo)
+  inferencia.py  esfera pelo título
+  classificador.py  tipo de documento; a ordem das regras importa
+  modelos.py     Situacao, Esfera, TipoDocumento
+  http.py        cliente educado (User-Agent, 1 s entre requisições, retry)
+site/            index.html, app.js, estilo.css, dados/concursos.json (status.json não vai para o Git)
+tests/           unittest com fixtures reais; nenhum teste acessa a internet
+.github/workflows/coletar.yml
 ```
 
 ## Comandos
 
 ```bash
-python manage.py test                       # 47 testes; rodar sempre antes de concluir
-python manage.py coletar cebraspe fgv       # ou: todas | --encerrados | --apenas CGU_26_AFFC | --sem-arquivos
-python manage.py coletar dou --de 2026-10-01 --ate 2026-10-29 --secoes DO1,DO3
-python manage.py avisar [--previa | --agora | --silenciar-pendentes]
-python manage.py rotina
-docker compose up -d --build
-docker compose exec web python manage.py test
+python -m unittest                       # rodar sempre antes de concluir
+python -m concursohub.coletar            # ou: python -m concursohub.coletar cebraspe
+python -m http.server -d site 8000       # ver o site local
 ```
 
 ## Convenções ao mexer no código
 
-- **Nova fonte:** crie o adaptador com `@registrar`, importe em `adaptadores/__init__.py`, salve uma resposta real em `tests/fixtures/` e escreva um teste. Não mexa na persistência por causa de uma fonte.
-- **Site mudou de layout:** a correção fica só no adaptador daquela fonte. Atualize a fixture com a resposta nova.
-- **Classificação errada** (tipo de ato ou área): adicione um caso ao teste correspondente antes de ajustar a regra. Casos reais já cobertos: "Edital (retificado em…)" é edital de abertura, não retificação; "Comunicado – … resultado…" é comunicado.
-- **Coleta educada:** `ingestao/http.py` identifica o robô, espera entre requisições e tenta de novo. Use sempre esse cliente.
-- Testes de fonte usam `ClienteFalso` (`ingestao/tests/util.py`) e `TesteComDados`, que isola `DADOS_DIR`.
+- **Nova fonte:** adaptador com `@registrar`, import em `adaptadores/__init__.py`, nome em `BANCAS` no `site/app.js`, resposta real em `tests/fixtures/` e um teste.
+- **Site mudou de layout:** a correção fica só no adaptador daquela fonte. Atualize a fixture.
+- **Classificação errada** (tipo de documento, área ou esfera): adicione o caso em `tests/test_classificacao.py` antes de ajustar a regra. Casos reais já cobertos: "Edital (retificado em…)" é edital de abertura, não retificação; "Comunicado – … resultado…" é comunicado; "para" não é o estado do Pará.
+- **Coleta educada:** use sempre `concursohub/http.py`.
+- **Site sem build:** HTML/CSS/JS puros, sem dependências externas. Precisa funcionar no celular e no modo escuro.
 
-## Estado atual e próximos passos sugeridos
+## Próximos passos possíveis (só com pedido)
 
-Feito: modelos, admin com filtros (banca, esfera, área, atributos dinâmicos), coletores Cebraspe/FGV/DOU, resumo diário por e-mail, calendário, Docker. A primeira coleta real rodou em 01/11/2026: 73 concursos da Cebraspe e 143 da FGV, 11.329 documentos. A FGV também lista exames que não são concurso (CFC, ENAM, ENAC, residências); como tratá-los ainda não foi decidido.
-
-Próximos passos, em ordem de valor:
-
-1. **Extrair do texto do edital** (`Documento.texto`): vagas por cargo/localidade/cota, remuneração por cargo, escolaridade e cronograma (→ `Evento`). A Cebraspe só informa o total de vagas.
-2. **Eventos a partir de `aplicativos` da Cebraspe** (datas de consultas e recursos) → calendário.
-3. **Estatísticas:** extrair candidatos por vaga dos PDFs de demanda e notas de corte dos resultados finais. Depois, a nota de corte esperada (base histórica e, mais tarde, regressão quantílica).
-4. **Vincular atos do DOU** a concursos existentes (órgão + cargo + ano).
-5. **OCR** (Tesseract) em `ingestao/pdf.py` para PDFs escaneados (`precisa_revisao=True`).
-6. Outras bancas e Querido Diário (municípios), conforme o interesse do Davi.
+1. Tratar os exames da FGV que não são concurso (CFC, ENAM, residências): esconder ou marcar.
+2. Datas de inscrição da FGV a partir do edital, baixando só o PDF de abertura no Actions.
+3. Aviso por e-mail pelo Actions (diferença entre o JSON novo e o anterior).
+4. Outras bancas (Vunesp, FCC, Cesgranrio…).

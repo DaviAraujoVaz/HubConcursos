@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConcursoHub</title>
+  <meta name="description" content="Concursos da Cebraspe e da FGV: inscrições abertas, previstos e em andamento, com links para os documentos oficiais.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231d4ed8'/><path d='M9 17l5 5 9-11' stroke='white' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="largura">
+      <h1>ConcursoHub</h1>
+      <p class="sub">Concursos da Cebraspe e da FGV, direto das fontes oficiais.</p>
+    </div>
+  </header>
+
+  <main class="largura">
+    <nav class="abas" aria-label="Situação">
+      <button type="button" data-situacao="todos">Todos <span></span></button>
+      <button type="button" data-situacao="abertas">Inscrições abertas <span></span></button>
+      <button type="button" data-situacao="previsto">Previstos <span></span></button>
+      <button type="button" data-situacao="andamento">Em andamento <span></span></button>
+    </nav>
+
+    <form class="filtros" id="filtros" role="search" onsubmit="return false">
+      <label class="busca">
+        <span class="oculto">Buscar</span>
+        <input type="search" id="busca" placeholder="Buscar por órgão, cargo, sigla…" autocomplete="off">
+      </label>
+      <label>
+        <span>Banca</span>
+        <select id="banca">
+          <option value="">Todas</option>
+          <option value="cebraspe">Cebraspe</option>
+          <option value="fgv">FGV</option>
+        </select>
+      </label>
+      <label>
+        <span>Esfera</span>
+        <select id="esfera">
+          <option value="">Todas</option>
+          <option value="federal">Federal</option>
+          <option value="estadual">Estadual</option>
+          <option value="distrital">Distrital</option>
+          <option value="municipal">Municipal</option>
+        </select>
+      </label>
+      <label class="marcar">
+        <input type="checkbox" id="novos">
+        <span>Só novidades (7 dias)</span>
+      </label>
+    </form>
+
+    <div class="areas" id="areas" aria-label="Áreas de atuação"></div>
+
+    <p class="contagem" id="contagem" aria-live="polite"></p>
+    <ol class="lista" id="lista"></ol>
+    <p class="vazio" id="vazio" hidden>Nenhum concurso com esses filtros.</p>
+  </main>
+
+  <footer class="rodape largura">
+    <p id="status">Carregando…</p>
+    <p>Os dados vêm das páginas oficiais das bancas e podem ter atraso de algumas horas. Confira sempre o edital antes de se inscrever.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

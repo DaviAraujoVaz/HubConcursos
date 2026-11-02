@@ -1,0 +1,73 @@
+# Coleta as bancas a cada 6 horas e publica o site no GitHub Pages.
+# Também roda à mão (aba Actions → "Coletar e publicar" → Run workflow) e a cada push na main.
+# O commit que a própria coleta faz não dispara outra execução (regra do GitHub para o GITHUB_TOKEN).
+name: Coletar e publicar
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 03h17, 09h17, 15h17 e 21h17 em Brasília (UTC-3)
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # gravar concursos.json quando mudar
+  pages: write
+  id-token: write
+
+# Uma coleta por vez; a próxima espera a anterior terminar.
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Testes
+        run: python -m unittest
+
+      - name: Coleta
+        id: coleta
+        continue-on-error: true
+        run: python -m concursohub.coletar
+
+      - name: Gravar concursos.json no repositório
+        run: |
+          if git diff --quiet -- site/dados/concursos.json; then
+            echo "Nada mudou."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/dados/concursos.json
+            git commit -m "Coleta de $(TZ=America/Sao_Paulo date '+%d/%m/%Y %H:%M')"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: publicar
+        uses: actions/deploy-pages@v4
+
+      # Fonte com falha: o site sai com os dados anteriores dela, e o job fica vermelho
+      # para o GitHub avisar por e-mail.
+      - name: Falha em alguma fonte
+        if: steps.coleta.outcome == 'failure'
+        run: |
+          cat site/dados/status.json
+          exit 1
