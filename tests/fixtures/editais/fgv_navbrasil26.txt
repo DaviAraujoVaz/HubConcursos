@@ -1,0 +1,85 @@
+3. DOS CARGOS
+3.1. O cargo, o número de vagas, a jornada semanal de trabalho, a localidade das vagas e a remuneração para 
+o concurso estão estabelecidos na tabela a seguir:
+Cargo Nível de 
+escolaridade
+Vagas Imediatas Cadastro 
+Reserva
+Jornada 
+Semanal 
+(H)
+Localidade Remuneração 
+(R$)
+AC N I Q PCD
+Assistente Social Superior 1 1 0 0 0 10 30 Rio de Janeiro -
+RJ 4.632,10
+Técnico em 
+Infraestrutura e 
+Manutenção
+Eletrotécnica Técnico 1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 4.632,10
+Eletrônica Técnico 1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 4.632,10
+Mecânica Técnico 1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 4.632,10
+Edificações Técnico 1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 4.632,10
+Profissional Técnico de Navegação 
+Aérea – Operador de Torre de 
+Controle 
+Médio 32 13 2 1 3*** 300 36 ou 
+40**
+Dependências 
+da NAV 
+Brasil (DNB)
+5.944,03
+Advogado Superior 3 1 0 0 1 20 40 Rio de Janeiro -
+RJ 6.186,00
+Analista de Comunicação Social e MKT Superior 1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 6.186,00
+Analista de Gestão Superior 22 9 1 1 2 150 40 Rio de Janeiro -
+RJ 6.186,00
+Contador Superior 1 1 0 0 0 30 40 Rio de Janeiro -
+RJ 6.186,00
+Pedagogo Superior 1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 6.186,00
+Psicólogo Superior 1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 6.186,00
+NAV BRASIL – SERVIÇOS DE NAVEGAÇÃO AÉREA S.A. 3
+Analista de Tecnologia Superior 4 2 0 0 1 50 40 Rio de Janeiro -
+RJ 6.972,61
+Engenheiro
+Civil Superior 2 1 0 0 1 20 40 Rio de Janeiro -
+RJ 10.868,68
+Telecomunicações
+Superior
+1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 10.868,68
+Software
+Superior
+1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 10.868,68
+Mecânico
+Superior
+1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 10.868,68
+Eletrônico
+Superior
+1 0 0 0 0 10 40 Rio de Janeiro -
+RJ 10.868,68
+Eletricista
+Superior
+1 1 0 0 0 10 40 Rio de Janeiro -
+RJ 10.868,68
+Meteorologista Superior 6 3 0 0 1 30 36 ou 
+40**
+Rio de Janeiro –
+RJ e 
+Guarulhos - SP
+6.972,61
+TOTAL - 83 32 3 2 8 730 - - 
+* AC = Ampla Concorrência; N = Negro; I = Indígena; Q = Quilombola; e PCD = Pessoa com Deficiência.
+** 36 horas semanais para labor em regime de escala de revezamento conforme Acordo Coletivo de Trabalho geral ou Acordo Coletivo de Trabalho 
+Específico de Escala local, em vigor; ou 40 horas semanais para labor em horário administrativo.
+*** A Pessoa com Deficiência que desejar concorrer para o cargo de Profissional Técnico de Navegação Aérea deverá observar os requisitos de aptidão 
+física e sensorial, conforme 14.2 e subsequentes.

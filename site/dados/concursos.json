@@ -69,6 +69,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia",
     "Engenharia",
     "Jurídica",
@@ -86,6 +87,7 @@
      "nome": "ESPECIALISTA EM REGULAÇÃO – ESPECIALIDADE: ADMINISTRAÇÃO",
      "remuneracao": 9975.0,
      "areas": [
+      "Administrativa",
       "Regulação"
      ]
     },
@@ -1062,6 +1064,7 @@
    "situacao": "andamento",
    "esfera": "",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia",
     "Engenharia",
     "Jurídica",
@@ -1078,7 +1081,9 @@
     {
      "nome": "Ênfase 1: Administração",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "Ênfase 2: Advocacia",
@@ -1159,7 +1164,9 @@
     {
      "nome": "Ênfase 13: Administração e Controle",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "Ênfase 14: Enfermagem",
@@ -1236,7 +1243,9 @@
     {
      "nome": "Ênfase 28: Suprimento de Bens e Serviços – Administração",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     }
    ],
    "documentos": [
@@ -1462,6 +1471,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia",
     "Engenharia",
     "Jurídica",
@@ -1477,7 +1487,9 @@
     {
      "nome": "ANALISTA DE REGULAÇÃO – ESPECIALIDADE: ADMINISTRAÇÃO",
      "remuneracao": 5767.15,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "ANALISTA DE REGULAÇÃO – ESPECIALIDADE: CIÊNCIAS CONTÁBEIS",
@@ -3191,6 +3203,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia",
     "Educação",
     "Engenharia",
@@ -3206,7 +3219,9 @@
     {
      "nome": "ANALISTA DE TRÂNSITO – ESPECIALIDADE: ADMINISTRAÇÃO",
      "remuneracao": 7800.0,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "ANALISTA DE TRÂNSITO – ESPECIALIDADE: ANÁLISE DE SISTEMAS",
@@ -3643,6 +3658,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Comunicação",
     "Contabilidade e Economia",
     "TI"
@@ -3657,7 +3673,9 @@
     {
      "nome": "GESTOR ESPECIALIZADO EM CIÊNCIA E TECNOLOGIA – ÁREA: ADMINISTRAÇÃO",
      "remuneracao": 5767.15,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "GESTOR ESPECIALIZADO EM CIÊNCIA E TECNOLOGIA – ÁREA: CONTABILIDADE",
@@ -3791,6 +3809,7 @@
    "situacao": "andamento",
    "esfera": "federal",
    "areas": [
+    "Administrativa",
     "Comunicação",
     "Contabilidade e Economia",
     "Jurídica",
@@ -3813,7 +3832,9 @@
     {
      "nome": "EMPREGO 2: ANALISTA – ESPECIALIDADE: ADMINISTRAÇÃO, GOVERNANÇA E PLANEJAMENTO",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "EMPREGO 3: ANALISTA – ESPECIALIDADE: AUDITORIA E CONTROLE INTERNO",
@@ -7421,62 +7442,62 @@
    "cargos": [
     {
      "nome": "Disciplina 1: Artes",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 2: Biologia",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 3: Educação Física",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 4: Filosofia",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 5: Física",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 6: Geografia",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 7: História",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 8: Inglês",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 9: Matemática",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 10: Português",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 11: Química",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     },
     {
      "nome": "Disciplina 12: Sociologia",
-     "remuneracao": 4325.37,
+     "remuneracao": null,
      "areas": []
     }
    ],
@@ -7796,6 +7817,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Fiscal"
    ],
    "url": "https://www.cebraspe.org.br/concursos/SEFAZ_AL_26",
@@ -7809,6 +7831,7 @@
      "nome": "AUDITOR FISCAL DA ADMINISTRAÇÃO TRIBUTÁRIA ESTADUAL (AFTE)",
      "remuneracao": 25270.68,
      "areas": [
+      "Administrativa",
       "Fiscal"
      ]
     }
@@ -8247,6 +8270,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia"
    ],
    "url": "https://www.cebraspe.org.br/concursos/SEPLAG_AL_26_ESPECIALISTA",
@@ -8259,7 +8283,9 @@
     {
      "nome": "ESPECIALISTA EM GESTÃO PÚBLICA – ESPECIALIDADE: ADMINISTRAÇÃO",
      "remuneracao": 5767.15,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "ESPECIALISTA EM GESTÃO PÚBLICA – ESPECIALIDADE: ANÁLISE DE SISTEMAS",
@@ -8392,6 +8418,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Jurídica"
    ],
    "url": "https://www.cebraspe.org.br/concursos/SEPLAG_AL_26_PROCON",
@@ -8404,7 +8431,9 @@
     {
      "nome": "ANALISTA DE PROTEÇÃO E DEFESA DO CONSUMIDOR – ÁREA: ADMINISTRAÇÃO",
      "remuneracao": 5501.43,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "ANALISTA DE PROTEÇÃO E DEFESA DO CONSUMIDOR – ÁREA: DIREITO",
@@ -8758,6 +8787,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia",
     "Controle",
     "Engenharia",
@@ -8775,7 +8805,9 @@
     {
      "nome": "ANALISTA ESTADUAL DE APOIO AO CONTROLE EXTERNO – ESPECIALIDADE: ADMINISTRAÇÃO",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "ANALISTA ESTADUAL DE APOIO AO CONTROLE EXTERNO – ESPECIALIDADE: CONTABILIDADE",
@@ -9271,6 +9303,7 @@
      "nome": "AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: ADMINISTRAÇÃO / GESTÃO DE POLÍTICAS PÚBLICAS / GESTÃO PÚBLICA",
      "remuneracao": 15553.3,
      "areas": [
+      "Administrativa",
       "Controle"
      ]
     },
@@ -9324,14 +9357,14 @@
     },
     {
      "nome": "MÉDICO",
-     "remuneracao": null,
+     "remuneracao": 6173.51,
      "areas": [
       "Saúde"
      ]
     },
     {
      "nome": "TÉCNICO ADMINISTRATIVO",
-     "remuneracao": null,
+     "remuneracao": 6173.51,
      "areas": [
       "Administrativa"
      ]
@@ -11802,6 +11835,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Comunicação",
     "Legislativo",
     "Saúde"
@@ -11869,10 +11903,12 @@
     {
      "nome": "Especialista Administração",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
-     "nome": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO RIO DE JANEIRO Legislativo – Nível IV Geral Especialista Legislativo –…",
+     "nome": "Legislativo – Nível IV Geral Especialista Legislativo –…",
      "remuneracao": null,
      "areas": []
     }
@@ -12101,6 +12137,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Comunicação",
     "Contabilidade e Economia",
     "Educação",
@@ -12135,7 +12172,9 @@
     {
      "nome": "Administração",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "Arquitetura",
@@ -12471,6 +12510,7 @@
    "situacao": "andamento",
    "esfera": "federal",
    "areas": [
+    "Administrativa",
     "Comunicação",
     "Contabilidade e Economia",
     "Engenharia",
@@ -12482,192 +12522,191 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
+   "remuneracao_maxima": 9739.1,
    "cargos": [
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Direito",
-     "remuneracao": null,
+     "remuneracao": 8447.97,
      "areas": [
       "Jurídica"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Administração ou Ciências Econômicas ou Economia",
-     "remuneracao": null,
+     "remuneracao": 8447.97,
      "areas": [
+      "Administrativa",
       "Contabilidade e Economia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Ciências Contábeis com especialização em Auditoria",
-     "remuneracao": null,
+     "remuneracao": 8447.97,
      "areas": [
       "Contabilidade e Economia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Ciências Contábeis",
-     "remuneracao": null,
+     "remuneracao": 8447.97,
      "areas": [
       "Contabilidade e Economia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Design, Design Gráfico, Design Visual, Programação Gráfica, Artes & Design",
-     "remuneracao": null,
+     "remuneracao": 8447.97,
      "areas": [
       "Comunicação"
      ]
     },
     {
+     "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Medicina",
+     "remuneracao": 8447.97,
+     "areas": []
+    },
+    {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Psicologia",
-     "remuneracao": null,
+     "remuneracao": 8447.97,
      "areas": [
       "Saúde"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Arquitetura",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": []
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Ambiental",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Civil",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia de Controle e Automação",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia da Computação",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia com especialização em Gestão e Engenharia de Qualidade",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia de Materiais",
-     "remuneracao": null,
-     "areas": [
-      "Engenharia"
-     ]
-    },
-    {
-     "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia de Segurança do Trabalho, ministrado por Instituição",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Elétrica ou Eletrônica",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Eletrônica",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia de Energia",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Mecânica",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Mecatrônica",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Naval",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Nuclear",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia de Produção",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Engenharia Química",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Licenciatura) em Física, Física Médica, Física Biológica, Química ou Engenharia (todas as…",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Bacharelado ou Licenciatura em Física.",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": []
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Bacharelado em Meteorologia",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": []
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Química (Bacharelado ou Licenciatura)",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": []
     },
     {
      "nome": "Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa – Tecnologia de Fabricação Mecânica",
-     "remuneracao": null,
+     "remuneracao": 9739.1,
      "areas": []
     }
    ],
@@ -13017,7 +13056,13 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Auditor Público Interno",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado Final de Aprovados (específico para candidatos negros e indígenas)",
@@ -13248,14 +13293,171 @@
    "banca": "fgv",
    "situacao": "andamento",
    "esfera": "federal",
-   "areas": [],
+   "areas": [
+    "Administrativa",
+    "Contabilidade e Economia",
+    "Engenharia",
+    "Jurídica"
+   ],
    "url": "https://conhecimento.fgv.br/concursos/cprm",
    "ano": 2025,
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Companhia de Pesquisa de Recursos Minerais - CPRM Cargo Área de Conhecimento",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Pesquisador em Geociências Hidrogeologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Pesquisador em Geociências Hidrologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Pesquisador em Geociências Paleontologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Administração",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa"
+     ]
+    },
+    {
+     "nome": "Analista em Geociências Arquitetura",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Arquivologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Biblioteconomia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Biologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Cartografia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Conservação e Restauração",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Contabilidade",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Analista em Geociências Direito",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica"
+     ]
+    },
+    {
+     "nome": "Analista em Geociências Educação",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Engenharia Agronômica",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista em Geociências Engenharia Elétrica",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista em Geociências Engenharia Eletrônica",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista em Geociências Engenharia Civil",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista em Geociências Física",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Geografia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Geoprocessamento",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Letras",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Museologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista em Geociências Química",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Técnico em Geociências Assistente Administrativo",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa"
+     ]
+    },
+    {
+     "nome": "Técnico em Geociências Geologia/Mineração",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Técnico em Geociências Hidrologia",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado Final de Aprovados - Pessoas com Deficiência",
@@ -14053,8 +14255,21 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
-   "cargos": [],
+   "remuneracao_maxima": 10787.14,
+   "cargos": [
+    {
+     "nome": "Médico",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "EMPRESA BRASILEIRA DE SERVIÇOS HOSPITALARES CONCURSOPÚBLICO",
+     "remuneracao": 10787.14,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado Final de Aprovados Retificado - Candidatos Sub Judice",
@@ -14391,7 +14606,722 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Médico",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Anestesiologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Angiologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Angiorradiologia e Cirurgia Endovascular",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cardiologia - Eletrofisiologia Clínica Invasiva",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cardiologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Cardiovascular",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia da Mão",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia de Cabeça e Pescoço",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia do Aparelho Digestivo",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Oncológica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Plástica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Vascular",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Diagnóstico por Imagem - Ultrassonografia Geral",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Ecografia Vascular com Doppler",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Endocrinologia e Metabologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Endocrinologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Endoscopia Respiratória",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Gastroenterologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Gastroenterologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Genética Médica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Geriatria",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Ginecologia e Obstetrícia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Hemodinâmica e Cardiologia Intervencionista",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Infectologia Hospitalar",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Infectologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Mamografia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Mastologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina do Sono",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina do Trabalho",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina Intensiva",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina…",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina Paliativa",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Nefrologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Nefrologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Neurocirurgia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Neurologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Neurologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Neurorradiologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Nutrologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Nutrologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Oncologia Clínica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Oncologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Patologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Patologia Clínica/ Medicina Laboratorial",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Pediatria",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Pneumologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Pneumologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Psiquiatria",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Radiologia e Diagnóstico por Imagem",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Radiologia Intervencionista e Angiorradiologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Ultrassonografia em Ginecologia e Obstetrícia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Urologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cardiologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cardiologia - Ergometria",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia do Aparelho Digestivo - Cirurgia Videolaparoscópica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Geral",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Torácica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Clínica Médica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Coloproctologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Densitometria Óssea",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Dermatologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Dor",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Ecocardiografia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Endoscopia Digestiva",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Hematologia e Hemoterapia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Hepatologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Infectologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina Intensiva Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina Nuclear",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Oftalmologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Ortopedia e Traumatologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Otorrinolaringologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Radiologia…",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Alergia E Imunologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Alergia E Imunologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cirurgia Cranio-Maxilo-Facial",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Endoscopia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Endoscopia Ginecológica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Endoscopia…",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Hematologia E Hemoterapia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina Do Adolescente",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina Preventiva E Social",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Neonatologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Neurofisiologia Clínica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Nutrição Parenteral E Enteral",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Pneumologia…",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Psicoterapia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Psiquiatria Da Infância E Adolescência",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Reumatologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Reumatologia Pediátrica",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Transplante De Medula Óssea",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina de Emergência",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Radioterapia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Ultrassonografia…",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Acupuntura",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Hematologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Medicina Fetal",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Sexologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico -…",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico - Cardiologia -…",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    }
+   ],
    "documentos": [
     {
      "titulo": "Edital de Convocação para o Procedimento de Confirmação Complementar à Autodeclaração para Pessoas Negras - Candidato Sub Judice",
@@ -14991,7 +15921,7 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
+   "remuneracao_maxima": 10453.81,
    "cargos": [
     {
      "nome": "Agente de Apoio Administrativa",
@@ -15127,6 +16057,26 @@
      "areas": [
       "TI"
      ]
+    },
+    {
+     "nome": "Função Remuneração inicial (",
+     "remuneracao": 5073.26,
+     "areas": []
+    },
+    {
+     "nome": "Agente Técnico Todas",
+     "remuneracao": 7312.44,
+     "areas": []
+    },
+    {
+     "nome": "Agente Especializado Todas",
+     "remuneracao": 10453.81,
+     "areas": []
+    },
+    {
+     "nome": "Historiador",
+     "remuneracao": null,
+     "areas": []
     },
     {
      "nome": "Inovação",
@@ -15826,7 +16776,14 @@
    "situacao": "andamento",
    "esfera": "federal",
    "areas": [
-    "Jurídica"
+    "Administrativa",
+    "Comunicação",
+    "Contabilidade e Economia",
+    "Engenharia",
+    "Jurídica",
+    "Policial",
+    "Saúde",
+    "TI"
    ],
    "url": "https://conhecimento.fgv.br/concursos/mpu2025",
    "ano": 2025,
@@ -15834,7 +16791,221 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Analista do MPU – Direito",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica"
+     ]
+    },
+    {
+     "nome": "Técnico do MPU – Administração",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa"
+     ]
+    },
+    {
+     "nome": "Técnico do MPU - Polícia Institucional",
+     "remuneracao": null,
+     "areas": [
+      "Policial"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Atuarial",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Biblioteconomia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Clínica Médica",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Comunicação Social",
+     "remuneracao": null,
+     "areas": [
+      "Comunicação"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Desenvolvimento de Sistemas",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Enfermagem",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Ginecologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Odontologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Oftalmologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Antropologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Arquitetura",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Biologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Contabilidade",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em Economia",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Engenharia Agronômica Analista do MPU – Perito em Engenharia Civil",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em Engenharia de Seg. do Trabalho",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em Engenharia Elétrica",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em Engenharia Florestal",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em Engenharia Mecânica",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em Engenharia Sanitária",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Perito em Geografia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Geologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Medicina do Trabalho",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Oceanografia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Perito em Tecnologia da Informação e Comunicação",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Psicologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Analista do MPU – Serviço Social",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Suporte e Infraestrutura",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Junta Médica em Psiquiatria",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Analista do MPU – Arquivologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Técnico do MPU - Enfermagem",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    }
+   ],
    "documentos": [
     {
      "titulo": "COMUNICADO",
@@ -15937,14 +17108,106 @@
    "banca": "fgv",
    "situacao": "andamento",
    "esfera": "federal",
-   "areas": [],
+   "areas": [
+    "Comunicação",
+    "Contabilidade e Economia",
+    "Educação",
+    "Engenharia",
+    "Jurídica",
+    "Saúde"
+   ],
    "url": "https://conhecimento.fgv.br/concursos/navbrasil26",
    "ano": 2026,
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
-   "cargos": [],
+   "remuneracao_maxima": 10868.68,
+   "cargos": [
+    {
+     "nome": "Assistente Social",
+     "remuneracao": 4632.1,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Técnico em Infraestrutura e Manutenção Eletrotécnica Técnico",
+     "remuneracao": 4632.1,
+     "areas": []
+    },
+    {
+     "nome": "Eletrônica Técnico",
+     "remuneracao": 4632.1,
+     "areas": []
+    },
+    {
+     "nome": "Mecânica Técnico",
+     "remuneracao": 4632.1,
+     "areas": []
+    },
+    {
+     "nome": "Edificações Técnico",
+     "remuneracao": 4632.1,
+     "areas": []
+    },
+    {
+     "nome": "Advogado",
+     "remuneracao": 6186.0,
+     "areas": [
+      "Jurídica"
+     ]
+    },
+    {
+     "nome": "Analista de Comunicação Social e MKT",
+     "remuneracao": 6186.0,
+     "areas": [
+      "Comunicação"
+     ]
+    },
+    {
+     "nome": "Analista de Gestão",
+     "remuneracao": 6186.0,
+     "areas": []
+    },
+    {
+     "nome": "Contador",
+     "remuneracao": 6186.0,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Pedagogo",
+     "remuneracao": 6186.0,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Psicólogo",
+     "remuneracao": 6186.0,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Analista de Tecnologia",
+     "remuneracao": 6972.61,
+     "areas": []
+    },
+    {
+     "nome": "Engenheiro Civil",
+     "remuneracao": 10868.68,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Meteorologista",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado Preliminar da Prova Objetiva - Reaplicação",
@@ -17307,14 +18570,12 @@
      "areas": []
     },
     {
-     "nome": "PROCURADORIA-GERAL DA CÂMARA MUNICIPAL DO RIO DE JANEIRO Cargo Remunerações…",
+     "nome": "Remunerações…",
      "remuneracao": 10206.07,
-     "areas": [
-      "Jurídica"
-     ]
+     "areas": []
     },
     {
-     "nome": "CÂMARA MUNICIPAL DO RIO DE JANEIRO Cargo Remunerações Benefícios",
+     "nome": "Remunerações Benefícios",
      "remuneracao": 10206.07,
      "areas": []
     }
@@ -18294,11 +19555,6 @@
    "remuneracao_maxima": null,
    "cargos": [
     {
-     "nome": "Palmas - Região Sul, Palmas - Distrito de Taquaruçu / Aparecida do Rio Negro /Lagoa",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
      "nome": "Pedro Afonso / Bom Jesus do Tocantins / Centenário /Itacajá/ Itapiratins / Recursolândia / Rio Sono / Santa…",
      "remuneracao": null,
      "areas": []
@@ -18910,13 +20166,6 @@
      ]
     },
     {
-     "nome": "MÉDICO PSIQUIATRA I",
-     "remuneracao": null,
-     "areas": [
-      "Saúde"
-     ]
-    },
-    {
      "nome": "MÉDICOPSIQUIATRA INFANTIL",
      "remuneracao": null,
      "areas": [
@@ -19107,6 +20356,7 @@
    "situacao": "andamento",
    "esfera": "municipal",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia",
     "Controle",
     "Educação",
@@ -19727,7 +20977,9 @@
    "banca": "fgv",
    "situacao": "andamento",
    "esfera": "municipal",
-   "areas": [],
+   "areas": [
+    "Educação"
+   ],
    "url": "https://conhecimento.fgv.br/concursos/prefsjceducacao25",
    "ano": 2025,
    "inscricoes_inicio": null,
@@ -19739,6 +20991,13 @@
      "nome": "A jornada de trabalho, em caso de Hora/aula",
      "remuneracao": null,
      "areas": []
+    },
+    {
+     "nome": "Professor II Português",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
     },
     {
      "nome": "Matemática",
@@ -19848,14 +21107,75 @@
    "banca": "fgv",
    "situacao": "andamento",
    "esfera": "federal",
-   "areas": [],
+   "areas": [
+    "Contabilidade e Economia",
+    "Jurídica",
+    "TI"
+   ],
    "url": "https://conhecimento.fgv.br/concursos/psabdi",
    "ano": 2026,
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
-   "cargos": [],
+   "remuneracao_maxima": 16034.7,
+   "cargos": [
+    {
+     "nome": "API – Contabilidade",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "API – Administrativo",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "API – Analista de Dados",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "API – Produtividade Industrial",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "API – Desenvolvimento de TI",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "API – Infraestrutura e Operação",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "API – Jurídico",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica"
+     ]
+    },
+    {
+     "nome": "API – Gestão",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "API – Comunicação e Marketing",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "AGÊNCIA BRASILEIRA DE DESENVOLVIMENTO INDUSTRIAL – ABDI",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
@@ -19877,7 +21197,7 @@
     },
     {
      "titulo": "Edital",
-     "tipo": "outro",
+     "tipo": "edital_abertura",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-abdi-1.pdf",
      "data": "2026-10-20"
     }
@@ -19893,6 +21213,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Jurídica",
     "Tribunais"
    ],
    "url": "https://conhecimento.fgv.br/concursos/psstjgo2025",
@@ -19901,7 +21222,15 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Residente Jurídico do TJGO, conforme a…",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica"
+     ]
+    }
+   ],
    "documentos": [
     {
      "titulo": "COMUNICADO",
@@ -20724,7 +22053,11 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
-    "Educação"
+    "Administrativa",
+    "Contabilidade e Economia",
+    "Educação",
+    "Saúde",
+    "TI"
    ],
    "url": "https://conhecimento.fgv.br/concursos/seducpa26",
    "ano": 2026,
@@ -20734,7 +22067,260 @@
    "remuneracao_maxima": null,
    "cargos": [
     {
-     "nome": "Educação Especial, com carga horária mínima",
+     "nome": "METROPOLITA NA Ananindeua, Belém, Benevides, Marituba, Santa Bárbara do Pará Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor História",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Geografia",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Filosofia",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Sociologia",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Física",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Química",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Biologia",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Língua Inglesa",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Artes",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Analista de Gestão Governamental e Política Educacional Estatística",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Analista de Suporte Educacional Nutrição",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "Analista de Suporte Educacional Psicologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde",
+      "TI"
+     ]
+    },
+    {
+     "nome": "Analista de Suporte Educacional Serviço Social",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "Assistente de Gestão Governamental e Educacional Assistente de Gestão Governament al e Educacional",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "DRE - ABAETETUBA Abaetetuba, Acará, Barcarena, Igarapé-Miri Tailândia, Moju Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "DRE - AFUÁ Afuá, Chaves Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - ALTAMIRA Altamira, Anapu, Brasil Novo, Medicilândia, Porto de Moz, Senador José Porfírio, Uruará,…",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "DRE - BREVES Anajás, Bagre, Breves, Gurupá, Melgaço, Portel Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - CACHOEIRA DO ARARI Cachoeira do Arari, Salvaterra, Santa Cruz do Arari, Soure Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - CAMETÁ Baião, Cametá, Limoeiro do Ajuru, Mocajuba Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - CAPANEMA Bonito, Capanema, Nova Timboteua, Ourém, Peixe Boi, Primavera, Quatipuru, Salinópolis, Santa…",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Especialista em Especialista",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "DRE - CAPITÃO POÇO Capitão Poço, Garrafão do Norte, Nova Esperança do Piriá Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - CASTANHAL Castanhal, Curuçá, Inhangapi, Santa Maria do Pará, São Domingos do Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Professor Língua",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - CONCEIÇÃO DO ARAGUAIA Conceição do Araguaia, Cumaru do Norte, Floresta do Araguaia, Pau D'Arco,…",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "DRE - CURRALINHO Curralinho, Muaná, Oeiras do Pará, Ponta de Pedras, São Sebastião da Boa Vista Professor…",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - ITAITUBA Aveiro, Itaituba, Jacareacanga, Novo Progresso, Placas, Rurópolis, Trairão Professor…",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - MÃE DORIO Aurora do Pará, Dom Eliseu, Ipixuna do Pará, Irituia, Mãe do Rio, Paragominas, Ulianópolis…",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "DRE - MARABÁ Abel Figueiredo, Bom Jesus do Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - MARACANÃ Igarapé Açu, Magalhães Barata, Maracanã Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - MONTE ALEGRE Alenquer, Almerim, Monte Alegre, Prainha Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - ÓBIDOS Curuá, Faro, Juruti, Óbidos, Oriximiná, Terra Santa Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - PARAUAPEBAS Canaã dos Carajás, Curionópolis, Eldorado dos Carajás, Parauapebas Professor Matemática…",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - SANTARÉM Belterra, Mojuí dos Campos, Santarém Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - TUCURUÍ Breu Branco, Goianésia do Pará, Novo Repartimento, Pacajá, Tucuruí Professor Matemática",
+     "remuneracao": null,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "DRE - XINGUARA Água Azul do Norte, Bannach, Ourilândia do Norte, Rio Maria, São Félix do Xingu, Sapucaia,…",
      "remuneracao": null,
      "areas": []
     }
@@ -21190,13 +22776,6 @@
      ]
     },
     {
-     "nome": "Professor Educação Especial - Intérprete/ Tradutor de Libras",
-     "remuneracao": null,
-     "areas": [
-      "Educação"
-     ]
-    },
-    {
      "nome": "Professor Educação Especial - Libras",
      "remuneracao": null,
      "areas": [
@@ -21232,13 +22811,6 @@
      ]
     },
     {
-     "nome": "Professor de História",
-     "remuneracao": null,
-     "areas": [
-      "Educação"
-     ]
-    },
-    {
      "nome": "Professor de Língua Espanhola",
      "remuneracao": null,
      "areas": [
@@ -21253,33 +22825,7 @@
      ]
     },
     {
-     "nome": "Professor de Língua Portuguesa",
-     "remuneracao": null,
-     "areas": [
-      "Educação"
-     ]
-    },
-    {
-     "nome": "Professor de Matemática",
-     "remuneracao": null,
-     "areas": [
-      "Educação"
-     ]
-    },
-    {
      "nome": "Professor de Pedagogia – Anos Iniciais",
-     "remuneracao": null,
-     "areas": [
-      "Educação"
-     ]
-    },
-    {
-     "nome": "SECRETARIA DE ESTADO DA EDUCAÇÃO, DO ESPORTE E DO LAZER – SEEC RN",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "Professor de Pedagogia – Educação Especial",
      "remuneracao": null,
      "areas": [
       "Educação"
@@ -21312,11 +22858,6 @@
      "areas": [
       "Educação"
      ]
-    },
-    {
-     "nome": "Negro/Negra; (P): PcD SECRETARIA DE ESTADO DA EDUCAÇÃO, DO ESPORTE E DO LAZER –…",
-     "remuneracao": null,
-     "areas": []
     }
    ],
    "documentos": [
@@ -21495,39 +23036,14 @@
    "banca": "fgv",
    "situacao": "andamento",
    "esfera": "estadual",
-   "areas": [
-    "TI"
-   ],
+   "areas": [],
    "url": "https://conhecimento.fgv.br/concursos/seplagrj",
    "ano": 2026,
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": 7572.5,
-   "cargos": [
-    {
-     "nome": "Políticas Públicas",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "Analista de Planejamento e Orçamento (APO) Planejamento e Orçamento",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "Tecnologia da Informação",
-     "remuneracao": null,
-     "areas": [
-      "TI"
-     ]
-    },
-    {
-     "nome": "SECRETARIA DE ESTADO DE PLANEJAMENTO E GESTÃO – SEPLAG/RJ",
-     "remuneracao": null,
-     "areas": []
-    }
-   ],
+   "cargos": [],
    "documentos": [
     {
      "titulo": "Resultado preliminar dos pedidos de atendimento especial",
@@ -21631,6 +23147,9 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
+    "Educação",
+    "Engenharia",
     "Saúde"
    ],
    "url": "https://conhecimento.fgv.br/concursos/sesto26",
@@ -21638,12 +23157,481 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
+   "remuneracao_maxima": 17727.63,
    "cargos": [
     {
-     "nome": "Carreiras e Remuneração dos Profissionais da Saúde",
-     "remuneracao": null,
+     "nome": "Administrador Hospitalar",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Administrativa"
+     ]
+    },
+    {
+     "nome": "Analista em Controle de Zoonoses",
+     "remuneracao": 4917.01,
      "areas": []
+    },
+    {
+     "nome": "Assistente de Serviços de Saúde",
+     "remuneracao": 1735.55,
+     "areas": []
+    },
+    {
+     "nome": "Assistente Social",
+     "remuneracao": 4917.01,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Auditor em Saúde",
+     "remuneracao": 5980.71,
+     "areas": []
+    },
+    {
+     "nome": "Biólogo em Saúde",
+     "remuneracao": 4917.01,
+     "areas": []
+    },
+    {
+     "nome": "Biomédico",
+     "remuneracao": 4917.01,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Enfermeiro",
+     "remuneracao": 4917.01,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Enfermeiro Obstetra",
+     "remuneracao": 8421.31,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Engenheiro Clínico",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Executivo em Saúde",
+     "remuneracao": 5980.71,
+     "areas": []
+    },
+    {
+     "nome": "Farmacêutico",
+     "remuneracao": 4917.01,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Físico",
+     "remuneracao": 10074.08,
+     "areas": []
+    },
+    {
+     "nome": "Fisioterapeuta",
+     "remuneracao": 4918.2,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Fonoaudiólogo",
+     "remuneracao": 4917.01,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Gestor em Saúde",
+     "remuneracao": 8421.31,
+     "areas": []
+    },
+    {
+     "nome": "Inspetor em Vigilância Sanitária - Arquiteto",
+     "remuneracao": 5980.71,
+     "areas": []
+    },
+    {
+     "nome": "Inspetor em Vigilância Sanitária - Enfermeiro",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Inspetor em Vigilância Sanitária - Engenheiro Ambiental",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Inspetor em Vigilância Sanitária - Engenheiro de Alimentos",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Inspetor em Vigilância Sanitária - Engenheiro Químico",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Inspetor em Vigilância Sanitária - Farmacêutico",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Instrumentador Cirúrgico",
+     "remuneracao": 2008.18,
+     "areas": []
+    },
+    {
+     "nome": "Médico",
+     "remuneracao": 13080.13,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Nutricionista",
+     "remuneracao": 4917.01,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Perfusionista",
+     "remuneracao": 8421.31,
+     "areas": []
+    },
+    {
+     "nome": "Pesquisador Docente em Saúde Pública",
+     "remuneracao": 5980.71,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "Psicólogo",
+     "remuneracao": 4917.01,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Tecnólogo",
+     "remuneracao": 4917.01,
+     "areas": []
+    },
+    {
+     "nome": "Terapeuta Ocupacional",
+     "remuneracao": 4918.2,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Técnico em Enfermagem",
+     "remuneracao": 2008.18,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Técnico em Imobilização Ortopédica",
+     "remuneracao": 2008.18,
+     "areas": []
+    },
+    {
+     "nome": "Técnico em Laboratório",
+     "remuneracao": 2008.18,
+     "areas": []
+    },
+    {
+     "nome": "Técnico em Radiologia",
+     "remuneracao": 2008.18,
+     "areas": []
+    },
+    {
+     "nome": "Técnico em Saúde Bucal",
+     "remuneracao": 2008.18,
+     "areas": []
+    },
+    {
+     "nome": "Médico RQE - Alergista e Imunologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Anestesiologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cardiologia",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cardiologia Pediátrica",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgia Cabeça e Pescoço",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgião Cardiovascular",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgião Cardiovascular Pediátrico",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgião Geral",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgião Pediátrico",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgião Plástico",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgião Torácico",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Cirurgião Vascular",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Coloproctologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Ecocardiograma Adulto",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Endocrinologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Endocrinologista Pediátrico",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Gastroenterologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Ginecologista Obstetra",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Hematologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Hematologista Pediátrico",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Hemodinâmica e Cardiologia Intervencionista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Infectologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Intensivista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Mastologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Nefrologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Neonatologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Neurocirurgião",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Neurologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Oftalmologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Oncologista Cirúrgico",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE – Ortopedista Traumatologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Otorrinolaringologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Pediatra",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Psiquiatra",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Ultrassonografista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Ultrassonografista - Medicina Fetal (USG)",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Médico RQE - Urologista",
+     "remuneracao": 17727.63,
+     "areas": [
+      "Saúde"
+     ]
     }
    ],
    "documentos": [
@@ -21749,6 +23737,7 @@
    "situacao": "andamento",
    "esfera": "municipal",
    "areas": [
+    "Administrativa",
     "Controle",
     "Educação",
     "Engenharia",
@@ -21872,7 +23861,9 @@
     {
      "nome": "PREFEITURA MUNICIPAL DE CANAÃ DOS CARAJÁS/PA – SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO",
      "remuneracao": null,
-     "areas": []
+     "areas": [
+      "Administrativa"
+     ]
     },
     {
      "nome": "Agente de Serviços Técnicos em Radiologia",
@@ -22216,11 +24207,11 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
+   "remuneracao_maxima": 4580.57,
    "cargos": [
     {
      "nome": "PROFESSOR DA REDE MUNICIPAL – Professor Multidisciplinar para Educação Infantil e Anos Iniciais",
-     "remuneracao": null,
+     "remuneracao": 4580.57,
      "areas": [
       "Educação"
      ]
@@ -22972,6 +24963,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
     "Contabilidade e Economia",
     "Controle",
     "Engenharia",
@@ -22990,6 +24982,7 @@
      "nome": "Auditor Fiscal de Controle Administração",
      "remuneracao": null,
      "areas": [
+      "Administrativa",
       "Fiscal"
      ]
     },
@@ -23450,7 +25443,78 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Mediador Judicial 1º Núcleo Regional – Rio de Janeiro (Capital)",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Niterói",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional - Petrópolis",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Duque de Caxias",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Volta Redonda",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional - Campos dos Goytacazes",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Teresópolis",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Angra dos Reis",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Nova Friburgo",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Itaperuna",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Cabo Frio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Méier",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Núcleo Regional – Barra da Tijuca",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Itinerantes",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Aviso TJ nº 197/2026",
@@ -23554,6 +25618,9 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Jurídica",
+    "Saúde",
+    "TI",
     "Tribunais"
    ],
    "url": "https://conhecimento.fgv.br/concursos/tjerj2023/2",
@@ -23562,7 +25629,41 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Programa de Residência – Assistente social 1ª",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Programa de Residência – Psicólogo 1ª",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Programa de Residência – Direito 1ª",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica"
+     ]
+    },
+    {
+     "nome": "TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO DE JANEIRO",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Programa de Residência – Áreas de Tecnologia da Informação 1ª",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    }
+   ],
    "documentos": [
     {
      "titulo": "Aviso TJ nº 197/2026",
@@ -23673,7 +25774,7 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
+   "remuneracao_maxima": 33830.96,
    "cargos": [],
    "documentos": [
     {
@@ -24021,17 +26122,17 @@
    "remuneracao_maxima": 7960.97,
    "cargos": [
     {
+     "nome": "Analista Judiciário – Área fim",
+     "remuneracao": 7960.97,
+     "areas": [
+      "Tribunais"
+     ]
+    },
+    {
      "nome": "Enfermeiro Enfermagem",
      "remuneracao": null,
      "areas": [
       "Saúde"
-     ]
-    },
-    {
-     "nome": "Analista Judiciário – Área Fim",
-     "remuneracao": 7960.97,
-     "areas": [
-      "Tribunais"
      ]
     },
     {
@@ -24145,6 +26246,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Jurídica",
     "Tribunais"
    ],
    "url": "https://conhecimento.fgv.br/concursos/tjmsjuiz25",
@@ -24153,7 +26255,27 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Prova Objetiva Seletiva: DISCIPLINAS QUESTÕES Bloco",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Bloco II: Direito Penal Direito Processual Penal Direito Constitucional Direito Eleitoral",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica"
+     ]
+    },
+    {
+     "nome": "Bloco III: Direito Empresarial Direito Tributário e Financeiro Direito Ambiental Direito Administrativo…",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica"
+     ]
+    }
+   ],
    "documentos": [
     {
      "titulo": "EDITAL Nº 16/2026 - Da Divulgação do Resultado do Julgamento de Recurso de Inscrição Definitiva e do Resultado da Heteroidentificação",
@@ -24481,6 +26603,11 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Administrativa",
+    "Contabilidade e Economia",
+    "Engenharia",
+    "Jurídica",
+    "TI",
     "Tribunais"
    ],
    "url": "https://conhecimento.fgv.br/concursos/tjmtservidor",
@@ -24489,7 +26616,426 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "CN CI Secretaria do Tribunal de Justiça - Analista Judiciário - Administração",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Analista Judiciário - Tecnologia da Informação",
+     "remuneracao": null,
+     "areas": [
+      "TI",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Analista Judiciário - Ciências Contábeis",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Analista Judiciário - Direito",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Analista Judiciário - Economia",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Analista Judiciário - Engenharia Civil",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Analista Judiciário - Engenharia Elétrica",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Oficial de Justiça",
+     "remuneracao": null,
+     "areas": [
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Secretaria do Tribunal de Justiça - Técnico Judiciário",
+     "remuneracao": null,
+     "areas": [
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Unidade/Cargo Analista Judiciário - Direito Oficial de Justiça Técnico Judiciário Vagas AC PCD CN CI",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Comarca de Cuiabá",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Poconé",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Santo Antônio de Leverger",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Várzea Grande",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Cáceres",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Comodoro",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Jauru",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Mirassol D´Oeste",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Pontes e Lacerda",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Porto Esperidião",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Rio Branco CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de São José dos Quatro Marcos",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Vila Bela da Santíssima Trindade",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Colíder CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Feliz Natal",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Itaúba CR CR CR CR 2 vagas - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Lucas do Rio Verde",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Marcelândia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Nova Ubiratã",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Sinop",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Sorriso",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Tapurah CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Terra Nova do Norte CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Vera",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Apiacás CR CR CR CR 2 vagas - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Guarantã do Norte",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Matupá",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Nova Canaã do Norte",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Nova Monte Verde",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Paranaíta",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Peixoto de Azevedo CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Diamantino",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Nobres",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Nortelândia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Nova Mutum",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Rosário Oeste",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de São José do Rio Claro",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Campo Novo do Parecis",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Sapezal",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Tangará da Serra",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Alto Garças",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Alto Taquari",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Guiratinga",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Itiquira",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Pedra Preta",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Rondonópolis CR CR CR CR 2 vagas - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Dom Aquino",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Jaciara",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Juscimeira",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Paranatinga",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Poxoréu",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Primavera do Leste",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Barra do Garças",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Campinápolis CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Canarana",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Nova Xavantina",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Novo São Joaquim CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Brasnorte CR CR CR CR 2 vagas - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Colniza CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Cotriguaçu",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Juara",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Juína CR CR CR CR 2 vagas - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Porto dos Gaúchos",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Tabaporã",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Querência",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Ribeirão Cascalheira CR CR CR CR 1 vaga - sorteio",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de São Félix do Araguaia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Comarca de Vila Rica",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "COMUNICADO - Cumprimento de Decisão Judicial",
@@ -26161,11 +28707,11 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
+   "remuneracao_maxima": 10388.29,
    "cargos": [
     {
      "nome": "Analista Administrativo",
-     "remuneracao": null,
+     "remuneracao": 10388.29,
      "areas": [
       "Administrativa"
      ]
@@ -26247,7 +28793,7 @@
     },
     {
      "nome": "Técnico Judiciário Auxiliar",
-     "remuneracao": null,
+     "remuneracao": 6034.81,
      "areas": [
       "Tribunais"
      ]
@@ -26932,7 +29478,15 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Juiz Substituto",
+     "remuneracao": null,
+     "areas": [
+      "Tribunais"
+     ]
+    }
+   ],
    "documentos": [
     {
      "titulo": "Edital nº 102/2025 - Resultado final da Quinta Etapa e classificação e nota final no concurso",
@@ -27276,6 +29830,11 @@
    "situacao": "andamento",
    "esfera": "federal",
    "areas": [
+    "Administrativa",
+    "Contabilidade e Economia",
+    "Engenharia",
+    "Saúde",
+    "TI",
     "Tribunais"
    ],
    "url": "https://conhecimento.fgv.br/concursos/trt24",
@@ -27284,7 +29843,92 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Analista Judiciário Área Judiciária – Sem",
+     "remuneracao": null,
+     "areas": [
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Judiciária – Oficial de Justiça Avaliador Federal",
+     "remuneracao": null,
+     "areas": [
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Administrativa - Sem",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Administrativa – Contabilidade",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Apoio Especializado – Serviço Social",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Apoio Especializado – Estatística",
+     "remuneracao": null,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Apoio Especializado – Medicina",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Apoio Especializado – Psicologia",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Apoio Especializado – Engenharia",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Apoio Especializado – Tecnologia da Informação",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "Técnico Judiciário Área Administrativa - Sem",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Apoio Especializado – Enfermagem do Trabalho",
+     "remuneracao": null,
+     "areas": [
+      "Saúde"
+     ]
+    },
+    {
+     "nome": "Administrativa – Agente da Polícia Judicial",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Convocação para o Teste de Aptidão Física",
@@ -28094,7 +30738,7 @@
     },
     {
      "titulo": "Edital",
-     "tipo": "outro",
+     "tipo": "edital_abertura",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cfc-edital-2026.3-05.10.2026.pdf",
      "data": "2026-10-05"
     }
@@ -28336,7 +30980,18 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "REALIZAÇÃO DA PROVA",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Sob pena de ser eliminada do presente ENAC, antes de entrar na sala de prova, a pessoa examinanda…",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Retificação ao edital de homologação do resultado",
@@ -28446,7 +31101,23 @@
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "A FGV divulgará a imagem do cartão de respostas da pessoa examinanda que realizar a prova, habilitada…",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "REALIZAÇÃO DA PROVA",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "A FGV não se responsabilizará por perdas ou extravios de objetos ou de equipamentos eletrônicos…",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado definitivo dos pedidos de atendimento especial",
@@ -28974,7 +31645,7 @@
     },
     {
      "titulo": "Edital",
-     "tipo": "outro",
+     "tipo": "edital_abertura",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-enam-2026_2_fnl.pdf",
      "data": "2026-08-24"
     }
@@ -28990,15 +31661,67 @@
    "situacao": "andamento",
    "esfera": "municipal",
    "areas": [
-    "Legislativo"
+    "Comunicação",
+    "Contabilidade e Economia",
+    "Educação",
+    "Legislativo",
+    "TI"
    ],
    "url": "https://conhecimento.fgv.br/govvaladares26",
    "ano": 2026,
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
-   "cargos": [],
+   "remuneracao_maxima": 5135.87,
+   "cargos": [
+    {
+     "nome": "Comunicador Social - Jornalista",
+     "remuneracao": 5135.87,
+     "areas": [
+      "Comunicação"
+     ]
+    },
+    {
+     "nome": "Consultor Legislativo",
+     "remuneracao": 5135.87,
+     "areas": [
+      "Legislativo"
+     ]
+    },
+    {
+     "nome": "Contador",
+     "remuneracao": 5135.87,
+     "areas": [
+      "Contabilidade e Economia"
+     ]
+    },
+    {
+     "nome": "Técnico Superior em Informática",
+     "remuneracao": 5135.87,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "Pedagogo",
+     "remuneracao": 5135.87,
+     "areas": [
+      "Educação"
+     ]
+    },
+    {
+     "nome": "CÂMARA MUNICIPAL DE GOVERNADOR VALADARES",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Designer Gráfico",
+     "remuneracao": 5135.87,
+     "areas": [
+      "Comunicação"
+     ]
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado definitivo da análise dos pedidos de atendimentos especiais",
@@ -29514,7 +32237,7 @@
     },
     {
      "titulo": "Edital",
-     "tipo": "outro",
+     "tipo": "edital_abertura",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/152-edital-sem-assinatura-ps-2026.pdf",
      "data": "2025-06-16"
     }
@@ -29591,14 +32314,37 @@
    "banca": "fgv",
    "situacao": "andamento",
    "esfera": "federal",
-   "areas": [],
+   "areas": [
+    "Administrativa",
+    "Engenharia"
+   ],
    "url": "https://conhecimento.fgv.br/processoseletivo/inb2026",
    "ano": 2026,
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
    "remuneracao_maxima": null,
-   "cargos": [],
+   "cargos": [
+    {
+     "nome": "Administrador",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa"
+     ]
+    },
+    {
+     "nome": "Engenheiro de Segurança do Trabalho",
+     "remuneracao": null,
+     "areas": [
+      "Engenharia"
+     ]
+    },
+    {
+     "nome": "Técnico Técnico em Radioproteção",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
@@ -29614,7 +32360,7 @@
     },
     {
      "titulo": "Edital",
-     "tipo": "outro",
+     "tipo": "edital_abertura",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-inb-2026-revisao-09.10-alterado-002-fgv-versao-final.pdf",
      "data": "2026-10-13"
     }
@@ -29772,8 +32518,194 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
-   "cargos": [],
+   "remuneracao_maxima": 4106.09,
+   "cargos": [
+    {
+     "nome": "Anestesiologia(4)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Cardiovascular(3) (Cardio Torácica)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Geral",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Clínica Médica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Dermatologia(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Ginecologia e Obstetrícia(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Medicina em Emergência(3)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Medicina Intensiva",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Neurocirurgia(1)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Neurologia(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Oftalmologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Ortopedia e Traumatologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Otorrinolaringologia(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Patologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Pediatria(4)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Psiquiatria",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Radiologia e Diagnóstico por Imagem",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Programa em processo de re-credenciamento e aguardando aprovação da Comissão Nacional de Residência…",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Aparelho Digestivo",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia do Trauma",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Oncológica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Plástica(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Vascular(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Coloproctologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Endocrinologia e Metabologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Hematologia e Hemoterapia(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Mastologia(3)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Medicina Paliativa",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Medicina Intensiva Pediátrica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Nefrologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Neonatologia(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Neurologia Pediátrica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Oncologia Clínica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Psiquiatria da Infância e Adolescência(3)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Reumatologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Urologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "OBSERVAÇÃO: Os Programas de Residência Médica com Pré-requisito em Cirurgia Geral (3 anos) também aceitam a…",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "COMUNICADO - Cumprimento de Decisões Judiciais",
@@ -29884,8 +32816,114 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": null,
-   "cargos": [],
+   "remuneracao_maxima": 4106.09,
+   "cargos": [
+    {
+     "nome": "Anestesiologia",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Radiologia e Diagnóstico por Imagem",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Aparelho Digestivo",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia do Trauma",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Oncológica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Plástica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Cirurgia Vascular",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Coloproctologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Endocrinologia e Metabologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Hematologia e Hemoterapia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Mastologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Medicina Paliativa(2)",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Medicina Intensiva Pediátrica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Nefrologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Neonatologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Neurologia Pediátrica(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Oncologia Clínica",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Psiquiatria da Infância e Adolescência(2)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Reumatologia(1)",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Urologia",
+     "remuneracao": 4106.09,
+     "areas": []
+    },
+    {
+     "nome": "Programa em processo de aumento de vagas e aguardando aprovação da Comissão Nacional",
+     "remuneracao": null,
+     "areas": []
+    }
+   ],
    "documentos": [
     {
      "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
@@ -29969,6 +33007,7 @@
    "situacao": "andamento",
    "esfera": "estadual",
    "areas": [
+    "Jurídica",
     "Tribunais"
    ],
    "url": "https://conhecimento.fgv.br/tjbajuizleigo26",
@@ -29979,14 +33018,22 @@
    "remuneracao_maxima": null,
    "cargos": [
     {
-     "nome": "Juiz Leigo",
+     "nome": "IMPEDIMENTO E SUSPEIÇÃO E REMUNERAÇÃO 1. REGIME JURÍDICO 1.1.Os juízes leigos são auxiliares da justiça que…",
+     "remuneracao": null,
+     "areas": [
+      "Jurídica",
+      "Tribunais"
+     ]
+    },
+    {
+     "nome": "Turmas Recursais ou no Grupo de Saneamento da Coordenação dos Juizados…",
      "remuneracao": null,
      "areas": [
       "Tribunais"
      ]
     },
     {
-     "nome": "TRIBUNAL",
+     "nome": "Unidade de Valor referente à minuta homologada ou à…",
      "remuneracao": null,
      "areas": []
     }

@@ -98,6 +98,21 @@ class FgvEditalTests(unittest.TestCase):
         self.assertIn("Contador", nomes)
         self.assertTrue(all(c.remuneracao is None for c in cargos))
 
+    def test_valor_sem_cifrao_e_localidade_quebrada(self):
+        # NAV Brasil 26: coluna "Remuneração (R$)" sem o "R$" no valor, e a cidade
+        # quebrada em duas linhas ("Rio de Janeiro -" / "RJ 4.632,10").
+        cargos = {c.nome: c.remuneracao for c in analisar(edital("fgv_navbrasil26"))}
+        self.assertEqual(cargos["Assistente Social"], Decimal("4632.10"))
+        self.assertEqual(cargos["Advogado"], Decimal("6186.00"))
+        self.assertEqual(cargos["Engenheiro Civil"], Decimal("10868.68"))
+        self.assertFalse(any("RJ" in nome or "S.A." in nome for nome in cargos))
+
+    def test_quadro_em_anexo_com_linhas_por_uf(self):
+        # MPU 25: o quadro está no "ANEXO VII – DISTRIBUIÇÃO DE VAGAS POR UF", com uma linha por UF.
+        nomes = [c.nome for c in analisar(edital("fgv_mpu25_anexo"))]
+        self.assertEqual(nomes[:2], ["Analista do MPU – Direito", "Técnico do MPU – Administração"])
+        self.assertIn("Técnico do MPU - Polícia Institucional", nomes)
+
     def test_quadro_com_regioes_e_classe(self):
         nomes = [c.nome for c in analisar(edital("fgv_dpero25"))]
         self.assertIn("TÉCNICO DA DEFENSORIA PÚBLICA – Técnico em Informática", nomes)

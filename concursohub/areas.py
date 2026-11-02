@@ -44,7 +44,8 @@ AREAS = {
         "orgao": ["policia*", "pf", "prf", "pc", "pm", "pcdf", "pmdf", "cbm", "cbmdf", "corpo de bombeiros",
                   "policia penal", "depen", "guarda municipal", "seguranca municipal", "administracao penitenciaria"],
         "cargo": ["delegado*", "agente de policia", "escrivao", "perito criminal", "papiloscopista", "investigador*",
-                  "soldado", "policial*", "agente penitenciario", "policia penal", "datiloscopista", "medico-legista"],
+                  "soldado", "policial*", "agente penitenciario", "policia penal", "datiloscopista", "medico-legista",
+                  "policia institucional", "seguranca institucional"],
     },
     "Bancária": {
         "orgao": ["banco do brasil", "caixa economica", "caixa", "bnb", "banco do nordeste", "bndes", "banco central",
@@ -110,7 +111,8 @@ AREAS = {
         "cargo": ["assistente administrativo", "auxiliar administrativo", "agente administrativo", "analista administrativo",
                   "tecnico administrativo", "administrador*", "tecnico em administracao", "analista em administracao",
                   "area administrativa", "administracao e governanca", "analista tecnico-administrativo",
-                  "assistente tecnico-administrativo"],
+                  "assistente tecnico-administrativo", "administracao"],
+        "exceto": ["administracao penitenciaria"],
     },
 }
 

@@ -16,6 +16,8 @@ _REGRAS_TIPO = [
     (TipoDocumento.EDITAL_ABERTURA, r"\babertura\b.{0,40}\b(?:atualizad|consolidad)|^edital \(?(?:retificad|consolidad|atualizad)"),
     # O que a banca intitula "Comunicado – …" é aviso, mesmo citando resultado/recurso.
     (TipoDocumento.COMUNICADO, r"^comunicado\b"),
+    # Na FGV, o edital de abertura às vezes se chama só "Edital".
+    (TipoDocumento.EDITAL_ABERTURA, r"^edital$"),
     # Respostas a impugnações e listas de candidatos citam o edital, mas não são ele.
     (TipoDocumento.COMUNICADO, r"\bimpugna"),
     (TipoDocumento.RESULTADO, r"^relacao d[eo]s? candidatos (?!inscritos)"),

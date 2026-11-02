@@ -12,8 +12,9 @@ formatos principais:
 - Quadro de vagas (FGV): na seção "DOS CARGOS", uma tabela com o nome do
   cargo/perfil/especialidade, os números de vagas e, às vezes, o vencimento.
   O texto do PDF quebra os nomes em várias linhas, e quadro_de_vagas() junta os
-  pedaços. Alguns editais põem a remuneração num anexo
-  ("ANEXO III – REMUNERAÇÃO… CARGO: ANALISTA… R$ …").
+  pedaços. O quadro também pode estar num anexo ("ANEXO VII – DISTRIBUIÇÃO DE
+  VAGAS POR UF", com uma linha por UF), e a remuneração, em outro
+  ("ANEXO III – REMUNERAÇÃO… CARGO: ANALISTA… R$ …"). Por isso o PDF é lido inteiro.
 
 Tudo aqui é heurística: o que não dá para ler com segurança fica de fora, e o
 concurso continua com as áreas do título. Caso novo: salve o trecho do edital em
@@ -27,8 +28,9 @@ from decimal import Decimal
 from .texto import limpar_espacos, normalizar, parse_decimal
 
 # Mude quando a extração mudar: os editais já lidos serão lidos de novo.
-VERSAO = 5
-MAX_PAGINAS = 60
+VERSAO = 7
+# Editais grandes (Ebserh, MPU) põem o quadro de vagas em anexo, depois da página 100.
+MAX_PAGINAS = 400
 
 
 @dataclass
@@ -220,19 +222,28 @@ _CABECALHO_TABELA = set(
     "negro negros indigena indigenas quilombola quilombolas afrodescendentes pretos pardos hipossuficientes "
     "economicos candidatos candidato pessoa ampla concorrencia localidade localidades lotacao municipio regiao "
     "quadro e do da das dos para pessoas com deficiencia valor taxa inscricao h horas habilitacao incompleto "
-    "completo publico efetivo candidat indios os ou".split()
+    "completo publico efetivo candidat indios os ou minoria etnico racial etnico-racial semana formacao "
+    "macrorregiao n i q".split()
 )
 # Sinais de que a "linha da tabela" não é um cargo (nota, requisito, cabeçalho de página).
 _LIXO = re.compile(
     r"\bedital\b|\bprefeitura de\b|reconhecid|\bcomplet[oa]\b|aproximadamente|\btotal\b|\bmec\b|\bp[aá]gina\b"
-    r"|\blegenda\b|imediatas|ampla concorr|\bnegros\b|\bpardos\b",
+    r"|\blegenda\b|imediatas|ampla concorr|\bnegros\b|\bpardos\b|fornecid|institui[çc][ãa]o|secretaria de estado"
+    r"|\bdepend[êe]ncias\b|\bS\.A\.",
     re.IGNORECASE,
 )
 _CAUDA_NUMERICA = re.compile(
-    r"(?:\s+(?:R\$\s*[\d.,]+|\d+[hH]\b|\d+\s*[hH]\b|\d+|CR|\+|-|–|\*+|FUNDAMENTAL|M[ÉE]DIO|SUPERIOR))+\s*$"
+    r"(?:\s+(?:R\$\s*[\d.,]+|[\d.]+,\d{2}|\d+\s*horas?|\d+[hH]\b|\d+\s*[hH]\b|\d+|CR|\+|-|–|\*+"
+    r"|FUNDAMENTAL|M[ÉE]DIO|SUPERIOR))+\s*$"
 )
-_SO_NUMEROS = re.compile(r"^(?:R\$\s*[\d.,]+|\d+[hH]?|CR|\+|-|–|\*+|\s)+$")
-_LOCALIDADE = re.compile(r"/\s*[A-Z]{2}\b|^Regi[ãa]o\s+[IVX]+\b|^Polo\b", re.IGNORECASE)
+_SO_NUMEROS = re.compile(r"^(?:R\$\s*[\d.,]+|[\d.]+,\d{2}|\d+[hH]?|CR|\+|-|–|\*+|\s)+$")
+# Valor sem "R$" (coluna "Remuneração (R$)"): só com separador de milhar, para não pegar vagas.
+_VALOR_SOLTO = r"\b(\d{1,3}(?:\.\d{3})+,\d{2})\b"
+_UFS = set("AC AL AP AM BA CE DF ES GO MA MT MS MG PA PB PR PE PI RJ RN RS RO RR SC SP SE TO".split())
+_SIGLAS_UF = "AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO"
+_LOCALIDADE = re.compile(
+    rf"/\s*[A-Z]{{2}}\b|/\s*$|\s[–-]\s*(?:{_SIGLAS_UF})\b|^Regi[ãa]o\s+[IVX]+\b|^Polo\b", re.IGNORECASE
+)
 _CORTE_NOME = re.compile(r"\b(?:diploma|certificado|curso|graduac|conclus|ensino|registro)", re.IGNORECASE)
 _PREFIXO_CARGO = re.compile(r"\bCARGO(?:/ESPECIALIDADE)?\s*:\s*(.+)$", re.IGNORECASE)
 
@@ -304,7 +315,7 @@ def _limpar_nome(nome: str) -> str:
     nome = _sem_localidade(limpar_espacos(nome))
     nome = re.split(r"\s*R\$", nome)[0]  # "… Especialidade Direito R$ 7.405,92 Aproximadamente…"
     # Colunas de vagas grudadas no nome: "Professor de Arte 1 (A) 1 (A)…", "Veterinária - - - -".
-    nome = re.split(r"\s+\d+\s*\([A-Z]\)|\s+-\s+-", nome)[0]
+    nome = re.split(r"\s+\d+\s*\([A-Z]\)|\s+-\s+-|\s+\d+(?:\s+\d+)+\b", nome)[0]
     if len(nome) > 110:  # requisito grudado no nome; fica o começo
         nome = nome[:110].rsplit(" ", 1)[0] + "…"
     nome = _sem_cabecalho_nas_pontas(nome)
@@ -312,11 +323,43 @@ def _limpar_nome(nome: str) -> str:
     nome = re.sub(r"^\d+\s*[.\-–)]?\s*", "", nome)  # "1. ANÁLISE DE NEGÓCIO" → "ANÁLISE DE NEGÓCIO"
     nome = re.split(r"\s+Regi[ãa]o\s+[IVX]+\b", nome)[0]
     nome = re.sub(r"\s*[–-]?\s*Classe\s+[A-Z]\b.*$", "", nome)
+    # Cabeçalho de página em maiúsculas grudado no começo ("EMPRESA BRASILEIRA DE SERVIÇOS
+    # HOSPITALARES … Médico - Cardiologia"): sai, se o resto do nome é em caixa normal.
+    cabecalho = re.match(r"^(?:[A-ZÀ-Ú0-9][A-ZÀ-Ú0-9.\-–]*\s+){3,}(?=[A-ZÀ-Ú][a-zà-ú])", nome)
+    if cabecalho:
+        nome = nome[cabecalho.end():]
     return _sem_cabecalho_nas_pontas(nome.strip(" ,;:–-")).strip(" ,;:–-")
 
 
-def quadro_de_vagas(texto: str) -> list[CargoEdital]:
+_ANEXO = re.compile(r"(?m)^[ \t]*ANEXO\s+[IVXL]+\b[^\n]*$", re.IGNORECASE)
+_ANEXO_DE_QUADRO = re.compile(r"vaga|cargo|quadro|salari|remunera")
+_ANEXO_DE_OUTRA_COISA = re.compile(
+    r"atribui|conteudo|perfil profiss|cronograma|modelo|declara|requerimento|formulario|laudo|titulos|autodeclara"
+)
+
+
+def regioes_de_quadro(texto: str) -> list[tuple[int, int]]:
+    """Onde pode haver quadro de vagas: a seção de cargos e os anexos de vagas/cargos
+    ("ANEXO VII – DISTRIBUIÇÃO DE VAGAS POR UF", "ANEXO VI – DO CARGO")."""
+    regioes = []
     inicio, fim = _secao_cargos(texto)
+    if fim:
+        regioes.append((inicio, fim))
+    cabecalhos = list(_ANEXO.finditer(texto))
+    for i, m in enumerate(cabecalhos):
+        titulo = normalizar(texto[m.start(): m.end() + 150])  # o título às vezes continua na linha de baixo
+        if not _ANEXO_DE_QUADRO.search(titulo) or _ANEXO_DE_OUTRA_COISA.search(titulo):
+            continue
+        proximo = cabecalhos[i + 1].start() if i + 1 < len(cabecalhos) else len(texto)
+        if proximo - m.end() < 300:  # linha do sumário ("Anexo II – Quadro de Vagas;"), não o anexo
+            continue
+        regioes.append((m.end(), min(proximo, m.end() + 30000)))
+    return regioes
+
+
+def quadro_de_vagas(texto: str, inicio: int | None = None, fim: int | None = None) -> list[CargoEdital]:
+    if inicio is None:
+        inicio, fim = _secao_cargos(texto)
     cargos: list[CargoEdital] = []
     pedacos: list[str] = []
     prefixo = ""
@@ -338,9 +381,13 @@ def quadro_de_vagas(texto: str) -> list[CargoEdital]:
         if cauda and not re.search(r"\d|CR", cauda.group()):  # "TI –": o nome continua na linha de baixo
             cauda = None
         texto_linha = "" if _SO_NUMEROS.match(linha) else (linha[: cauda.start()].strip() if cauda else linha)
+        if cauda and texto_linha.upper() in _UFS:  # "AC 1 CR 1 CR 2 + CR": linha de UF, não cabeçalho
+            texto_linha = ""
         if texto_linha and (_so_cabecalho(texto_linha) or normal.startswith(("carga horaria", "vencimento", "remuneracao"))):
-            pedacos = []
-            continue
+            if not (cauda and pedacos):
+                pedacos = []
+                continue
+            texto_linha = ""  # "semanais R$ 10.577,48": resto de coluna; a linha fecha o cargo de cima
         if not cauda and not _SO_NUMEROS.match(linha):
             pedacos.append(texto_linha)
             continue
@@ -349,7 +396,7 @@ def quadro_de_vagas(texto: str) -> list[CargoEdital]:
             pedacos.append(texto_linha)
         if pedacos:
             nome = _limpar_nome(_juntar(pedacos))
-            valor = re.search(_VALOR, linha)
+            valor = re.search(_VALOR, linha) or re.search(_VALOR_SOLTO, linha)
             if valor and not _reais(valor.group(1)):  # "Nível Superior - Direito R$ 340,00": tabela de taxas
                 pedacos = []
                 continue
@@ -372,6 +419,9 @@ def quadro_de_vagas(texto: str) -> list[CargoEdital]:
         if anterior.remuneracao is None:
             anterior.remuneracao = cargo.remuneracao
     resultado = list(unicos.values())
+    # Centenas de nomes diferentes é tabela de lotação (escola, diretoria regional), não de cargos.
+    if len(resultado) > 200:
+        return []
     _remuneracao_do_anexo(texto, resultado)
     return resultado
 
@@ -416,7 +466,8 @@ def analisar(texto: str) -> list[CargoEdital]:
     """Cargos (com remuneração, quando houver) encontrados no texto do edital.
     Tenta os três formatos e fica com o que achou mais cargos com remuneração."""
     texto = _limpar_texto(texto)
-    opcoes = [cargos_numerados(texto), cargos_em_subitens(texto), quadro_de_vagas(texto)]
+    opcoes = [cargos_numerados(texto), cargos_em_subitens(texto)]
+    opcoes += [quadro_de_vagas(texto, inicio, fim) for inicio, fim in regioes_de_quadro(texto)]
     return max(opcoes, key=lambda cargos: (sum(1 for c in cargos if c.remuneracao), len(cargos)))
 
 

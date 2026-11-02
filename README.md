@@ -68,7 +68,7 @@ Coletar só uma banca: `python -m concursohub.coletar cebraspe`. As outras ficam
 
 ## Limites conhecidos
 
-- **Leitura dos editais é heurística.** Os da Cebraspe seguem um padrão e saem bem: todos os concursos com cargos e quase todos com salário. Os da FGV variam muito: cerca de um terço sai com cargos. Ficam de fora os editais com o quadro de vagas num anexo (MPU, Ebserh, CPNU) e os de cargo único (juiz, promotor), que mesmo assim recebem a área pelo título. Quando a tabela não é entendida, o site não mostra cargos, em vez de mostrar lixo.
+- **Leitura dos editais é heurística.** Os da Cebraspe seguem um padrão e saem bem: todos os concursos com cargos e quase todos com salário. Os da FGV variam muito: cerca de metade sai com cargos, inclusive quando o quadro de vagas está num anexo (MPU, Ebserh). Ficam de fora os de cargo único (juiz, promotor, notário), que mesmo assim recebem a área pelo título, e alguns formatos de tabela ainda não reconhecidos (TCE-PE, PC-PR, TJ-RJ servidores). Quando a tabela não é entendida, o site não mostra cargos, em vez de mostrar lixo.
 - **FGV:** sem datas de inscrição, porque a página não traz essa informação.
 - **A lista da FGV inclui exames que não são concurso** (Exame de Suficiência do CFC, ENAM, residências).
 - **Só concursos ativos:** os encerrados saem do site quando a banca os tira da lista de ativos.

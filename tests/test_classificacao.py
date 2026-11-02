@@ -14,6 +14,8 @@ class TipoDocumentoTests(unittest.TestCase):
             "Edital nº 1 - Abertura": T.EDITAL_ABERTURA,
             "Edital nº 1 - Abertura - Atualizado conforme retificações": T.EDITAL_ABERTURA,
             "Edital (retificado em 26/10/2026)": T.EDITAL_ABERTURA,
+            "Edital": T.EDITAL_ABERTURA,  # FGV (DPE-RJ 26, INB 26)
+            "EDITAL Nº 112/2025 - DRH/SEAP - PcD": T.OUTRO,
             "Edital nº 2 – Retificação do subitem 6.2.4 e do Anexo I – Cronograma Previsto do Edital nº 1": T.RETIFICACAO,
             "1ª Retificação": T.RETIFICACAO,
             "Comunicado – Pagamento da taxa de inscrição via Pix ficará indisponível": T.COMUNICADO,
