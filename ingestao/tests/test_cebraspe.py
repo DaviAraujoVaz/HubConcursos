@@ -117,6 +117,8 @@ class ColetaCebraspeTests(TesteComDados):
         self.assertEqual(tipos["CGU_26_AFFC/FDEEFB41.pdf"], TipoDocumento.EDITAL_ABERTURA)
         self.assertEqual(tipos["CGU_26_AFFC/8CC969EF.pdf"], TipoDocumento.RETIFICACAO)
         self.assertTrue(all(d.sha256 and d.arquivo for d in docs))
+        # Primeira coleta da fonte: o acervo entra sem gerar aviso.
+        self.assertFalse(EventoDominio.objects.filter(processado_em__isnull=True).exists())
 
         # Segunda rodada: nada novo, nenhum evento a mais.
         eventos_antes = EventoDominio.objects.count()
@@ -140,8 +142,11 @@ class ColetaCebraspeTests(TesteComDados):
         cgu.refresh_from_db()
         self.assertEqual(cgu.titulo, "CGU 2026 — Auditor Federal de Finanças e Controle")
         self.assertEqual(cgu.situacao, Situacao.ANDAMENTO)
+        # Da segunda coleta em diante, as mudanças ficam pendentes para o resumo.
         self.assertTrue(
-            EventoDominio.objects.filter(tipo=EventoDominio.Tipo.CONCURSO_MUDOU_SITUACAO, concurso=cgu).exists()
+            EventoDominio.objects.filter(
+                tipo=EventoDominio.Tipo.CONCURSO_MUDOU_SITUACAO, concurso=cgu, processado_em__isnull=True
+            ).exists()
         )
 
     def test_incluir_encerrados(self):

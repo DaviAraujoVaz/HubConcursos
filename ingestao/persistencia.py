@@ -100,6 +100,7 @@ def _persistir_concurso(fonte, adaptador, extraido: ConcursoExtraido, baixar: bo
             EventoDominio.Tipo.CONCURSO_MUDOU_SITUACAO,
             concurso=concurso,
             titulo=concurso.titulo,
+            fonte=fonte.slug,
             de=situacao_anterior,
             para=concurso.situacao,
         )

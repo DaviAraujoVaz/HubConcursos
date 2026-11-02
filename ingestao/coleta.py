@@ -17,6 +17,8 @@ def executar(slug: str, baixar_arquivos: bool | None = None, **opcoes) -> Execuc
         raise ValueError(f"Fonte desconhecida: {slug}. Disponíveis: {', '.join(sorted(REGISTRO))}")
     classe = REGISTRO[slug]
     fonte, _ = Fonte.objects.get_or_create(slug=slug, defaults={"nome": classe.nome})
+    # A primeira coleta traz o acervo todo da fonte; avisar sobre ele seria uma enxurrada.
+    primeira = fonte.ultimo_sucesso is None
     execucao = Execucao.objects.create(fonte=fonte)
     fonte.ultima_execucao = timezone.now()
     fonte.save(update_fields=["ultima_execucao"])
@@ -44,6 +46,8 @@ def executar(slug: str, baixar_arquivos: bool | None = None, **opcoes) -> Execuc
         execucao.concursos_novos = total.concursos_novos
         execucao.documentos_novos = total.documentos_novos
         execucao.save()
+        if primeira:
+            silenciar_eventos(slug, desde=execucao.inicio)
     log.info(
         "%s: %d concursos vistos, %d novos, %d documentos novos (%s)",
         slug,
@@ -53,3 +57,13 @@ def executar(slug: str, baixar_arquivos: bool | None = None, **opcoes) -> Execuc
         execucao.get_status_display(),
     )
     return execucao
+
+
+def silenciar_eventos(slug: str, desde) -> int:
+    """Marca como lidos, sem aviso, os eventos da fonte criados desde `desde`.
+    Falhas de coleta continuam avisando."""
+    return (
+        EventoDominio.objects.filter(processado_em__isnull=True, criado_em__gte=desde, payload__fonte=slug)
+        .exclude(tipo=EventoDominio.Tipo.COLETA_FALHOU)
+        .update(processado_em=timezone.now())
+    )

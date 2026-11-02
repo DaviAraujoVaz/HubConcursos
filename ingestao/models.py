@@ -6,8 +6,10 @@
 - Execucao: histórico de cada rodada de coleta, para saber quando algo quebrou.
 - EventoDominio: "caixa de saída" de acontecimentos (concurso novo, documento novo,
   coleta falhou). Avisos e features futuras leem daqui sem mexer na coleta.
+- ResumoAviso: cada resumo de avisos enviado por e-mail (ou a tentativa que falhou).
 """
 from django.db import models
+from django.utils import timezone
 
 
 class Fonte(models.Model):
@@ -102,6 +104,14 @@ class EventoDominio(models.Model):
     documento = models.ForeignKey(Documento, on_delete=models.CASCADE, null=True, blank=True)
     criado_em = models.DateTimeField(auto_now_add=True)
     processado_em = models.DateTimeField(null=True, blank=True)
+    resumo = models.ForeignKey(
+        "ResumoAviso",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="eventos",
+        help_text="Resumo em que o evento foi avisado. Vazio = processado sem aviso.",
+    )
 
     class Meta:
         verbose_name = "evento de domínio"
@@ -110,3 +120,20 @@ class EventoDominio(models.Model):
 
     def __str__(self):
         return f"{self.get_tipo_display()} ({self.criado_em:%d/%m %H:%M})"
+
+
+class ResumoAviso(models.Model):
+    enviado_em = models.DateTimeField(default=timezone.now)
+    destinatario = models.CharField(max_length=254, blank=True, help_text="Vazio = só registrado no log.")
+    assunto = models.CharField(max_length=200)
+    texto = models.TextField()
+    ok = models.BooleanField(default=True)
+    erro = models.TextField(blank=True)
+
+    class Meta:
+        verbose_name = "resumo de avisos"
+        verbose_name_plural = "resumos de avisos"
+        ordering = ["-enviado_em"]
+
+    def __str__(self):
+        return f"{self.assunto} ({self.enviado_em:%d/%m %H:%M})"

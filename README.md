@@ -1,12 +1,42 @@
 # ConcursoHub
 
-Hub pessoal de concursos públicos. Coleta automaticamente os concursos da **Cebraspe** e da **FGV** e os atos sobre concursos publicados no **Diário Oficial da União**. Organiza tudo num painel com filtros por **banca, esfera e área de atuação**, e avisa você no Telegram quando sai algo que interessa.
+Hub pessoal de concursos públicos. Coleta automaticamente os concursos da **Cebraspe** e da **FGV** e os atos sobre concursos publicados no **Diário Oficial da União**. Organiza tudo num painel com filtros por **banca, esfera e área de atuação**, e manda um resumo diário por e-mail com o que interessa.
 
 Toda informação aponta para o documento oficial de onde saiu, e cada arquivo baixado fica guardado sem alteração.
 
 ---
 
 ## Rodando pela primeira vez
+
+Há dois jeitos: direto no Windows, com Python (é como roda hoje), ou com Docker (o caminho para uma VPS).
+
+### No Windows, sem Docker
+
+Pré-requisito: Python 3.13.
+
+```powershell
+# 1. Ambiente e configuração
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+copy .env.example .env        # abra o .env e preencha (ver abaixo)
+
+# 2. Banco (SQLite em db.sqlite3) e seu usuário do painel
+.venv\Scripts\python manage.py migrate
+.venv\Scripts\python manage.py createsuperuser
+
+# 3. Primeira coleta (só concursos ativos; leva de 1 a 3 horas por causa dos PDFs)
+.venv\Scripts\python manage.py coletar cebraspe fgv
+
+# 4. Painel em http://localhost:8000
+.venv\Scripts\python manage.py runserver
+
+# 5. Coleta e resumo automáticos a cada 3 h (Agendador de Tarefas do Windows)
+powershell -ExecutionPolicy Bypass -File scripts\agendar_rotina.ps1
+```
+
+A tarefa roda `scripts\rotina.ps1`, que guarda a saída em `dados\logs\rotina.log`. Ela só roda com o computador ligado. Se ele estava desligado no horário, roda assim que possível.
+
+### Com Docker
 
 Pré-requisito: [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado.
 
@@ -20,16 +50,15 @@ docker compose up -d --build
 # 3. Criar seu usuário do painel
 docker compose exec web python manage.py createsuperuser
 
-# 4. Primeira coleta (só concursos ativos; leva alguns minutos por causa dos PDFs)
+# 4. Primeira coleta (só concursos ativos; leva de 1 a 3 horas por causa dos PDFs)
 docker compose exec web python manage.py coletar cebraspe fgv
-
-# 5. Marcar o que já existia como lido, para não receber centenas de avisos de uma vez
-docker compose exec web python manage.py avisar --silenciar-pendentes
 ```
 
 Abra **http://localhost:8000** e entre com o usuário criado.
 
-A partir daí, o serviço `agendador` roda sozinho a cada 3 horas. Ele coleta as fontes ativas (o DOU no máximo a cada 6 h) e envia os avisos.
+A partir daí, o serviço `agendador` roda sozinho a cada 3 horas. Ele coleta as fontes ativas (o DOU no máximo a cada 6 h) e envia o resumo do dia.
+
+A primeira coleta de cada fonte não gera avisos: ela traz o acervo inteiro, e você não quer centenas de novidades de uma vez.
 
 ### O que preencher no `.env`
 
@@ -38,7 +67,9 @@ A partir daí, o serviço `agendador` roda sozinho a cada 3 horas. Ele coleta as
 | `DJANGO_SECRET_KEY` | Qualquer texto longo e aleatório |
 | `POSTGRES_PASSWORD` | Senha do banco local |
 | `INLABS_EMAIL`, `INLABS_SENHA` | Conta **gratuita** em [inlabs.in.gov.br](https://inlabs.in.gov.br), para baixar o DOU. Sem isso, o DOU é pulado |
-| `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | Avisos no celular (instruções no próprio `.env.example`). Sem isso, os avisos vão só para o log |
+| `AVISOS_EMAIL_PARA` | Para onde vai o resumo diário. Sem isso, o resumo vai só para o log |
+| `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD` | Conta que envia o e-mail. No Gmail, use uma "senha de app" (instruções no `.env.example`), nunca a senha da conta |
+| `AVISOS_HORA` | A partir de que hora sai o resumo do dia (padrão: 7) |
 | `CALENDARIO_TOKEN` | Senha do link do calendário |
 
 ---
@@ -48,10 +79,22 @@ A partir daí, o serviço `agendador` roda sozinho a cada 3 horas. Ele coleta as
 - **Concursos:** a lista principal. Os filtros ficam à direita: banca, esfera, área de atuação, situação, maturidade e ano, além dos atributos que você criar. Clique num concurso para ver cargos, documentos (com link para o PDF oficial) e datas.
 - **Revisado:** marque depois de conferir um concurso com o edital. A partir daí a coleta só atualiza a situação e as datas de inscrição, e o resto que você corrigiu fica preservado.
 - **Documentos → "vinculado a concurso: Não":** aqui aparecem os atos do DOU (autorizações, editais, homologações). Use a ação "Criar concurso a partir do documento" ou vincule a um concurso existente.
-- **Filtros de alerta:** defina o que quer acompanhar, por exemplo "Cebraspe + área TI + esfera federal" ou "palavra-chave: TJ". Só eventos que casam com algum filtro geram aviso. Falhas de coleta sempre avisam.
+- **Filtros de alerta:** defina o que quer acompanhar, por exemplo "Cebraspe + área TI + esfera federal" ou "palavra-chave: TJ". Só eventos que casam com algum filtro entram no resumo. Falhas de coleta sempre entram.
+- **Resumos de avisos:** o histórico dos e-mails enviados, com o texto de cada um e os eventos que ele avisou. Se o envio falhar (senha errada, sem internet), o erro aparece aqui e os eventos ficam para o próximo resumo.
 - **Áreas de atuação:** a taxonomia e as regras de classificação são editáveis. Se ajustar as áreas de um concurso ou cargo à mão, ele não é mais reclassificado automaticamente. Para a correção valer para casos parecidos, crie uma regra e rode `python manage.py reclassificar_areas`.
 - **Definições de atributo:** cadastre um campo novo (ex.: `exige_cnh`, tipo sim/não, filtrável). Ele vira filtro no painel sem mexer em código. O valor fica no campo "atributos" do concurso, como `{"exige_cnh": true}`.
 - **Fontes e Execuções:** mostram a saúde de cada coletor: última execução, último sucesso e erro.
+
+### Resumo diário por e-mail
+
+Sai uma vez por dia, na primeira rotina a partir de `AVISOS_HORA`. Traz:
+
+- **Inscrições terminando** nos próximos 7 dias, dos concursos que casam com seus filtros;
+- **Novidades** por concurso: concurso novo, mudança de situação e documentos novos, com o link do PDF oficial;
+- **Atos sem concurso vinculado** (DOU);
+- **Falhas de coleta.**
+
+Para não virar enxurrada, ficam de fora os documentos publicados há mais de 15 dias e os concursos que já chegam encerrados (coleta de histórico). Cada resumo lista até 40 concursos e soma o resto em "e mais N". Se não houver nada, nenhum e-mail sai.
 
 ### Calendário no celular
 
@@ -70,9 +113,11 @@ docker compose exec web python manage.py coletar cebraspe --encerrados  # inclui
 docker compose exec web python manage.py coletar cebraspe --apenas CGU_26_AFFC PF_25
 docker compose exec web python manage.py coletar fgv --sem-arquivos   # só links, sem baixar PDFs
 docker compose exec web python manage.py coletar dou --de 2026-10-01 --ate 2026-10-29 --secoes DO1,DO3
-docker compose exec web python manage.py avisar
+docker compose exec web python manage.py avisar --previa            # mostra o resumo sem enviar
+docker compose exec web python manage.py avisar --agora             # envia já, sem esperar o horário
+docker compose exec web python manage.py avisar --silenciar-pendentes  # marca tudo como lido, sem avisar
 docker compose exec web python manage.py reclassificar_areas
-docker compose exec web python manage.py test                        # 33 testes
+docker compose exec web python manage.py test                        # 47 testes
 docker compose logs -f agendador                                     # acompanhar a coleta automática
 ```
 
@@ -92,7 +137,8 @@ fonte (API / HTML / XML)  →  adaptador  →  persistência  →  catálogo  �
 | `ingestao/adaptadores/` | Um arquivo por fonte: `cebraspe.py`, `fgv.py`, `dou.py` |
 | `ingestao/persistencia.py` | Grava qualquer fonte no catálogo, sem duplicar, e emite eventos |
 | `ingestao/classificador.py` | Regras que reconhecem o tipo de ato (edital, retificação, resultado…) |
-| `ingestao/avisos.py` | Transforma eventos em avisos, segundo os filtros de alerta |
+| `ingestao/avisos.py` | Monta o resumo diário por e-mail com os eventos que casam com os filtros de alerta |
+| `scripts/` | Rotina e tarefa do Agendador do Windows, para rodar sem Docker |
 | `ingestao/tests/` | Testes com respostas reais e de exemplo de cada fonte, sem acessar a internet |
 
 **De onde vem cada fonte** (mapeado em 29/10/2026):

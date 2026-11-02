@@ -4,7 +4,7 @@ from django.utils.html import format_html
 
 from catalogo.models import Concurso, Maturidade, Situacao
 
-from .models import Documento, EventoDominio, Execucao, Fonte, TipoDocumento
+from .models import Documento, EventoDominio, Execucao, Fonte, ResumoAviso, TipoDocumento
 
 
 @admin.register(Fonte)
@@ -98,9 +98,23 @@ class DocumentoAdmin(admin.ModelAdmin):
 
 @admin.register(EventoDominio)
 class EventoDominioAdmin(admin.ModelAdmin):
-    list_display = ("tipo", "concurso", "documento", "criado_em", "processado_em")
-    list_filter = ("tipo", ("processado_em", admin.EmptyFieldListFilter))
+    list_display = ("tipo", "concurso", "documento", "criado_em", "processado_em", "resumo")
+    list_filter = ("tipo", ("processado_em", admin.EmptyFieldListFilter), ("resumo", admin.EmptyFieldListFilter))
     readonly_fields = [f.name for f in EventoDominio._meta.fields]
+
+    def has_add_permission(self, request):
+        return False
+
+
+@admin.register(ResumoAviso)
+class ResumoAvisoAdmin(admin.ModelAdmin):
+    list_display = ("enviado_em", "assunto", "destinatario", "ok", "eventos_avisados")
+    list_filter = ("ok",)
+    readonly_fields = [f.name for f in ResumoAviso._meta.fields]
+
+    @admin.display(description="Eventos")
+    def eventos_avisados(self, obj):
+        return obj.eventos.count()
 
     def has_add_permission(self, request):
         return False
