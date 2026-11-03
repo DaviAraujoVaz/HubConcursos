@@ -14384,6 +14384,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Edital de Convocação para a Perícia Médica – Candidato Sub Judice",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-ebserh-pericia-medica-2710-assist-subjudice.pdf",
+     "data": "2026-11-02"
+    },
+    {
      "titulo": "Edital Resultado Final De Aprovados - Retificado - Candidato Sub Judice",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/area-assistencial-ebserh-23-10-2026.pdf",
@@ -14466,16 +14472,10 @@
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/area-assistencial-ebserh-15-01-2026.pdf",
      "data": "2026-01-15"
-    },
-    {
-     "titulo": "Resultado Final de Aprovados Retificado - Candidatos Sub Judice",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/area-assistencial-ebserh-08-01-2026.pdf",
-     "data": "2026-01-09"
     }
    ],
-   "total_documentos": 194,
-   "ultima_publicacao": "2026-10-27T09:00-03:00",
+   "total_documentos": 195,
+   "ultima_publicacao": "2026-11-02T09:00-03:00",
    "primeiro_visto": null
   },
   {
