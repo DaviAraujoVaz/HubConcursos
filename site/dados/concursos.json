@@ -19572,6 +19572,12 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO - Inclusão Sub Judice",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-inclusao-sub-judice-izabella-guedes-franco-barreto-resultado-preliminar-discursiva.pdf",
+     "data": "2026-11-03"
+    },
+    {
      "titulo": "Edital de eliminação em caráter definitivo de candidato na Investigação Social e da Vida Pregressa",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-definitivo-assinado.pdf",
@@ -19654,16 +19660,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/lucas-gabriel-negri.pdf",
      "data": "2026-10-16"
-    },
-    {
-     "titulo": "Edital de Resultado Final de Investigação Social e da Vida Pregressa de candidato sub judice",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/jarbas-gabriel-oliveira.pdf",
-     "data": "2026-10-16"
     }
    ],
-   "total_documentos": 164,
-   "ultima_publicacao": "2026-10-29T09:00-03:00",
+   "total_documentos": 165,
+   "ultima_publicacao": "2026-11-03T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -29145,6 +29145,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Reinclusão do candidato sub judice - Cumprimento de decisão judicial",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/reinclusao-do-candidato-sub-judice.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Inclusão do candidato sub judice - Cumprimento de decisão judicial",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-de-candidato-cumprimento-de-decisao-judicial-1.pdf",
+     "data": "2026-11-03"
+    },
+    {
      "titulo": "Comunicado - cumprimento de decisão judicial",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/trf1-juiz-cumprimento-de-decisao.pdf",
@@ -29221,22 +29233,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-edital-dou-imprensa-nacional_2.pdf",
      "data": "2026-05-15"
-    },
-    {
-     "titulo": "Edital de convocação para a sessão pública de identificação e divulgação das notas das Provas Práticas de Sentenças",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/trf1-convocacao-sessao-publica.pdf",
-     "data": "2026-05-13"
-    },
-    {
-     "titulo": "Resultado Definitivo da Primeira Prova Escrita - Prova Discursiva",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-resultado-definitivo-da-primeira-prova-escrita-prova-discursiva-edital-resultado-definitivo-da-primeira-prova-escrita.pdf",
-     "data": "2026-03-13"
     }
    ],
-   "total_documentos": 54,
-   "ultima_publicacao": "2026-10-29T09:00-03:00",
+   "total_documentos": 56,
+   "ultima_publicacao": "2026-11-03T09:00-03:00",
    "primeiro_visto": null
   },
   {
