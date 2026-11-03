@@ -8145,6 +8145,29 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-enac-2026.2-27.08.26-versao-final-1.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-03T20:25-03:00",
+  "cargos": [
+   {
+    "nome": "A FGV divulgará a imagem do cartão de respostas da pessoa examinanda que realizar a prova, habilitada…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "REALIZAÇÃO DA PROVA",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "A FGV não se responsabilizará por perdas ou extravios de objetos ou de equipamentos eletrônicos…",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-enac-2026.2-27.08.26-versao-final.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
