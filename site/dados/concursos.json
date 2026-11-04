@@ -13633,101 +13633,112 @@
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": 10685.44,
+   "remuneracao_maxima": null,
    "cargos": [
     {
      "nome": "ANÁLISE DE NEGÓCIO DE TI",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "TI"
      ]
     },
     {
      "nome": "ARQUITETURA, ENGENHARIA E SUSTENTAÇÃO TECNOLÓGICA",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "TI"
      ]
     },
     {
      "nome": "DESENVOLVIMENTO DE SOFTWARE",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "TI"
      ]
     },
     {
      "nome": "INTELIGÊNCIA DA INFORMAÇÃO",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "TI"
      ]
     },
     {
      "nome": "SEGURANÇA CIBERNÉTICA E PROTEÇÃO DE DADOS",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "TI"
      ]
     },
     {
      "nome": "GESTÃO DE SERVIÇOS DE TIC",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "TI"
      ]
     },
     {
      "nome": "ADVOCACIA",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "Jurídica"
      ]
     },
     {
      "nome": "CONTABILIDADE",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "Contabilidade e Economia"
      ]
     },
     {
      "nome": "COMUNICAÇÃO SOCIAL",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "Comunicação"
      ]
     },
     {
      "nome": "GESTÃO ECONÔMICO-FINANCEIRA",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "Contabilidade e Economia"
      ]
     },
     {
      "nome": "ADMINISTRAÇÃO E GOVERNANÇA",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "Administrativa"
      ]
     },
     {
      "nome": "ENGENHARIA",
-     "remuneracao": 10685.44,
+     "remuneracao": null,
      "areas": [
       "Engenharia"
      ]
     },
     {
      "nome": "ANALISTA DE PROCESSAMENTO",
-     "remuneracao": 8273.94,
+     "remuneracao": null,
      "areas": [
       "TI"
      ]
+    },
+    {
+     "nome": "Preta ou Parda; PI à…",
+     "remuneracao": null,
+     "areas": []
     }
    ],
    "documentos": [
+    {
+     "titulo": "2ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/extrato-2a-retificacao-tac-e-avaliacoes.pdf",
+     "data": "2026-11-04"
+    },
     {
      "titulo": "Gabarito Oficial Preliminar da Prova Objetiva",
      "tipo": "gabarito",
@@ -13811,16 +13822,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-analise-de-negocio-de-ti-cns001-tipo-4.pdf",
      "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 1",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-arquitetura-engenharia-e-sustentacao-tecnologica-cns002-tipo-1.pdf",
-     "data": "2026-10-13"
     }
    ],
-   "total_documentos": 66,
-   "ultima_publicacao": "2026-10-13T09:00-03:00",
+   "total_documentos": 67,
+   "ultima_publicacao": "2026-11-04T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -16735,6 +16740,36 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Aviso convocação - Exames de higidez física e mental",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-aviso-convocacao-exames-de-higidez-fisica-e-mental.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Aviso convocação - Língua Portuguesa",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-aviso-convocacao-prova-de-lingua-portuguesa.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Aviso convocação - Avaliação Biopsicosocial",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-aviso-convocacao-avaliacao-biopsicosocial.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Aviso convocação - Prova de Títulos",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-aviso-convocacao-prova-de-titulos.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado do recurso - Provas orais",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-recurso-parcialmente-deferido-marina-gregory-moraes.pdf",
+     "data": "2026-11-03"
+    },
+    {
      "titulo": "Relação de Candidatos Habilitados - Provas Orais - Ampla Concorrência Dia 28.10",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-de-candidatos-habilitados-provas-orais-ampla-concorrencia-dia-28.10.pdf",
@@ -16793,40 +16828,10 @@
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/05.10-aviso-convocacao-para-o-exame-psicotecnico-republicacao.pdf",
      "data": "2026-10-06"
-    },
-    {
-     "titulo": "Aviso - Relação de habilitados à inscrição definitiva - Republicação",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/05.10-aviso-relacao-de-habilitados-a-inscricao-definitiva-republicacao.pdf",
-     "data": "2026-10-06"
-    },
-    {
-     "titulo": "Aviso - Convocação para o exame psicotécnico",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/05.10-aviso-convocacao-para-o-exame-psicotecnico.pdf",
-     "data": "2026-10-02"
-    },
-    {
-     "titulo": "Aviso - Relação de habilitados à inscrição definitiva",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/05.10-aviso-relacao-de-habilitados-a-inscricao-definitiva.pdf",
-     "data": "2026-10-02"
-    },
-    {
-     "titulo": "Relação de candidatos não habilitados - Provas discursivas especializadas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/05.10-relacao-de-candidatos-nao-habilitados-provas-escritas-especializadas.pdf",
-     "data": "2026-10-02"
-    },
-    {
-     "titulo": "Relação de candidatos habilitados - Provas discursivas especializadas - Ampla concorrência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/05.10-relacao-de-candidatos-habilitados-provas-escritas-especializadas-ampla-concorrencia.pdf",
-     "data": "2026-10-02"
     }
    ],
-   "total_documentos": 100,
-   "ultima_publicacao": "2026-10-28T09:00-03:00",
+   "total_documentos": 105,
+   "ultima_publicacao": "2026-11-03T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -22387,6 +22392,54 @@
    ],
    "documentos": [
     {
+     "titulo": "Demanda de candidato por vaga",
+     "tipo": "inscritos",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_demanda-de-candidatos-por-vaga.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado Definitivo dos pedidos de atendimento especial",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_definitivo_pne.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrição nas vagas destinadas às pessoas quilombolas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_quilombolas_definitivo-com-anexo.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrição nas vagas destinadas às pessoas pretas e pardas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_negros_definitivo-com-anexo.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrição nas vagas destinadas às pessoas indígenas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_indigenas_definitivo-com-anexo.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado Definitivo de inscrição na condição de pessoa com deficiência - indeferidos",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_definitivo_pcd_indeferido.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado Definitivo de inscrição na condição de pessoa com deficiência - deferidos",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_definitivo_pcd_deferido.pdf",
+     "data": "2026-11-03"
+    },
+    {
+     "titulo": "Resultado Definitivo de Homologação de Inscrições",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_homologados_definitivo-com-anexo.pdf",
+     "data": "2026-11-03"
+    },
+    {
      "titulo": "Resultado preliminar dos pedidos de atendimento especial",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_preliminar_pne.pdf",
@@ -22427,46 +22480,10 @@
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_homologados_preliminar-com-anexo.pdf",
      "data": "2026-10-15"
-    },
-    {
-     "titulo": "Resultado Definitivo de Isenção",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seducpa-resultado-definitivo-de-isencao-diario_1.pdf",
-     "data": "2026-10-02"
-    },
-    {
-     "titulo": "2ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-n-004-de-01.10.2026-doe-n-36.789-de-02.10.2026-retificacao-do-cronograma-e-de-subitens.pdf",
-     "data": "2026-10-02"
-    },
-    {
-     "titulo": "COMUNICADO",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-prorrogacao-das-inscricoes_0.pdf",
-     "data": "2026-10-01"
-    },
-    {
-     "titulo": "1ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-n-003-de-24.09.2026-doe-n-36.779-de-25.09.2026-retificacao-de-subitens.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "Resultado Preliminar de Isenção",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seducpa-resultado-preliminar-de-isencao-diario.pdf",
-     "data": "2026-09-18"
-    },
-    {
-     "titulo": "Edital (retificado em 02/10/2026)",
-     "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-consolidado-01.10-minuta.pdf",
-     "data": "2026-08-31"
     }
    ],
-   "total_documentos": 13,
-   "ultima_publicacao": "2026-10-15T09:00-03:00",
+   "total_documentos": 21,
+   "ultima_publicacao": "2026-11-03T09:00-03:00",
    "primeiro_visto": null
   },
   {
