@@ -1365,6 +1365,34 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/PM_AL_26/arquivos/E9893125CFE998A94D9456EBF6B6E1179573D04F929C018DF980F59DC0571E11.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-05T03:50-03:00",
+  "cargos": [
+   {
+    "nome": "CFO: a) Cadete 1º ano",
+    "remuneracao": "4716.51",
+    "numero": null
+   },
+   {
+    "nome": "II – condição alcançada como Aspirante, após a",
+    "remuneracao": "11563.77",
+    "numero": null
+   },
+   {
+    "nome": "Soldado-Aluno, durante o período do CFP",
+    "remuneracao": "2354.67",
+    "numero": null
+   },
+   {
+    "nome": "II – condição alcançada como Soldado, após a",
+    "remuneracao": "6067.51",
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/PM_DF_25_CFO/arquivos/B3535EC95E6200EDF81432851F27044E108E86AF2688C7C874E8DEA10809787F.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",

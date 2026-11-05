@@ -3049,7 +3049,7 @@
    "id": "cebraspe:CGU_26_AFFC",
    "titulo": "CGU 26 AFFC",
    "banca": "cebraspe",
-   "situacao": "aberto",
+   "situacao": "andamento",
    "esfera": "federal",
    "areas": [
     "Controle",
@@ -26326,7 +26326,7 @@
     {
      "titulo": "COMUNICADO - Inclusão Sub Judice (retificado em 03/11/2026)",
      "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjms_comunicado_ppp-guilherme-camargo-meira.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjms_comunicado_ppp-guilherme-camargo-meira_0.pdf",
      "data": "2026-07-24"
     },
     {
@@ -28055,6 +28055,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Definitivo Avaliação de Títulos",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/357_tjrn_resultado-definitivo-avaliacao-de-titulos-2026-10-28.pdf",
+     "data": "2026-11-04"
+    },
+    {
      "titulo": "Resultado do sorteio de ponto da Prova Oral - Turno da tarde (30/10)",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/sorteio-do-ponto_30.10_tarde.pdf",
@@ -28137,16 +28143,10 @@
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_convocacao-germanna-e-pamella.pdf",
      "data": "2026-09-18"
-    },
-    {
-     "titulo": "Resultado do sorteio de ponto da Prova Oral - Turno da tarde (18/09)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/sorteio-do-ponto_17.09.tarde_.pdf",
-     "data": "2026-09-17"
     }
    ],
-   "total_documentos": 62,
-   "ultima_publicacao": "2026-10-29T09:00-03:00",
+   "total_documentos": 63,
+   "ultima_publicacao": "2026-11-04T09:00-03:00",
    "primeiro_visto": null
   },
   {
