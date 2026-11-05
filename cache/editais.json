@@ -3770,6 +3770,29 @@
   "remuneracao_unica": "16034.70",
   "erro": ""
  },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-juiz-leigo-tjba_retificado-em-26_10.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-05T16:58-03:00",
+  "cargos": [
+   {
+    "nome": "IMPEDIMENTO E SUSPEIÇÃO E REMUNERAÇÃO 1. REGIME JURÍDICO 1.1.Os juízes leigos são auxiliares da justiça que…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Turmas Recursais ou no Grupo de Saneamento da Coordenação dos Juizados…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Unidade de Valor referente à minuta homologada ou à…",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-juiz-leigo-tjba_retificado-em-27_02.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -5475,6 +5498,119 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-no-032026-processo-seletivo-de-residencia-medica-2026-2027retificado2.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-05T16:58-03:00",
+  "cargos": [
+   {
+    "nome": "Anestesiologia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Radiologia e Diagnóstico por Imagem",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Cirurgia Aparelho Digestivo",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Cirurgia do Trauma",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Cirurgia Oncológica",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Cirurgia Plástica",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Cirurgia Vascular",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Coloproctologia",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Endocrinologia e Metabologia",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Hematologia e Hemoterapia",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Mastologia",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Medicina Paliativa(2)",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Medicina Intensiva Pediátrica",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Nefrologia",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Neonatologia",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Neurologia Pediátrica(2)",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Oncologia Clínica",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Psiquiatria da Infância e Adolescência(2)",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Reumatologia(1)",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Urologia",
+    "remuneracao": "4106.09",
+    "numero": null
+   },
+   {
+    "nome": "Programa em processo de aumento de vagas e aguardando aprovação da Comissão Nacional",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-ret6docx.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -5671,6 +5807,13 @@
  "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coremu-huem-n-01-processo-2027-retificado1.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
+  "cargos": [],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coremu-huem-no-01-processo-2027-retificado2.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-05T16:58-03:00",
   "cargos": [],
   "remuneracao_unica": null,
   "erro": ""
