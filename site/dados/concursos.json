@@ -866,6 +866,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Comunicado - Prorrogação de links de consulta e recurso",
+     "tipo": "comunicado",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/7DFE8D8152D4A1760A5BE334D561E8107B7ADF82F97E779926BE71C951628E80.pdf",
+     "data": "2026-11-05"
+    },
+    {
      "titulo": "Comunicado - Consulta individual e interposição de recursos",
      "tipo": "comunicado",
      "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/79C6C401A7648781BB164232433DDC87F2031330938D90F928DE5CDD693DD457.pdf",
@@ -914,8 +920,8 @@
      "data": "2026-08-17"
     }
    ],
-   "total_documentos": 8,
-   "ultima_publicacao": "2026-10-27T10:19-03:00",
+   "total_documentos": 9,
+   "ultima_publicacao": "2026-11-05T17:48-03:00",
    "primeiro_visto": null
   },
   {
@@ -18067,6 +18073,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Preliminar do procedimento de Heteroidentificação",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcpi-heteroidentificacao-delegado_04112026.pdf",
+     "data": "2026-11-05"
+    },
+    {
+     "titulo": "Resultado Preliminar Teste de Aptidão Física",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/335_pcpi-delegado-resultado-preliminar-taf-2026-11-03.pdf",
+     "data": "2026-11-05"
+    },
+    {
      "titulo": "Comunicado - inclusão sub judice",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-pcpi-convocacao-av-psicologica-sub-judice-delegado.pdf",
@@ -18143,22 +18161,10 @@
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-hetero-delegado.pdf",
      "data": "2026-10-01"
-    },
-    {
-     "titulo": "Resultado Definitivo do Exame de Saúde",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/avaliacoes-definitivo-pc-pi-delegados-1.pdf",
-     "data": "2026-10-01"
-    },
-    {
-     "titulo": "Resultado Definitivo da Avaliação Biopsicossocial",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-bio-delegado-1.pdf",
-     "data": "2026-10-01"
     }
    ],
-   "total_documentos": 77,
-   "ultima_publicacao": "2026-10-28T09:00-03:00",
+   "total_documentos": 79,
+   "ultima_publicacao": "2026-11-05T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -18323,6 +18329,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado Preliminar do procedimento de Heteroidentificação",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcpi-heteroidentificacao-demais-cargos_04112026.pdf",
+     "data": "2026-11-05"
+    },
+    {
+     "titulo": "Resultado Preliminar Teste de Aptidão Física",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/386_pcpi-demais-cargos_resultado-preliminar-taf-2026-11-05.pdf",
+     "data": "2026-11-05"
+    },
+    {
      "titulo": "COMUNICADO - Inclusão Sub Judice",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-pcpi-resultado-av-psicologica-sub-judice-investigador-2.pdf",
@@ -18399,22 +18417,10 @@
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-taf-perito.pdf",
      "data": "2026-10-01"
-    },
-    {
-     "titulo": "Edital de convocação para a heteroidentificação",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-hetero-perito.pdf",
-     "data": "2026-10-01"
-    },
-    {
-     "titulo": "Resultado Definitivo do Exame de Saúde",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/avaliacoes-definitivo-pc-pi-oficiais-e-peritos-1.pdf",
-     "data": "2026-10-01"
     }
    ],
-   "total_documentos": 82,
-   "ultima_publicacao": "2026-10-29T09:00-03:00",
+   "total_documentos": 84,
+   "ultima_publicacao": "2026-11-05T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -25903,6 +25909,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjes-subjudice.pdf",
+     "data": "2026-11-05"
+    },
+    {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjes-subjudice-leticia-maria-ferraz.pdf",
+     "data": "2026-11-05"
+    },
+    {
      "titulo": "Cronograma Previsto",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjes-juiz-cronograma-estimado.pdf",
@@ -25979,22 +25997,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/504_tjes-resultado-preliminar-prova-escrita-discursiva-2024-01-17.pdf",
      "data": "2024-01-19"
-    },
-    {
-     "titulo": "Sessão Pública para Identificação das Provas e Divulgação das Notas da Primeira Prova da 2ª Etapa - Prova Escrita Discursiva",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjes-sessao-publica-de-reidentificacao-das-provas-discursivas.pdf",
-     "data": "2024-01-16"
-    },
-    {
-     "titulo": "Prova Escrita Discursiva",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjes-2023-juiz-substitutojuizsubstituto-discursiva-tipo-1.pdf",
-     "data": "2023-11-23"
     }
    ],
-   "total_documentos": 47,
-   "ultima_publicacao": "2026-10-27T09:00-03:00",
+   "total_documentos": 49,
+   "ultima_publicacao": "2026-11-05T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -28079,6 +28085,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_alice-emiliana-queiroz-ribeiro-coelho-mendes-de-brito.pdf",
+     "data": "2026-11-05"
+    },
+    {
      "titulo": "Resultado Definitivo Avaliação de Títulos",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/357_tjrn_resultado-definitivo-avaliacao-de-titulos-2026-10-28.pdf",
@@ -28161,16 +28173,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrn-resultado-preliminar-da-pericia-medica_.pdf",
      "data": "2026-09-21"
-    },
-    {
-     "titulo": "COMUNICADO",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_convocacao-germanna-e-pamella.pdf",
-     "data": "2026-09-18"
     }
    ],
-   "total_documentos": 63,
-   "ultima_publicacao": "2026-11-04T09:00-03:00",
+   "total_documentos": 64,
+   "ultima_publicacao": "2026-11-05T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -33081,6 +33087,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-da-analise-dos-pedidos-de-isencao-residencia-medica-indeferido.pdf",
+     "data": "2026-11-05"
+    },
+    {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-da-analise-dos-pedidos-de-isencao-residencia-medica-deferido.pdf",
+     "data": "2026-11-05"
+    },
+    {
      "titulo": "Cronograma previsto",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cronograma-ativ-huem-res-med-e-res-multi.pdf",
@@ -33117,7 +33135,7 @@
      "data": "2026-09-23"
     }
    ],
-   "total_documentos": 6,
+   "total_documentos": 8,
    "ultima_publicacao": "2026-11-05T09:00-03:00",
    "primeiro_visto": null
   },
@@ -33138,6 +33156,18 @@
    "remuneracao_maxima": null,
    "cargos": [],
    "documentos": [
+    {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-da-analise-dos-pedidos-de-isencao-residencia-multi-indeferido.pdf",
+     "data": "2026-11-05"
+    },
+    {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-da-analise-dos-pedidos-de-isencao-residencia-multi-deferido.pdf",
+     "data": "2026-11-05"
+    },
     {
      "titulo": "Cronograma previsto",
      "tipo": "outro",
@@ -33175,7 +33205,7 @@
      "data": "2026-09-24"
     }
    ],
-   "total_documentos": 6,
+   "total_documentos": 8,
    "ultima_publicacao": "2026-11-05T09:00-03:00",
    "primeiro_visto": null
   },
