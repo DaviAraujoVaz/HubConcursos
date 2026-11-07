@@ -866,6 +866,48 @@
    ],
    "documentos": [
     {
+     "titulo": "PROVA E GABARITO PRELIMINAR - CONHECIMENTOS BÁSICOS PARA OS CARGOS DE NÍVEL SUPERIOR",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/35A02C607364DC8BC4EA4F1ACA9A27A52358153AC0B237FE6884971080519A13.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "PROVA E GABARITO PRELIMINAR - CONHECIMENTOS BÁSICOS PARA OS CARGOS DE NÍVEL TÉCNICO",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/C66A29B4FF65E676D8AA10242D3CB4C5F3FD99B7C32945298F0108ECC67769C0.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "PROVA E GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 1",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/E1D9804A55F9268BF4E564041E76E4BE26AFAE7C6FE05721F6A4693FBB9B31CA.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "PROVA E GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 2",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/BEDEBD142B98048970509E670A1D4CD4C9BDB4928841AFF0340814EA1F683A99.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "PROVA E GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 3",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/7E3DB1B82225358921C93554CF34386A043C7DEE5CDF29D77D1C720A6E22CA69.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "PROVA E GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 4",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/A937A7F949B834F98FB4C520BDA0D024822D8B20EFB9B3B8D32A4A6745DA9CAA.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "PROVA E GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 5",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/922DB9339AFE8999D021035F5A74C162F01641E8401883D6A5DC54DF732F76FD.pdf",
+     "data": "2026-11-06"
+    },
+    {
      "titulo": "Comunicado - Prorrogação de links de consulta e recurso",
      "tipo": "comunicado",
      "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/7DFE8D8152D4A1760A5BE334D561E8107B7ADF82F97E779926BE71C951628E80.pdf",
@@ -912,16 +954,10 @@
      "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/2D513CDE14D1DC5D653F57D295691C4AD6B3500326262516328286F8BBA35012.pdf",
      "data": "2026-08-17"
-    },
-    {
-     "titulo": "Edital nº 1 – Abertura",
-     "tipo": "edital_abertura",
-     "url": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_SESMT/arquivos/2D4A1175BC18899C2C17867CB6F91D721F3FB8FCAFF2B15447F99EF7BD923E85.pdf",
-     "data": "2026-08-17"
     }
    ],
-   "total_documentos": 9,
-   "ultima_publicacao": "2026-11-05T17:48-03:00",
+   "total_documentos": 16,
+   "ultima_publicacao": "2026-11-06T19:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -2132,98 +2168,98 @@
    ],
    "documentos": [
     {
-     "titulo": "PROVA DISCURSIVA – CARGO 1",
+     "titulo": "CAPA DA PROVA – NÍVEL MÉDIO-TÉCNICO E DE MÉDIO",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/F7EDF24C93CC7AF7C4E1B319A88454624234D33EF15F321BFAD661E8EAC9C9DE.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/9085C0E67426C1AA88545500819B30834CEDB11FCE98E61D93D2F293C62B8C53.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PROVA DISCURSIVA – CARGO 2",
+     "titulo": "CAPA DA PROVA - NÍVEL SUPERIOR",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/6302D8E3EC201C647048B1FFC5FCF707A9575E99D0149B2FBFD5B080AEB606D1.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/24310DE1EB0596A8463DE22C230F3CF4BE38A9E0BAD745AA0E53F86CE46F5EAA.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PROVA DISCURSIVA – CARGO 3",
+     "titulo": "PROVA OBJETIVA - CONHECIMENTOS GERAIS PARA OS CARGOS DE 1 A 5",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/E291E44CBA726C03CD0C7A91BF3183819832BE28661FC6DC6E0DF165A21D3428.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/5D8E3D50F8CC705D91597970BA2C7331F75FC7CBF9C6B26475A462CB36801365.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PROVA DISCURSIVA – CARGO 4",
+     "titulo": "PROVA OBJETIVA - CONHECIMENTOS GERAIS PARA OS CARGOS 6 E 7",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/24D321E1BB52B6DB615465A65305EB192C0CCECAB0300611A820C6F88F0BD5AE.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/2B878C712E0F7F51C1E0AE320C07CDA9F000F45A2265FFC052C00E9AD75FE6EB.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PROVA DISCURSIVA – CARGO 5",
+     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 1",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/B95F472B63012AF21A3B09D9BDED2AB6697BA1A6E54357401DEDAAA04123DDB0.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/82C5884A5E0CD1D9689653ECAB61C030089D21D9D53C362C451E338E3C90DA52.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PADRÃO PRELIMINAR DE RESPOSTA – PROVA DISCURSIVA – CARGO 1",
+     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 2",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/0899AD5CFAAD740D83CDB823F21456E447C1CF1F95D74D3E2C1C4F20C49C54F8.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/6FFFE38DC3E9FDE9D1DE35DAF22AF934BB922F7F11EF91D5E196D3D9D877A453.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PADRÃO PRELIMINAR DE RESPOSTA – PROVA DISCURSIVA – CARGO 2",
+     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 3",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/C8BE19ED62BAF437DB5DFD8CBDF099468E9BB21A0E563E4098F30EDF5E1D35E0.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/164C4AE635F1D7621AC8EA859C5801E78BCE1723F647B3CB5EF4F622E3589682.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PADRÃO PRELIMINAR DE RESPOSTA – PROVA DISCURSIVA – CARGO 3",
+     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 4",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/B109D75E6A45E3ADA6156FA035789DB98BD2113478282912255DF57E411F5BEA.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/D960E608B65CFCEAD9E0455BDD130E991189913688B87BC6849B0E7582C7CFFA.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PADRÃO PRELIMINAR DE RESPOSTA – PROVA DISCURSIVA – CARGO 4",
+     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 5",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/BCB5416BB057D8AE678217DED533800A712F5BF1125906E98D7D2A0F359B68FD.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/442A236808025240F295EA6A3BD3EA8E105DB491E401BAE12D60B6C7BCBF6A98.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "PADRÃO PRELIMINAR DE RESPOSTA – PROVA DISCURSIVA – CARGO 5",
+     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 6",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/B662AD806ADC91D84624CCA08F5C7D85DABDBE92DBF28AE9618A9DCA09504981.pdf",
-     "data": "2026-11-03"
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/6C26F5A139EC3E096BA699BB69A268BF1716EE522A6F7E3BF2C5DF73E1168DB8.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "Comunicado sobre Disponibilização dos Links de Consulta e Interposição de Recursos na Área do Candidato",
-     "tipo": "comunicado",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/0233DD23F1503B6E27417468948FC501AE2395C1E18787828E159C05C55310A7.pdf",
-     "data": "2026-10-26"
+     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 7",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/E8B054A53950D8C829A2FF0DAC5DCBBD7A8858CDD05706E11048D3E015807F42.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "Quantitativo de inscritos por sistema de concorrência",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/064ACC9640F6DB159277D5767207509F650991C975630848B37088B9AEEE344F.pdf",
-     "data": "2026-10-26"
+     "titulo": "GABARITO PRELIMINAR - CONHECIMENTOS GERAIS PARA OS CARGOS DE 1 A 5",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/4E96516A62C791075FBCEA76EFE89CACDBF1702A09E4033351BED71292CC964C.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "Edital nº 3 - Locais de aplicação das provas objetivas e da prova discursiva",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/D35FE6CF8841692896E45CEDC42A714C3917842A123CA7C33F7B75C8302A7FDC.pdf",
-     "data": "2026-10-23"
+     "titulo": "GABARITO PRELIMINAR - CONHECIMENTOS GERAIS PARA OS CARGOS 6 E 7",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/F174645A5C6D658A8E1CDB460D2001524AF307D1664F7B36ECE7138D4AF71E29.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "Edital nº 2 - Retifica Requisitos e Conteúdo Programático, Prorroga Inscrições e Atualiza Cronograma do Certame",
-     "tipo": "retificacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/C71F31A478119A6518945129AF36E244D47A80DC83FE32684498C0FF63348FB6.pdf",
-     "data": "2026-09-14"
+     "titulo": "GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 1",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/B51E65CD83CE5D66FCE876CCFB933F45473DBE46058E7541495025A8105F8C89.pdf",
+     "data": "2026-11-06"
     },
     {
-     "titulo": "Edital nº 2 - Retifica Requisitos e Conteúdo Programático, Prorroga Inscrições e Atualiza Cronograma do Certame - Sem efeito",
-     "tipo": "retificacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/9B3058B2458F3924E45700EB3A164B6B50566BB6897073E773353659DCE5E91D.pdf",
-     "data": "2026-09-10"
+     "titulo": "GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 2",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/922EDBA951BABC4ECB03DD4BE46BAD80BFC4129FE1B6722C180DA65989B53A34.pdf",
+     "data": "2026-11-06"
     }
    ],
-   "total_documentos": 17,
-   "ultima_publicacao": "2026-11-03T19:00-03:00",
+   "total_documentos": 37,
+   "ultima_publicacao": "2026-11-06T19:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -3114,6 +3150,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 3 – Retificação do subitem 13.14 do Edital nº 1",
+     "tipo": "retificacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/73234D1D0E80CD1BBF1DCDDF568C6DE78C7CE7E6FDD42386520B685E49290810.pdf",
+     "data": "2026-11-06"
+    },
+    {
      "titulo": "Edital nº 2 – Retificação do subitem 6.2.4 e do Anexo I – Cronograma Previsto do Edital nº 1",
      "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/8CC969EF9F81DD9088CC93655FE2734C95419BE8A9285A887D96D915605D867C.pdf",
@@ -3138,8 +3180,8 @@
      "data": "2026-10-09"
     }
    ],
-   "total_documentos": 4,
-   "ultima_publicacao": "2026-10-15T10:00-03:00",
+   "total_documentos": 5,
+   "ultima_publicacao": "2026-11-06T16:50-03:00",
    "primeiro_visto": null
   },
   {
@@ -4656,6 +4698,24 @@
    ],
    "documentos": [
     {
+     "titulo": "CAPA DA PROVA",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_26_DELEGADO/arquivos/5A0B18B9A970D27AFEC4CBB1BFDE09C1DB4E02E3163FB99C8FBBE0C51DA3E3C2.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "PROVA OBJETIVA (P1)",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_26_DELEGADO/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "GABARITO PRELIMINAR – PROVA OBJETIVA (P1)",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_26_DELEGADO/arquivos/9892AC4A388835CB0E67704806457AFA7174603677B44DF48E96E8DC06C9D10B.pdf",
+     "data": "2026-11-06"
+    },
+    {
      "titulo": "Comunicado – Interdição da Ponte Marcelino Machado",
      "tipo": "comunicado",
      "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_26_DELEGADO/arquivos/9C83C021A5510250E61C02FCE1CFA23B45699C13B969650CD8EC651EA2FC0651.pdf",
@@ -4698,8 +4758,8 @@
      "data": "2026-07-13"
     }
    ],
-   "total_documentos": 7,
-   "ultima_publicacao": "2026-10-27T18:50-03:00",
+   "total_documentos": 10,
+   "ultima_publicacao": "2026-11-06T19:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -17214,6 +17274,12 @@
     {
      "titulo": "COMUNICADO",
      "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-inclusao-sub-judice-alessandra-gomes-de-oliveira__0.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/mpu_comunicado_karina-fernandes-silva.pdf",
      "data": "2026-10-29"
     },
@@ -17294,16 +17360,10 @@
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/mpu_comunicado_thabita-de-maria-sales-albuquerque-pereira_0.pdf",
      "data": "2026-08-21"
-    },
-    {
-     "titulo": "Edital de Convocação para o Programa de Formação Profissional - Candidatos Sub Judice",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_convocacao_pfp_sub_judice_retificado_ii.pdf",
-     "data": "2026-08-20"
     }
    ],
-   "total_documentos": 218,
-   "ultima_publicacao": "2026-10-29T09:00-03:00",
+   "total_documentos": 219,
+   "ultima_publicacao": "2026-11-06T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -22873,6 +22933,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Preliminar da Prova Prática",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seduc-sp-tecnico-resultado-preliminar-da-prova-pratica.pdf",
+     "data": "2026-11-06"
+    },
+    {
      "titulo": "Resultado Preliminar Avaliação de Títulos",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seduc-sp-tecnico-resultado-preliminar-avaliacao-de-titulos.pdf",
@@ -22955,16 +23021,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/eixo-ii-ambiente-e-saude-tipo-3.pdf",
      "data": "2026-08-24"
-    },
-    {
-     "titulo": "Tipo 4",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/eixo-ii-ambiente-e-saude-tipo-4.pdf",
-     "data": "2026-08-24"
     }
    ],
-   "total_documentos": 50,
-   "ultima_publicacao": "2026-10-30T09:00-03:00",
+   "total_documentos": 51,
+   "ultima_publicacao": "2026-11-06T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26612,6 +26672,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Comunicado - inclusão sub judice",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-diego-henrique-figueiredo-de-freitas-tjms-notarial.pdf",
+     "data": "2026-11-06"
+    },
+    {
+     "titulo": "Comunicado - inclusão sub judice",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-thais-camatte-vieira-andrade-tjms-notarial.pdf",
+     "data": "2026-11-06"
+    },
+    {
      "titulo": "Resultado do Sorteio do Ponto da Prova Oral – 13/11/26",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-do-sorteio-dos-pontos-06.11-tjms-notarial.pdf",
@@ -26688,21 +26760,9 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-no-17-cgj-resultado-definitivo-heteroidentificacao.pdf",
      "data": "2026-10-01"
-    },
-    {
-     "titulo": "Resultado Preliminar Exames de Personalidade (atualizado em 07/10/2026)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427_tjms-resultado-preliminar-exames-de-personalidade-2026-10-07.pdf",
-     "data": "2026-10-01"
-    },
-    {
-     "titulo": "Comunicado nº 16",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-n-16-tjms-notarial-1.pdf",
-     "data": "2026-09-29"
     }
    ],
-   "total_documentos": 86,
+   "total_documentos": 88,
    "ultima_publicacao": "2026-11-06T09:00-03:00",
    "primeiro_visto": null
   },
@@ -27600,6 +27660,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Sessão Pública de julgamento dos recursos interpostos contra os gabaritos da Prova Objetiva",
+     "tipo": "gabarito",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-aviso-convocacao-sessao-publica-de-julgamento-dos-recursos-da-prova-objetiva.pdf",
+     "data": "2026-11-06"
+    },
+    {
      "titulo": "Banca Examinadora",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe_banca-examinadora_0.pdf",
@@ -27682,16 +27748,10 @@
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-definitiva-indigena.pdf",
      "data": "2026-08-12"
-    },
-    {
-     "titulo": "Resultado definitivo de homologação de inscrição nas vagas destinadas aos candidatos negros",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-definitivo-negro.pdf",
-     "data": "2026-08-12"
     }
    ],
-   "total_documentos": 30,
-   "ultima_publicacao": "2026-11-05T09:00-03:00",
+   "total_documentos": 31,
+   "ultima_publicacao": "2026-11-06T09:00-03:00",
    "primeiro_visto": null
   },
   {
