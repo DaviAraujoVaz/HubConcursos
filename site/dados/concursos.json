@@ -3170,7 +3170,7 @@
     {
      "titulo": "Edital nº 1 - Abertura - Atualizado conforme retificações",
      "tipo": "edital_abertura",
-     "url": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/FDEEFB41D8ACD48AB369A9915EA1A48C67389EC91427E98F6F264E19B1F63FB9.pdf",
+     "url": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf",
      "data": "2026-10-09"
     },
     {
@@ -7039,6 +7039,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 19 - Exclusão de candidata inscrita sob o nº 10014200, do resultado final no concurso público, divulgado por meio do item 2 do Edital nº 13 – Pref. Boa Vista – Saúde, de 02 de março de 2026, e suas alterações, bem como a retificação do referido resultado, somente para o sistema de concorrência de que trata este edital.",
+     "tipo": "retificacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/PREF_BOA_VISTA_25_SAUDE/arquivos/DD5384D877E1BC8D59E87D4D0596388039B88EA16B728E18DE3DF63DD9D886D2.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Edital nº 18 – Resultado final na avaliação de títulos e o resultado final no concurso público, somente para os cargos de Assistente Técnico – Especialidade: Técnico em Enfermagem e Assistente Técnico – Especialidade: Técnico em Saúde Bucal",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/PREF_BOA_VISTA_25_SAUDE/arquivos/C9D753C7508657759F4445B28E92E1A7F8E151F5E1F5A4CCE19B701C725E8F66.pdf",
@@ -7121,16 +7127,10 @@
      "tipo": "comunicado",
      "url": "https://cdn.cebraspe.org.br/concursos/PREF_BOA_VISTA_25_SAUDE/arquivos/C27A698B74A20F66E29A6AA76A1E13D59CF08B5A269E0929A723394C994F9E6A.pdf",
      "data": "2026-01-14"
-    },
-    {
-     "titulo": "Edital nº 10 – Resultado final na avaliação biopsicossocial, resultado final nas provas objetivas (para todos os cargos) e a convocação para avaliação de títulos (somente para os cargos de nível técnico e de nível superior)",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PREF_BOA_VISTA_25_SAUDE/arquivos/4437F2B1F40CD028706A6A607FFC24EC10E2209D3FE875E3F9B42EB2A7789721.pdf",
-     "data": "2026-01-13"
     }
    ],
-   "total_documentos": 133,
-   "ultima_publicacao": "2026-04-02T09:07-03:00",
+   "total_documentos": 134,
+   "ultima_publicacao": "2026-11-09T11:40-03:00",
    "primeiro_visto": null
   },
   {
@@ -8006,6 +8006,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Relação provisória das candidatas que tiveram a solicitação de atendimento especializado para lactantes deferida",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEFAZ_AL_26/arquivos/F5DB542D52420626DB28C9CE483468D5651A0F98407618B16BCAD08795550DEE.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Relação provisória dos candidatos deferidos para concorrer como PCD",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEFAZ_AL_26/arquivos/10A1469BF8D04C6AFEF75155A13A54FEB4DA09F7CDB2D300203AF6549DD070CB.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Edital nº 05 - Relação final dos candidatos com a solicitação de isenção da taxa de inscrição deferida e retificação do Anexo I – Cronograma",
      "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/SEFAZ_AL_26/arquivos/5C6D38708447664A1F26CEC42802911CA8CA34058C6E96FEE1ECDE558D89AC4A.pdf",
@@ -8048,8 +8060,8 @@
      "data": "2026-08-25"
     }
    ],
-   "total_documentos": 7,
-   "ultima_publicacao": "2026-10-23T10:15-03:00",
+   "total_documentos": 9,
+   "ultima_publicacao": "2026-11-09T10:05-03:00",
    "primeiro_visto": null
   },
   {
@@ -8802,9 +8814,9 @@
      "data": "2026-11-03"
     },
     {
-     "titulo": "Quantitativo de inscritos por sistema de concorrência",
+     "titulo": "Quantitativo de inscritos por sistema de concorrência - atualizado",
      "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/SESAU_AL_26/arquivos/064ACC9640F6DB159277D5767207509F650991C975630848B37088B9AEEE344F.pdf",
+     "url": "https://cdn.cebraspe.org.br/concursos/SESAU_AL_26/arquivos/748DAA37B03A7203F44318D7DC9D3765CB2AC320A7BBBA327E6BF91AB4B606CA.pdf",
      "data": "2026-11-03"
     },
     {
@@ -10225,6 +10237,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 21/2026 – Inclusão de candidatos no resultado final na avaliação de títulos e no resultado final no concurso público",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/11392F83B286E38075A18FEED1450AA82B262768CEAC819E3CA187137A230E09.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Comunicado - Adiamento da publicação do edital de resultado final no concurso público",
      "tipo": "comunicado",
      "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/3C4A953490C7860FC91A0D001426615CB7DAEFC12BAE095E607DA663CC9CD703.pdf",
@@ -10307,16 +10325,10 @@
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/6AED7439C3CFDC93D510442E746281621F5956D4BF86DBC6824D1052D08338AC.pdf",
      "data": "2026-08-03"
-    },
-    {
-     "titulo": "Edital nº 15/2026 – Retificação dos subitens 3.1.1.1.1, 3.1.1.2 e 5.2, constantes do Edital nº 12, e a retificação dos subitens 1.1.1.1.1, 1.1.1.2, 2.1.1.2.1 e 2.1.1.3 constantes do Edital nº 13/2026",
-     "tipo": "retificacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/1F3E09B0CED0CF575A750E82D8F6DAE89DF260FADA91C00EC077734ADED54593.pdf",
-     "data": "2026-07-27"
     }
    ],
-   "total_documentos": 56,
-   "ultima_publicacao": "2026-09-25T09:30-03:00",
+   "total_documentos": 57,
+   "ultima_publicacao": "2026-11-09T12:30-03:00",
    "primeiro_visto": null
   },
   {
@@ -17474,6 +17486,24 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital de convocação para Avaliação Biopsicossocial (psicólogo e pedagogo)",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-11-2026-edital-de-convocacao-para-avaliacao-biopsicossocial-reaplicacao-nav-brasil.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Edital de convocação para o procedimento de confirmação complementar à autodeclaração de pessoas pretas e pardas (psicólogo e pedagogo)",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-10-2026-edital-de-convocacao-para-entrevista-de-heteroidentificacao-reaplicacao-nav-brasil.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo da Prova Objetiva - Reaplicação",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/navbrasil2026-resultado-definitivo-prova-objetiva-reaplicacao.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Resultado Preliminar da Prova Objetiva - Reaplicação",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/navbrasil2026-resultado-preliminar-prova-objetiva-reaplicacao.pdf",
@@ -17544,28 +17574,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/nav-brasil-resultado-preliminar-da-confirmacao-complementar-a-autodeclaracao-de-pessoas-quilombolas_2026-10-05.pdf",
      "data": "2026-10-05"
-    },
-    {
-     "titulo": "Resultado Preliminar do Procedimento de Confirmação Complementar à Autodeclaração de Pessoas Pretas e Pardas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/nav-brasil-resultado-preliminar-da-confirmacao-complementar-a-autodeclaracao-de-pessoas-pretas-e-pardas_2026-10-05.pdf",
-     "data": "2026-10-05"
-    },
-    {
-     "titulo": "Resultado Preliminar do Procedimento de Verificação Documental Complementar à Autodeclaração de Pessoas Indígenas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/nav-brasil-resultado-preliminar-da-confirmacao-complementar-a-autodeclaracao-de-pessoas-indigenas_2026-10-05.pdf",
-     "data": "2026-10-05"
-    },
-    {
-     "titulo": "Resultado Resultado Preliminar da Avaliação Biopsicossocial",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/nav-brasil-resultado-preliminar-da-avaliacao-biopsicossocial_2026-10-05.pdf",
-     "data": "2026-10-05"
     }
    ],
-   "total_documentos": 87,
-   "ultima_publicacao": "2026-10-26T09:00-03:00",
+   "total_documentos": 90,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -21377,76 +21389,21 @@
    "banca": "fgv",
    "situacao": "andamento",
    "esfera": "federal",
-   "areas": [
-    "Contabilidade e Economia",
-    "Jurídica",
-    "TI"
-   ],
+   "areas": [],
    "url": "https://conhecimento.fgv.br/concursos/psabdi",
    "ano": 2026,
    "inscricoes_inicio": null,
    "inscricoes_fim": null,
    "vagas": null,
-   "remuneracao_maxima": 16034.7,
-   "cargos": [
-    {
-     "nome": "API – Contabilidade",
-     "remuneracao": null,
-     "areas": [
-      "Contabilidade e Economia"
-     ]
-    },
-    {
-     "nome": "API – Administrativo",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "API – Analista de Dados",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "API – Produtividade Industrial",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "API – Desenvolvimento de TI",
-     "remuneracao": null,
-     "areas": [
-      "TI"
-     ]
-    },
-    {
-     "nome": "API – Infraestrutura e Operação",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "API – Jurídico",
-     "remuneracao": null,
-     "areas": [
-      "Jurídica"
-     ]
-    },
-    {
-     "nome": "API – Gestão",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "API – Comunicação e Marketing",
-     "remuneracao": null,
-     "areas": []
-    },
-    {
-     "nome": "AGÊNCIA BRASILEIRA DE DESENVOLVIMENTO INDUSTRIAL – ABDI",
-     "remuneracao": null,
-     "areas": []
-    }
-   ],
+   "remuneracao_maxima": null,
+   "cargos": [],
    "documentos": [
+    {
+     "titulo": "1ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-retificacao-1a-retificacao-edital-01-2026-abdi.pdf",
+     "data": "2026-11-09"
+    },
     {
      "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
      "tipo": "resultado",
@@ -21466,14 +21423,14 @@
      "data": "2026-10-20"
     },
     {
-     "titulo": "Edital",
-     "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-abdi-1.pdf",
+     "titulo": "Edital (09/11/2026)",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-abdi_retificado_09.11.pdf",
      "data": "2026-10-20"
     }
    ],
-   "total_documentos": 4,
-   "ultima_publicacao": "2026-10-30T09:00-03:00",
+   "total_documentos": 5,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -23328,6 +23285,60 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Demanda de candidato por vaga",
+     "tipo": "inscritos",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/demanda-candidato_vaga.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo dos pedidos de atendimento especial",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-atendimentos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de indeferimento de inscrição na condição de pessoa hipossuficiente",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-inscricao-na-condicao-de-pessoa-hipossuficiente-indeferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de deferimento de inscrição na condição de pessoa hipossuficiente",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-inscricao-na-condicao-de-pessoa-hipossuficiente-deferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrição nas vagas destinadas aos candidatos indígenas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-indigenas_0.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrição nas vagas destinadas aos candidatos negros e/ou pardos",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-negros_0.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de indeferimento de inscrição na condição de pessoa com deficiência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-pcd-indeferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de deferimento de inscrição na condição de pessoa com deficiência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-pcd-deferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrições",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-homologacao-de-inscricoes_0.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Resultado preliminar dos pedidos de atendimento especial",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-atendimento.pdf",
@@ -23346,13 +23357,13 @@
      "data": "2026-10-21"
     },
     {
-     "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinas aos candidatos indígenas",
+     "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas aos candidatos indígenas",
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-indigenas_1.pdf",
      "data": "2026-10-21"
     },
     {
-     "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinas aos candidatos negros e/ou pardos",
+     "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas aos candidatos negros e/ou pardos",
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-negros_1.pdf",
      "data": "2026-10-21"
@@ -23362,64 +23373,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-pcd-indeferidos.pdf",
      "data": "2026-10-21"
-    },
-    {
-     "titulo": "Resultado preliminar de deferimento de inscrição na condição de pessoa com deficiência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-pcd-deferidos.pdf",
-     "data": "2026-10-21"
-    },
-    {
-     "titulo": "Resultado preliminar de homologação de inscrições",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-homologacao-de-inscricoes_0.pdf",
-     "data": "2026-10-21"
-    },
-    {
-     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao-indeferidos.pdf",
-     "data": "2026-10-08"
-    },
-    {
-     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao-deferidos.pdf",
-     "data": "2026-10-08"
-    },
-    {
-     "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seplag_isencao-preliminar_indeferidos-1.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seplag_isencao-preliminar_deferidos.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "3ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/3a-retificacao-seplag-rj_0.pdf",
-     "data": "2026-09-09"
-    },
-    {
-     "titulo": "2ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/2a-retificacao-seplag-rj.pdf",
-     "data": "2026-09-04"
-    },
-    {
-     "titulo": "1ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/1a-retificacao-seplag-rj.pdf",
-     "data": "2026-09-01"
     }
    ],
-   "total_documentos": 16,
-   "ultima_publicacao": "2026-10-21T09:00-03:00",
+   "total_documentos": 25,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -25449,6 +25406,12 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO - Inclusão Sub Judice",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-tjam_dan-souza-aguiar_0.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "COMUNICADO - Inclusão Sub Judice (atualizado em 13/10/2026)",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-tjam-hamilton-1310.pdf",
@@ -25531,16 +25494,10 @@
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-enquadrado.pdf",
      "data": "2026-01-14"
-    },
-    {
-     "titulo": "Resultado Preliminar da Avaliação de Títulos",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/487-tjam-resultado-preliminar-avaliacao-de-titulos-2025-12-30.pdf",
-     "data": "2025-12-30"
     }
    ],
-   "total_documentos": 98,
-   "ultima_publicacao": "2026-09-01T09:00-03:00",
+   "total_documentos": 99,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -28433,6 +28390,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Comunicado – inclusão",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_inclusao_renata-nari-dantas-alves-dos-santos-002.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Resultado Final de Aprovados (Analista Judiciário) (específico para candidatos negros)",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/728-tjrr-analista-resultado-final-de-aprovados-negros-2025-06-30.pdf",
@@ -28515,16 +28478,10 @@
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrr-comunicado-alteracao-de-resultado-definitivo-da-hetero-e-pericia.pdf",
      "data": "2025-05-08"
-    },
-    {
-     "titulo": "Resultado Definitivo da Prova Discursiva Complementar",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/728-tjrr-resultado-definitivo-prova-discursiva-2025-05-08.pdf",
-     "data": "2025-05-08"
     }
    ],
-   "total_documentos": 86,
-   "ultima_publicacao": "2025-07-03T09:00-03:00",
+   "total_documentos": 87,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -28544,6 +28501,18 @@
    "remuneracao_maxima": 30505.36,
    "cargos": [],
    "documentos": [
+    {
+     "titulo": "Edital Nº 0054/2026 - DMAG - Edital de homologação das inscrições preliminares e de resultado das solicitações de atendimento especial",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-0054-2026-dmag.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Edital Nº 0053/2026 - DMAG - Edital de resultado do julgamento dos recursos interpostos contra as inscrições preliminares não homologadas e atendimentos especiais indeferidos",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-0053-2026-dmag.pdf",
+     "data": "2026-11-09"
+    },
     {
      "titulo": "Edital retificativo Nº 0045/2026-DMAG",
      "tipo": "retificacao",
@@ -28605,8 +28574,8 @@
      "data": "2026-08-28"
     }
    ],
-   "total_documentos": 10,
-   "ultima_publicacao": "2026-11-04T09:00-03:00",
+   "total_documentos": 12,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -28624,6 +28593,54 @@
    "remuneracao_maxima": null,
    "cargos": [],
    "documentos": [
+    {
+     "titulo": "Demanda de candidato por vaga",
+     "tipo": "inscritos",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/demanda-candidato_vaga-tjrs-notarial.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo da análise dos pedidos de atendimentos especiais",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-de-ae.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrições nas vagas destinadas aos quilombolas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-quilombolas-deferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrições nas vagas destinadas aos negros (pretos e pardos)",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-negros-deferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de homologação de inscrições nas vagas destinadas aos indígenas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-indigena-deferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de deferimento de inscrição na condição de pessoa com deficiência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-pcd-indeferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de deferimento de inscrição na condição de pessoa com deficiência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-pcd-deferidos.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado Definitivo de Homologação de Inscrições",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-de-inscricao.pdf",
+     "data": "2026-11-09"
+    },
     {
      "titulo": "Cronograma previsto",
      "tipo": "outro",
@@ -28665,58 +28682,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-preliminar-de-pcd-deferidos.pdf",
      "data": "2026-10-19"
-    },
-    {
-     "titulo": "Resultado Preliminar de Homologação de Inscrições",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-preliminar-de-inscricao.pdf",
-     "data": "2026-10-19"
-    },
-    {
-     "titulo": "8ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-15-2026-8a-retificacao-notarial-e-registral-tjrs.pdf",
-     "data": "2026-09-16"
-    },
-    {
-     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao-indeferidos-apos-reabertura.pdf",
-     "data": "2026-09-02"
-    },
-    {
-     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao-deferidos-apos-reabertura.pdf",
-     "data": "2026-09-02"
-    },
-    {
-     "titulo": "7ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-14-2026-7-retificacao-notarial-e-registral-tjrs.pdf",
-     "data": "2026-09-01"
-    },
-    {
-     "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-isencao-indeferidos-apos-reabertura.pdf",
-     "data": "2026-08-18"
-    },
-    {
-     "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-isencao-deferidos-apos-reabertura.pdf",
-     "data": "2026-08-18"
-    },
-    {
-     "titulo": "Resultado do sorteio de serventias",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-13-2026-segundo-sorteio-de-serventias-reservadas-notarial-e-registral-tjrs.pdf",
-     "data": "2026-07-16"
     }
    ],
-   "total_documentos": 31,
-   "ultima_publicacao": "2026-10-19T09:00-03:00",
+   "total_documentos": 39,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -28977,6 +28946,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado preliminar da análise dos pedidos de isenção – indeferido",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjsc_resultado-preliminar-de-isencao-indeferidos-vf.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Resultado preliminar da análise dos pedidos de isenção – deferido",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjsc_resultado-preliminar-de-isencao-deferidos-vf.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "1ª Retificação",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/sei_11350910_edital.pdf",
@@ -28989,8 +28970,8 @@
      "data": "2026-10-13"
     }
    ],
-   "total_documentos": 2,
-   "ultima_publicacao": "2026-10-19T09:00-03:00",
+   "total_documentos": 4,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -30347,6 +30328,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Edital Enap nº 301, de 06 de novembro de 2026: atualização da divulgação sub judice",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-enap-no-301-de-6-de-novembro-de-2026-edital-enap-no-301-de-6-de-novembro-de-2026-dou-imprensa-nacional.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Edital Enap nº 300, de 06 de novembro de 2026: recomposição de vagas remanescentes",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-enap-no-300-de-6-de-novembro-de-2026-edital-enap-no-300-de-6-de-novembro-de-2026-dou-imprensa-nacional.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Edital Enap nº 273, de 5 de outubro de 2026: anulação do edital Enap nº 260/2026",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-enap-no-273-de-5-de-outubro-de-2026-edital-enap-no-273-de-5-de-outubro-de-2026-dou-imprensa-nacional.pdf",
@@ -30423,22 +30416,10 @@
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dou_3a-retificacao_resultadodefinitivoclassificacaofinal_vf01.07.pdf",
      "data": "2026-07-01"
-    },
-    {
-     "titulo": "Edital n° 176, de 25 de maio de 2026: provimento de vagas remanescentes (Retificado em 30/06/2026)",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_provimentovagasremanescentes_com-anexo-11.06.2026.pdf",
-     "data": "2026-05-26"
-    },
-    {
-     "titulo": "Edital n° 164, de 20 de maio de 2026: provimento de vagas adicionais",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_provimentovagasadicionais_rev_com-anexo-20.05-1.pdf",
-     "data": "2026-05-21"
     }
    ],
-   "total_documentos": 191,
-   "ultima_publicacao": "2026-10-06T09:00-03:00",
+   "total_documentos": 193,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {

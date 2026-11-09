@@ -802,6 +802,34 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-09T19:23-03:00",
+  "cargos": [
+   {
+    "nome": "AUDITOR FEDERAL DE FINANÇAS E CONTROLE (AFFC) – ESPECIALIDADE: AUDITORIA",
+    "remuneracao": "20000.00",
+    "numero": 1
+   },
+   {
+    "nome": "AUDITOR FEDERAL DE FINANÇAS E CONTROLE (AFFC) – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO – CIÊNCIA DE DADOS",
+    "remuneracao": "20000.00",
+    "numero": 2
+   },
+   {
+    "nome": "AUDITOR FEDERAL DE FINANÇAS E CONTROLE (AFFC) – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO – INFRAESTRUTURA DE TI",
+    "remuneracao": "20000.00",
+    "numero": 3
+   },
+   {
+    "nome": "AUDITOR FEDERAL DE FINANÇAS E CONTROLE (AFFC) – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO – DESENVOLVIMENTO DE SISTEMAS",
+    "remuneracao": "20000.00",
+    "numero": 4
+   }
+  ],
+  "remuneracao_unica": "20000.00",
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/FDEEFB41.pdf": {
   "versao": 1,
   "lido_em": "2026-11-02T09:00-03:00",
