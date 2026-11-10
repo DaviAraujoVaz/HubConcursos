@@ -16951,6 +16951,24 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Notas da Prova de Língua Portuguesa - Ampla concorrência",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/09.11-notas-da-prova-de-lingua-portuguesa-ampla-concorrencia.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Nota da Prova de Língua Portuguesa - Pessoas com deficiência",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/09.11-nota-da-prova-de-lingua-portuguesa-pessoas-com-deficiencia.pdf",
+     "data": "2026-11-09"
+    },
+    {
+     "titulo": "Caderno de questões - Prova de Língua Portuguesa",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/caderno-de-questoes-prova-de-lingua-portuguesa.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Aviso convocação - Exames de higidez física e mental",
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-aviso-convocacao-exames-de-higidez-fisica-e-mental.pdf",
@@ -17021,28 +17039,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/16.10-cronograma-a-partir-das-provas-orais.pdf",
      "data": "2026-10-16"
-    },
-    {
-     "titulo": "Aviso convocação - Provas orais",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/16.10-aviso-convocacao-provas-orais.pdf",
-     "data": "2026-10-16"
-    },
-    {
-     "titulo": "Resultado dos requerimentos de inscrição definitiva deferidos",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/16.10-resultado-dos-requerimentos-de-inscricao-definitiva-deferidos.pdf",
-     "data": "2026-10-16"
-    },
-    {
-     "titulo": "Aviso - Convocação para o exame psicotécnico - Republicação",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/05.10-aviso-convocacao-para-o-exame-psicotecnico-republicacao.pdf",
-     "data": "2026-10-06"
     }
    ],
-   "total_documentos": 105,
-   "ultima_publicacao": "2026-11-03T09:00-03:00",
+   "total_documentos": 108,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -22778,6 +22778,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Preliminar da Heteroidentificação",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seducsp_educacao_resultado-preliminar-de-heteroidentificacao-2026-11-09.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Resultado Definitivo da Análise da Documentação dos candidatos pretos, pardos e indígenas e convocação para realização Entrevista de Heteroidentificação",
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-heteroidentificacao-seduc-ed-basica.pdf",
@@ -22860,16 +22866,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-ensino-fundamental-e-ensino-medio-biologia-cns102-tipo-2.pdf",
      "data": "2026-08-17"
-    },
-    {
-     "titulo": "Tipo 3",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-ensino-fundamental-e-ensino-medio-biologia-cns102-tipo-3.pdf",
-     "data": "2026-08-17"
     }
    ],
-   "total_documentos": 85,
-   "ultima_publicacao": "2026-10-27T09:00-03:00",
+   "total_documentos": 86,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -22889,6 +22889,12 @@
    "remuneracao_maxima": null,
    "cargos": [],
    "documentos": [
+    {
+     "titulo": "Resultado Preliminar da Heteroidentificação",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seducsp_tecnico_resultado-preliminar-de-heteroidentificacao-2026-11-09.pdf",
+     "data": "2026-11-09"
+    },
     {
      "titulo": "Resultado Preliminar da Prova Prática",
      "tipo": "resultado",
@@ -22972,16 +22978,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/eixo-ii-ambiente-e-saude-tipo-2.pdf",
      "data": "2026-08-24"
-    },
-    {
-     "titulo": "Tipo 3",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/eixo-ii-ambiente-e-saude-tipo-3.pdf",
-     "data": "2026-08-24"
     }
    ],
-   "total_documentos": 51,
-   "ultima_publicacao": "2026-11-06T09:00-03:00",
+   "total_documentos": 52,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -30218,6 +30218,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado Definitivo do Teste de Aptidão Física",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-taf-francielle-verissimo-dos-santos.pdf",
+     "data": "2026-11-09"
+    },
+    {
      "titulo": "Convocação para o Teste de Aptidão Física",
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-05-2026-convocacao-para-o-teste-de-aptidao-fisica-1.pdf",
@@ -30300,16 +30306,10 @@
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/934_trt-24-resultado-final-de-aprovados-2026-02-11.pdf",
      "data": "2025-11-21"
-    },
-    {
-     "titulo": "Resultado Definitivo da Heteroidentificação dos Candidatos Indígenas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-da-hetero-indigenas-95.pdf",
-     "data": "2025-11-21"
     }
    ],
-   "total_documentos": 102,
-   "ultima_publicacao": "2026-09-16T09:00-03:00",
+   "total_documentos": 103,
+   "ultima_publicacao": "2026-11-09T09:00-03:00",
    "primeiro_visto": null
   },
   {
