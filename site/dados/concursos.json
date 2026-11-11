@@ -1017,6 +1017,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Justificativas de alterações de gabarito",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/ALPREV_26/arquivos/1F8CFAB1B339FD7B6FD9E093C25B13916B6B117B16F1F3FFCE5865F3339E6CD4.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA OS CARGOS 1, 2, 3, 5 E 6",
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/ALPREV_26/arquivos/C81B2EF42E9934AEC9A76ABCE1D22B85B9277D55EB45310B19DCCABC403D5DC0.pdf",
@@ -1099,16 +1105,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/ALPREV_26/arquivos/5256CE583E2E8CFEED78D0E48A7A8E22FE5EAE770572517AB8C23E86E1338E54.pdf",
      "data": "2026-11-04"
-    },
-    {
-     "titulo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 6",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/ALPREV_26/arquivos/C13BCB3C0C4171079F63FB5C198B5B3BA9AEEEACA5582468F1E4D716002FDDE0.pdf",
-     "data": "2026-11-04"
     }
    ],
-   "total_documentos": 42,
-   "ultima_publicacao": "2026-11-04T10:20-03:00",
+   "total_documentos": 43,
+   "ultima_publicacao": "2026-11-11T09:16-03:00",
    "primeiro_visto": null
   },
   {
@@ -2170,6 +2170,12 @@
     {
      "titulo": "Edital nº 4 - Reabertura do Prazo para Interposição de Recursos contra os Gabaritos Oficiais Preliminares e Retificação do Cronograma",
      "tipo": "retificacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/38B67D053E28FF645512120B05834C09738CADA56255626926172A14E65AA6DB.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Edital nº 4 - Reabertura do Prazo para Interposição de Recursos contra os Gabaritos Oficiais Preliminares e Retificação do Cronograma - Sem efeito",
+     "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/D12191166A4582904C834B56829AED14E9DE9AA1BCA6D931ABF19644C9EDD008.pdf",
      "data": "2026-11-10"
     },
@@ -2250,16 +2256,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/F174645A5C6D658A8E1CDB460D2001524AF307D1664F7B36ECE7138D4AF71E29.pdf",
      "data": "2026-11-06"
-    },
-    {
-     "titulo": "GABARITO PRELIMINAR – CONHECIMENTOS ESPECÍFICOS – CARGO 1",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/B51E65CD83CE5D66FCE876CCFB933F45473DBE46058E7541495025A8105F8C89.pdf",
-     "data": "2026-11-06"
     }
    ],
-   "total_documentos": 38,
-   "ultima_publicacao": "2026-11-10T19:00-03:00",
+   "total_documentos": 39,
+   "ultima_publicacao": "2026-11-11T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -4849,6 +4849,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 3 - Retificação dos subitens 2.2, 5.1.10, 5.1.12.1, 11.11.4.1 a 11.11.4.10 e 20.9 do Edital nº 1, bem como a inclusão das alíneas “a” a “f” no inciso IV do subitem 10.16, no referido edital",
+     "tipo": "retificacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/PC_PE_26/arquivos/95BF4127E54CA73F44CAB3305F87A4E6480E25D7D7E1B580AC64F98E0A48824A.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "Edital nº 2 – Retificação do subitem 10.2 e dos conhecimentos referentes a Noções de Direito Penal, constantes dos subitens 22.2.3.1 e 22.2.5.1, do Edital nº 1, bem como a inclusão, no referido edital, dos subitens 5.2.1.4 e 5.2.1.5",
      "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/PC_PE_26/arquivos/C335A790C2386E779A43F3A77EC4951ED8D2D044B99B94305A47B4777EFDA48D.pdf",
@@ -4867,8 +4873,8 @@
      "data": "2026-10-02"
     }
    ],
-   "total_documentos": 3,
-   "ultima_publicacao": "2026-10-21T10:00-03:00",
+   "total_documentos": 4,
+   "ultima_publicacao": "2026-11-11T15:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -5214,6 +5220,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Relação provisória dos candidatos com a inscrição deferida para concorrer às vagas reservadas às pessoas com deficiência",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/009A7383C8CE51DE22233538B85362EBB62DC7117AC09655AA16FE8B180A4B55.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "Edital nº 4 – Retificação do tópico 22 dos conhecimentos específicos (grupo II) – Cargo 11: Perito Criminal",
      "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/EF0350608B5F9C230C90E84F75C3DB5376731CF65FB718C2BCE1E53BCB728A4A.pdf",
@@ -5250,8 +5262,8 @@
      "data": "2026-07-17"
     }
    ],
-   "total_documentos": 6,
-   "ultima_publicacao": "2026-10-26T14:00-03:00",
+   "total_documentos": 7,
+   "ultima_publicacao": "2026-11-11T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -8218,6 +8230,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 37/2026 – Resultado provisório na avaliação de títulos",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/213D823E8F97B4306BA35F62ABD0E9CD57D4CE86DCC02D784DA7CC88F2F698F5.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "Edital nº 36/2026 – Convocação de candidato sub judice para a avaliação de títulos",
      "tipo": "convocacao",
      "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/B5A75A8792A48BCCF5B261EA8C0FB1F36444016AF8A95A3AC7F9FA440D054C0A.pdf",
@@ -8300,16 +8318,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/BDDDABD1FFF9438933055A02D28924DCA587D7012D53034017DE3DCD80E4896C.pdf",
      "data": "2026-08-07"
-    },
-    {
-     "titulo": "PROVA DISCURSIVA – CARGO 1",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/9C4F2558BFB30DD9081DD35B4930E82B3C50FE30FD4D40460F034ADD276E05B1.pdf",
-     "data": "2026-08-04"
     }
    ],
-   "total_documentos": 27,
-   "ultima_publicacao": "2026-11-10T11:15-03:00",
+   "total_documentos": 28,
+   "ultima_publicacao": "2026-11-11T11:30-03:00",
    "primeiro_visto": null
   },
   {
@@ -11414,6 +11426,24 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao_inb_indeferidos_2026-11-11.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao_inb_deferidos.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "2ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/retificacao-2-inb.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "COMUNICADO",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-prorrogacao-1.pdf",
@@ -11438,14 +11468,14 @@
      "data": "2026-10-28"
     },
     {
-     "titulo": "Edital (retificado em 06/11/2026)",
+     "titulo": "Edital (retificado em 11/11/2026)",
      "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-inb-2026-versao-final-retificado-1.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-inb-2026-versao-final-retificado-2.pdf",
      "data": "2026-10-13"
     }
    ],
-   "total_documentos": 5,
-   "ultima_publicacao": "2026-11-10T09:00-03:00",
+   "total_documentos": 8,
+   "ultima_publicacao": "2026-11-11T09:00-03:00",
    "primeiro_visto": "2026-11-06"
   },
   {
@@ -16346,6 +16376,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado Definitivo da Prova Discursiva",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/mpes-resultado-definitivo-prova-discursiva.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "COMUNICADO – Prorrogação do prazo de interposição de recursos contra o Resultado Preliminar da Prova Discursiva",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/mpes-comunicado-recurso.pdf",
@@ -16428,16 +16464,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/agente-especializado-analista-de-infraestrutura-cns202-tipo-1.pdf",
      "data": "2026-08-03"
-    },
-    {
-     "titulo": "Agente Especializado - Analista de Segurança da Informação",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/agente-especializado-analista-de-seguranca-da-informacao-cns203-tipo-1.pdf",
-     "data": "2026-08-03"
     }
    ],
-   "total_documentos": 82,
-   "ultima_publicacao": "2026-10-07T09:00-03:00",
+   "total_documentos": 83,
+   "ultima_publicacao": "2026-11-11T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -18473,6 +18503,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Preliminar da Prova Objetiva",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcpr2026-resultado-preliminar-prova-objetiva.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Gabarito Oficial Definitivo da Prova Objetiva",
+     "tipo": "gabarito",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo-1.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "Comunicado - Inclusão Sub Judice",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/giovanni.pdf",
@@ -18549,22 +18591,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-papiloscopista-policial-cns301-tipo-3.pdf",
      "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 4",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-papiloscopista-policial-cns301-tipo-4.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Comunicado - Inclusão Sub Judice",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-0810.pdf",
-     "data": "2026-10-08"
     }
    ],
-   "total_documentos": 34,
-   "ultima_publicacao": "2026-10-20T09:00-03:00",
+   "total_documentos": 36,
+   "ultima_publicacao": "2026-11-11T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -18584,6 +18614,24 @@
    "remuneracao_maxima": null,
    "cargos": [],
    "documentos": [
+    {
+     "titulo": "Resultado Definitivo da Prova Escrita Subjetiva - Candidatos Negros",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/529_pge-ac_resultado-definitivo-discursiva-negro-2026-11-05.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Resultado Definitivo da Prova Escrita Subjetiva - Pessoas com Deficiência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/529_pge-ac_resultado-definitivo-discursiva-pcd-2026-11-05.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Resultado Definitivo da Prova Escrita Subjetiva",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/529_pge-ac_resultado-definitivo-discursiva-2026-11-05.pdf",
+     "data": "2026-11-11"
+    },
     {
      "titulo": "Resultado Preliminar da Prova Escrita Subjetiva - Candidatos Negros",
      "tipo": "resultado",
@@ -18655,28 +18703,10 @@
      "tipo": "gabarito",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-pge-ac.pdf",
      "data": "2026-06-29"
-    },
-    {
-     "titulo": "Gabarito Oficial Preliminar da Prova Objetiva",
-     "tipo": "gabarito",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pge-ac-gabaritos-para-publicacao.pdf",
-     "data": "2026-05-27"
-    },
-    {
-     "titulo": "Tipo 1",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/procurador-do-estado-do-acre-cns001-tipo-1.pdf",
-     "data": "2026-05-27"
-    },
-    {
-     "titulo": "Tipo 2",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/procurador-do-estado-do-acre-cns001-tipo-2.pdf",
-     "data": "2026-05-27"
     }
    ],
-   "total_documentos": 34,
-   "ultima_publicacao": "2026-10-05T09:00-03:00",
+   "total_documentos": 37,
+   "ultima_publicacao": "2026-11-11T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26544,6 +26574,12 @@
     {
      "titulo": "Comunicado - inclusão sub judice",
      "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-candidata-renata-ceolin-1.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Comunicado - inclusão sub judice",
+     "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-diego-henrique-figueiredo-de-freitas-tjms-notarial.pdf",
      "data": "2026-11-06"
     },
@@ -26624,16 +26660,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427_tjms-resultado-preliminar-exames-de-saude-toxicologico.pdf",
      "data": "2026-10-07"
-    },
-    {
-     "titulo": "Resultado Definitivo da Heteroidentificação",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-no-17-cgj-resultado-definitivo-heteroidentificacao.pdf",
-     "data": "2026-10-01"
     }
    ],
-   "total_documentos": 88,
-   "ultima_publicacao": "2026-11-06T09:00-03:00",
+   "total_documentos": 89,
+   "ultima_publicacao": "2026-11-11T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -27530,6 +27560,24 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Edital de convocação para segunda etapa (Provas Escritas)",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-convocacao-para-prova-discursiva_0.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Resultado da Prova Objetiva Seletiva",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-resultado-prova-objetiva-seletiva.pdf",
+     "data": "2026-11-11"
+    },
+    {
+     "titulo": "Gabarito Oficial Definitivo da Prova Objetiva Seletiva",
+     "tipo": "gabarito",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "Sessão Pública de julgamento dos recursos interpostos contra os gabaritos da Prova Objetiva",
      "tipo": "gabarito",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-aviso-convocacao-sessao-publica-de-julgamento-dos-recursos-da-prova-objetiva.pdf",
@@ -27600,28 +27648,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-definitivo-pcd-indeferido.pdf",
      "data": "2026-08-12"
-    },
-    {
-     "titulo": "Resultado definitivo de deferimento de inscrição na condição de pessoa com deficiência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-definitivo-pcd-deferido.pdf",
-     "data": "2026-08-12"
-    },
-    {
-     "titulo": "Resultado definitivo de homologação de inscrição nas vagas destinadas aos candidatos quilombolas",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-definitivo-quilombola.pdf",
-     "data": "2026-08-12"
-    },
-    {
-     "titulo": "Resultado definitivo de homologação de inscrição nas vagas destinadas aos candidatos indígenas",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjpe-definitiva-indigena.pdf",
-     "data": "2026-08-12"
     }
    ],
-   "total_documentos": 31,
-   "ultima_publicacao": "2026-11-06T09:00-03:00",
+   "total_documentos": 34,
+   "ultima_publicacao": "2026-11-11T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -33239,6 +33269,12 @@
    ],
    "documentos": [
     {
+     "titulo": "DJE 11.11.2026",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-11.11.2026.pdf",
+     "data": "2026-11-11"
+    },
+    {
      "titulo": "DJE 10.11.2026",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-10.11.2026.pdf",
@@ -33321,16 +33357,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-30.09.2026.pdf",
      "data": "2026-09-30"
-    },
-    {
-     "titulo": "Resultado Final de Aprovados - Inclusão - Candidato Sub Judice",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-final-de-aprovados-inclusao-wellington-lessa-lisboa-1.pdf",
-     "data": "2026-09-24"
     }
    ],
-   "total_documentos": 69,
-   "ultima_publicacao": "2026-11-10T09:00-03:00",
+   "total_documentos": 70,
+   "ultima_publicacao": "2026-11-11T09:00-03:00",
    "primeiro_visto": null
   },
   {

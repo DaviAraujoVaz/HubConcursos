@@ -8528,6 +8528,29 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-inb-2026-versao-final-retificado-2.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-11T16:37-03:00",
+  "cargos": [
+   {
+    "nome": "Administrador",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Engenheiro de Segurança do Trabalho",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Técnico Técnico em Radioproteção",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-iphan-20241130_22_01_2024-02-retificacao.22.01.25.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
