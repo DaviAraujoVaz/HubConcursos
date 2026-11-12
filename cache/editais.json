@@ -638,6 +638,24 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/CBM_AL_26/arquivos/6BFA9F0426CD88BF63320B6DA1CD2920B93240E7AE5975E738DD9BAF4643256F.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-12T04:14-03:00",
+  "cargos": [
+   {
+    "nome": "OFICIAL DE ESTADO-MAIOR",
+    "remuneracao": null,
+    "numero": 1
+   },
+   {
+    "nome": "SOLDADO DO QUADRO DE PRAÇAS",
+    "remuneracao": null,
+    "numero": 2
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/CBM_MA_26/arquivos/2F4A1EDF9D0FF7582890B07C946A2D180C6C549CE1D22ACEC9F801761735F4A6.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
