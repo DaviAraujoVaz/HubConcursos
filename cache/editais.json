@@ -577,6 +577,49 @@
   "remuneracao_unica": "11500.00",
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/5115382467E9F426500EEC52E307C26C5BA8A83486C39C1154AC3F30AC893E4F.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-12T16:55-03:00",
+  "cargos": [
+   {
+    "nome": "ANALISTA DE LICITAÇÃO E CONTRATOS",
+    "remuneracao": "7999.59",
+    "numero": 1
+   },
+   {
+    "nome": "ANALISTA DE SISTEMAS",
+    "remuneracao": "7999.59",
+    "numero": 2
+   },
+   {
+    "nome": "CONSULTOR LEGISLATIVO",
+    "remuneracao": "7999.59",
+    "numero": 3
+   },
+   {
+    "nome": "CONTADOR",
+    "remuneracao": "7999.59",
+    "numero": 4
+   },
+   {
+    "nome": "CONTROLADOR INTERNO",
+    "remuneracao": "7999.59",
+    "numero": 5
+   },
+   {
+    "nome": "TÉCNICO EM INFORMÁTICA",
+    "remuneracao": "3919.59",
+    "numero": 6
+   },
+   {
+    "nome": "ASSISTENTE ADMINISTRATIVO",
+    "remuneracao": "3896.67",
+    "numero": 7
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/CAMARA_MUNICIPAL_PONTAPORA_MS_26/arquivos/D8EB31B55B12B81CF23483DA8829324461D2FA339B2041F357CBD6E0E294E903.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -1097,6 +1140,29 @@
   "remuneracao_unica": "1990.97",
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/PC_PE_26/arquivos/19E649EFD47D414D072E0EBB585FDBE3E315F1A3D8F6C94626FB29E70ECB66FB.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-12T16:55-03:00",
+  "cargos": [
+   {
+    "nome": "AGENTE DE POLÍCIA",
+    "remuneracao": "5667.92",
+    "numero": 1
+   },
+   {
+    "nome": "DELEGADO DE POLÍCIA",
+    "remuneracao": "13560.00",
+    "numero": 2
+   },
+   {
+    "nome": "ESCRIVÃO DE POLÍCIA",
+    "remuneracao": "5667.92",
+    "numero": 3
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/PC_PE_26/arquivos/63842FF8D583EDFC839E0E22838DA67E30E283ED69B3ECE951BF2D0CDB69A540.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -1386,6 +1452,34 @@
  "https://cdn.cebraspe.org.br/concursos/PM_AL_26/arquivos/71803422710E76748878C26949A28B77CE7B94ED8A9C4235C980CB9723A3136D.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
+  "cargos": [
+   {
+    "nome": "CFO: a) Cadete 1º ano",
+    "remuneracao": "4716.51",
+    "numero": null
+   },
+   {
+    "nome": "II – condição alcançada como Aspirante, após a",
+    "remuneracao": "11563.77",
+    "numero": null
+   },
+   {
+    "nome": "Soldado-Aluno, durante o período do CFP",
+    "remuneracao": "2354.67",
+    "numero": null
+   },
+   {
+    "nome": "II – condição alcançada como Soldado, após a",
+    "remuneracao": "6067.51",
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
+ "https://cdn.cebraspe.org.br/concursos/PM_AL_26/arquivos/E688593023689F1D37AA63ABA2D913FC7B9BA86134008EF9170ECEC2A937871F.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-12T16:55-03:00",
   "cargos": [
    {
     "nome": "CFO: a) Cadete 1º ano",
@@ -3712,6 +3806,39 @@
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
   "cargos": [],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-concurso-publico-crp-05.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-12T16:55-03:00",
+  "cargos": [
+   {
+    "nome": "Subsede Norte e Noroeste Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Serrana",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Sul Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Baixada Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Leste Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   }
+  ],
   "remuneracao_unica": null,
   "erro": ""
  },
@@ -7641,6 +7768,59 @@
   "lido_em": "2026-11-02T02:07-03:00",
   "cargos": [],
   "remuneracao_unica": "34083.41",
+  "erro": ""
+ },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital-retificado-tjpb_11.11.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-12T16:55-03:00",
+  "cargos": [
+   {
+    "nome": "ANALISTA – Judiciária",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – TI – Desenvolvimento de Sistemas",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – TI – Banco de Dados",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – TI – Infraestrutura de TI",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – TI – Gestão de Governança de TI",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – TI – Segurança da Informação",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – TI – Inteligência Artificial",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – TI – Ciência e Análise de Dados",
+    "remuneracao": "7526.14",
+    "numero": null
+   },
+   {
+    "nome": "ANALISTA – Contabilidade",
+    "remuneracao": "7526.14",
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": "7526.14",
   "erro": ""
  },
  "https://conhecimento.fgv.br/sites/default/files/concursos/edital-retificado-tjpb_29.10.pdf": {
