@@ -2874,6 +2874,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 14 – Resultado provisório no procedimento de verificação da veracidade da autodeclaração dos candidatos negros, indígenas e quilombolas",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/438FF9271AFCB0CCA0A3625073696D5B3D9F7EF34C607BE09E1438C457FECF47.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Edital nº 13 – Resultado final na prova discursiva, a convocação para a avaliação biopsicossocial dos candidatos que solicitaram concorrer às vagas reservadas às pessoas com deficiência e a convocação para o procedimento de verificação da veracidade da autodeclaração dos candidatos negros, indígenas e quilombolas",
      "tipo": "convocacao",
      "url": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/9E96433B1E053E86CC2E4A0883F51EAD846E6B1A7AD34DF776D78D4A9488EE31.pdf",
@@ -2956,16 +2962,10 @@
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/70D8C3E5D50A7113F9AC303FCEE1B061934804025B34C8388C15BB5C4520BA18.pdf",
      "data": "2026-07-13"
-    },
-    {
-     "titulo": "Relação de candidatas que tiveram a solicitação de atendimento especializado para lactantes deferida",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/C78EBF81647B09D4332E8891E097B84BA887486BD57C085D1DBF17C98A44F790.pdf",
-     "data": "2026-07-13"
     }
    ],
-   "total_documentos": 30,
-   "ultima_publicacao": "2026-10-22T10:00-03:00",
+   "total_documentos": 31,
+   "ultima_publicacao": "2026-11-13T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -3079,6 +3079,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 10 – Resultado final na prova discursiva, a convocação para a avaliação biopsicossocial dos candidatos que solicitaram concorrer às vagas reservadas às pessoas com deficiência, a convocação para o procedimento de verificação da veracidade da autodeclaração dos candidatos negros, indígenas e quilombolas e a convocação para o desempate de notas",
+     "tipo": "convocacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/DER_AL_26/arquivos/EA1B97ED28A8420756622400F9D8FB4F798FF16A37F4491412650081B0C02958.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Justificativas de alterações de gabarito",
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/DER_AL_26/arquivos/FD3825D1B0035AB2F858CEFCEBAB822AAA1F0000F3B91B0665917EA66274B986.pdf",
@@ -3161,16 +3167,10 @@
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/DER_AL_26/arquivos/E9405C7F52364A9D233311C88133AC838DCBF4A722D41203784D037D4336401A.pdf",
      "data": "2026-07-29"
-    },
-    {
-     "titulo": "Edital nº 7 – Relação final dos candidatos com a solicitação de isenção da taxa de inscrição deferida, exclusivamente para candidatos com Transtorno do Espectro Autista (TEA)",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/DER_AL_26/arquivos/AA778EB60D57D0988C152194346959A73625028475C13A75A023B71F869BD533.pdf",
-     "data": "2026-07-09"
     }
    ],
-   "total_documentos": 24,
-   "ultima_publicacao": "2026-10-28T08:55-03:00",
+   "total_documentos": 25,
+   "ultima_publicacao": "2026-11-13T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -3685,6 +3685,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital n° 8 - Resultado provisório na avaliação biopsicossocial e o resultado provisório no procedimento de verificação da veracidade da autodeclaração dos candidatos negros, indígenas e quilombolas",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/FAPEAL_26/arquivos/CD6BCD0596072B67AC40E3A1CCC2CBB4CD87A579EC729DD417C1646AFDB1605C.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Edital nº 7 – Resultado final na prova discursiva, a convocação para a avaliação biopsicossocial e a convocação para o procedimento de verificação da veracidade da autodeclaração dos candidatos negros, indígenas e quilombolas",
      "tipo": "convocacao",
      "url": "https://cdn.cebraspe.org.br/concursos/FAPEAL_26/arquivos/03868DE298252DF480F92690EDABB2FE057064185955FB2FF320DC410437B674.pdf",
@@ -3767,16 +3773,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/FAPEAL_26/arquivos/983B20A59625A085182BCAA4C1787C36A7081FF5A251028DEE027D2438129393.pdf",
      "data": "2026-09-23"
-    },
-    {
-     "titulo": "PROVA OBJETIVA - CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/FAPEAL_26/arquivos/364DD8751E3B0065D4AEBA66D4B0449C5CB4AB8A0DA9E3ECFE124BA2DBF5FE70.pdf",
-     "data": "2026-08-26"
     }
    ],
-   "total_documentos": 37,
-   "ultima_publicacao": "2026-10-20T10:10-03:00",
+   "total_documentos": 38,
+   "ultima_publicacao": "2026-11-13T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -8511,6 +8511,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 4 – Consulta aos locais de aplicação das provas objetivas e da prova discursiva",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEPLAG_AL_26_PROCON/arquivos/809BEF98E25C8D735C7DB3856CF54EBFDE09401D2B2E131AC322F523100B4E1B.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Relação final dos candidatos com a inscrição deferida para concorrer às vagas reservadas às pessoas com deficiência",
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/SEPLAG_AL_26_PROCON/arquivos/A421444817E2C2C0789BF3C8E51C314C4E42906F76A87FC44A778783B90CD2DA.pdf",
@@ -8559,8 +8565,8 @@
      "data": "2026-07-03"
     }
    ],
-   "total_documentos": 8,
-   "ultima_publicacao": "2026-09-23T10:00-03:00",
+   "total_documentos": 9,
+   "ultima_publicacao": "2026-11-13T11:15-03:00",
    "primeiro_visto": null
   },
   {
@@ -8976,6 +8982,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Quantitativo de inscritos por sistema de concorrência",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/064ACC9640F6DB159277D5767207509F650991C975630848B37088B9AEEE344F.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Edital nº 5 - Locais de aplicação das provas objetivas e da prova discursiva",
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/0EB1E3CEBA66F59410840001760137A08C1C41659ADADF25E1AD51323A502D7F.pdf",
@@ -9036,8 +9048,8 @@
      "data": "2026-07-07"
     }
    ],
-   "total_documentos": 10,
-   "ultima_publicacao": "2026-11-06T14:30-03:00",
+   "total_documentos": 11,
+   "ultima_publicacao": "2026-11-13T14:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -9686,6 +9698,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Quantitativo de inscritos por sistema de concorrência",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_26_ANALISTA/arquivos/17DE3B4848D75DD1619C189D76061240957101F24E999D1FE89A16DA11AAF226.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Edital nº 3 – Locais de aplicação das provas objetivas e da prova discursiva",
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_26_ANALISTA/arquivos/047B8C43AE71D438FC61D9284621E8E5F4C3DD24C77CD3400B738BFB0D2EC795.pdf",
@@ -9740,8 +9758,8 @@
      "data": "2026-07-09"
     }
    ],
-   "total_documentos": 9,
-   "ultima_publicacao": "2026-11-06T11:50-03:00",
+   "total_documentos": 10,
+   "ultima_publicacao": "2026-11-13T16:05-03:00",
    "primeiro_visto": null
   },
   {
@@ -10790,6 +10808,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Quantitativo de inscritos por sistema de concorrência",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/UNCISAL_26/arquivos/17DE3B4848D75DD1619C189D76061240957101F24E999D1FE89A16DA11AAF226.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Edital nº 5 - Locais de aplicação das provas objetivas e da prova discursiva",
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/UNCISAL_26/arquivos/5A441B44649052DF3955D7FD2A9F53A600291E1751978C73012DC5D360CAFBC0.pdf",
@@ -10856,8 +10880,8 @@
      "data": "2026-06-26"
     }
    ],
-   "total_documentos": 11,
-   "ultima_publicacao": "2026-11-06T10:00-03:00",
+   "total_documentos": 12,
+   "ultima_publicacao": "2026-11-13T14:20-03:00",
    "primeiro_visto": null
   },
   {
@@ -13369,6 +13393,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado Definitivo da Avaliação de Títulos",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pgmcm-procurador-resultado-definitivo-da-avaliacao-de-titulos.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Resultado da Prova Oral",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pgmcm-procurador-resultado-prova-oral.pdf",
@@ -13451,16 +13481,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resolucao-pgm-no-1310-de-16-de-setembro-de-2026-altera-1270-adiciona-banca-examinadora-9c.pdf",
      "data": "2026-09-17"
-    },
-    {
-     "titulo": "Resultado Preliminar da Prova Escrita Específica",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/01_resultado-preliminar-da-prova-escrita-especifica_ampla.pdf",
-     "data": "2026-08-24"
     }
    ],
-   "total_documentos": 51,
-   "ultima_publicacao": "2026-10-28T09:00-03:00",
+   "total_documentos": 52,
+   "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -13636,27 +13660,27 @@
    ],
    "documentos": [
     {
-     "titulo": "Resultado Final de Aprovados - Pessoas com Deficiência",
+     "titulo": "Resultado Final de Aprovados - Pessoas com Deficiência (13/11/2026)",
      "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-pcd-2026-06-11_0.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-pcd-2026-08-05.pdf",
      "data": "2026-06-15"
     },
     {
-     "titulo": "Resultado Final de Aprovados - Pessoas Quilombolas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-quilombolas-2026-06-11_0.pdf",
+     "titulo": "Resultado Final de Aprovados - Pessoas Quilombolas (retificado em 13/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-quilombolas-2026-08-05.pdf",
      "data": "2026-06-15"
     },
     {
-     "titulo": "Resultado Final de Aprovados - Negros (Pretas e Pardas)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-negros-2026-06-11_0.pdf",
+     "titulo": "Resultado Final de Aprovados - Negros (Pretas e Pardas) (retificado em 13/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-negros-2026-08-05.pdf",
      "data": "2026-06-15"
     },
     {
-     "titulo": "Resultado Final de Aprovados",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-2026-06-11_0.pdf",
+     "titulo": "Resultado Final de Aprovados (retificado em 13/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/741-cprm-resultado-final-de-aprovados-2026-08-05.pdf",
      "data": "2026-06-15"
     },
     {
@@ -18503,6 +18527,24 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Preliminar da Prova Objetiva",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcpr2026-resultado-prova-objetiva_reprocessamento-v2.pdf",
+     "data": "2026-11-13"
+    },
+    {
+     "titulo": "Gabarito Oficial Definitivo da Prova Objetiva",
+     "tipo": "gabarito",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabaritos-definitivos-v3.pdf",
+     "data": "2026-11-13"
+    },
+    {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-pcpr-13.11.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "COMUNICADO",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_pcpr.pdf",
@@ -18573,28 +18615,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-papiloscopista-policial-cns301-tipo-1.pdf",
      "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 2",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-papiloscopista-policial-cns301-tipo-2.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 3",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-papiloscopista-policial-cns301-tipo-3.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 4",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-papiloscopista-policial-cns301-tipo-4.pdf",
-     "data": "2026-10-13"
     }
    ],
-   "total_documentos": 35,
-   "ultima_publicacao": "2026-11-11T09:00-03:00",
+   "total_documentos": 38,
+   "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -19759,6 +19783,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Portaria nº 695/2026",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-no-695.2026-convoca-dj-candidato-qppm.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Portaria nº 661/2026",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-no-661.2026-inclusao-al-praca-eliezio.pdf",
@@ -19841,16 +19871,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/vinicius-araujo.pdf",
      "data": "2026-10-16"
-    },
-    {
-     "titulo": "Edital de Resultado Final de Investigação Social e da Vida Pregressa de candidato sub judice",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/paulo-felipe-marinho.pdf",
-     "data": "2026-10-16"
     }
    ],
-   "total_documentos": 167,
-   "ultima_publicacao": "2026-11-05T09:00-03:00",
+   "total_documentos": 168,
+   "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -21582,6 +21606,27 @@
    "total_documentos": 47,
    "ultima_publicacao": "2026-03-17T09:00-03:00",
    "primeiro_visto": null
+  },
+  {
+   "id": "fgv:concursos/seadap22",
+   "titulo": "Concurso Público para a Secretaria de Estado da Administração - SEAD-AP",
+   "banca": "fgv",
+   "situacao": "andamento",
+   "esfera": "estadual",
+   "areas": [
+    "Administrativa"
+   ],
+   "url": "https://conhecimento.fgv.br/concursos/seadap22",
+   "ano": null,
+   "inscricoes_inicio": null,
+   "inscricoes_fim": null,
+   "vagas": null,
+   "remuneracao_maxima": null,
+   "cargos": [],
+   "documentos": [],
+   "total_documentos": 0,
+   "ultima_publicacao": null,
+   "primeiro_visto": "2026-11-13"
   },
   {
    "id": "fgv:concursos/seadse25",
@@ -25468,6 +25513,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "2ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/retificacao-tjap.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjap-resultado-preliminar-da-analise-dos-pedidos-de-isencao-indeferido.pdf",
@@ -25486,14 +25537,14 @@
      "data": "2026-10-13"
     },
     {
-     "titulo": "Edital (retificado em 13/10/2026)",
+     "titulo": "Edital (retificado em 13/11/2026)",
      "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjap.versao-final.13.10.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjap.versao-final.13.11.pdf",
      "data": "2026-10-05"
     }
    ],
-   "total_documentos": 4,
-   "ultima_publicacao": "2026-10-30T09:00-03:00",
+   "total_documentos": 5,
+   "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26198,6 +26249,12 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cumprimento-de-limiar_edimar-reis.matheus-mendanha.roberta-maria-guedes-e-felipe-rodrigues.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Alteração na composição da comissão examinadora do 59º concurso para Juiz Substituto do Estado de Goiás",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-alteracao-composicao-ce-suplente-assinado.pdf",
@@ -26280,16 +26337,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/476_tjgo-resultado-preliminar-prova-discursiva-pcd-2026-07-27.pdf",
      "data": "2026-07-28"
-    },
-    {
-     "titulo": "Resultado Preliminar da Prova Escrita Discursiva",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/476_tjgo-resultado-preliminar-prova-discursiva-2026-07-27.pdf",
-     "data": "2026-07-28"
     }
    ],
-   "total_documentos": 69,
-   "ultima_publicacao": "2026-11-12T09:00-03:00",
+   "total_documentos": 70,
+   "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -33353,6 +33404,12 @@
    ],
    "documentos": [
     {
+     "titulo": "DJE 13.11.2026",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-13.11.2026.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "DJE 12.11.2026",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-12.11.2026.pdf",
@@ -33435,16 +33492,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-final-de-aprovados-inclusao-manasses-ramos-da-silva-junior.pdf",
      "data": "2026-09-30"
-    },
-    {
-     "titulo": "Resultado Final de Aprovados - Inclusão - Candidato Sub Judice",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-final-de-aprovados-inclusao-carla-pacheco-sampaio.pdf",
-     "data": "2026-09-30"
     }
    ],
-   "total_documentos": 71,
-   "ultima_publicacao": "2026-11-12T09:00-03:00",
+   "total_documentos": 72,
+   "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
   {
