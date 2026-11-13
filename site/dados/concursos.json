@@ -16856,6 +16856,30 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado da Prova de Títulos (Ampla Concorrência)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/12.11-notas-prova-de-titulos-ampla-concorrencia.pdf",
+     "data": "2026-11-12"
+    },
+    {
+     "titulo": "Resultado da Prova de Títulos (PcD)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/12.11-notas-prova-de-titulos-pessoas-com-deficiencia.pdf",
+     "data": "2026-11-12"
+    },
+    {
+     "titulo": "Resultado do Exame de Higidez Física e Mental",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/12.11-aviso-exames-de-higidez-fisica-e-mental.pdf",
+     "data": "2026-11-12"
+    },
+    {
+     "titulo": "Resultado da Avaliação Biopsicossocial",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/12.11-aviso-avaliacao-biopsicosocial.pdf",
+     "data": "2026-11-12"
+    },
+    {
      "titulo": "Notas da Prova de Língua Portuguesa - Ampla concorrência",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/09.11-notas-da-prova-de-lingua-portuguesa-ampla-concorrencia.pdf",
@@ -16920,34 +16944,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/27.10-relacao-de-candidatos-habilitados-provas-orais-ampla-concorrencia-dia-27.10_sdasssds465d.pdf",
      "data": "2026-10-27"
-    },
-    {
-     "titulo": "Relação de Candidato Habilitado - Provas Orais - Pessoas com Deficiência Dia 27.10",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/27.10-relacao-de-candidato-habilitado-provas-orais-pessoas-com-deficiencia-dia-27.10-1-sdasssds465d.pdf",
-     "data": "2026-10-27"
-    },
-    {
-     "titulo": "Relação dos candidatos da ampla concorrência habilitados após a prestação das provas orais e as respectivas notas atribuídas a cada disciplina jurídica",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/26.10-relacao-de-candidatos-habilitados-provas-orais-ampla-concorrencia-dia-26.10-1.pdf",
-     "data": "2026-10-26"
-    },
-    {
-     "titulo": "Aviso credenciamento - Provas orais",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/21.10-aviso-credenciamento-publico-provas-orais.pdf",
-     "data": "2026-10-21"
-    },
-    {
-     "titulo": "Cronograma a partir das provas orais",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/16.10-cronograma-a-partir-das-provas-orais.pdf",
-     "data": "2026-10-16"
     }
    ],
-   "total_documentos": 108,
-   "ultima_publicacao": "2026-11-09T09:00-03:00",
+   "total_documentos": 112,
+   "ultima_publicacao": "2026-11-12T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -28150,6 +28150,12 @@
     {
      "titulo": "COMUNICADO",
      "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_resultado-definitivo_alice-emiliana-queiroz-ribeiro-coelho-mendes-de-brito.pdf",
+     "data": "2026-11-12"
+    },
+    {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_classificacao_lydiane-elena-peretta_.pdf",
      "data": "2026-11-12"
     },
@@ -28230,15 +28236,9 @@
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_ana-caroline-pereira-oliveira-berna-e-alice-emiliana-queiroz-ribeiro-coelho-mendes-de-brito.pdf",
      "data": "2026-09-24"
-    },
-    {
-     "titulo": "Resultado Definitivo Inscrição Definitiva e Sindicância da Vida Pregressa",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/357_tjrn_resultado-definitivo-inscricao-definitiva-2026-09-22-r.pdf",
-     "data": "2026-09-23"
     }
    ],
-   "total_documentos": 66,
+   "total_documentos": 67,
    "ultima_publicacao": "2026-11-12T09:00-03:00",
    "primeiro_visto": null
   },
@@ -28549,51 +28549,51 @@
    "cargos": [],
    "documentos": [
     {
-     "titulo": "Demanda de candidato por vaga",
-     "tipo": "inscritos",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/demanda-candidato_vaga-tjrs-notarial.pdf",
+     "titulo": "Demanda de candidato por vaga (retificado em 12/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/demanda-candidato_vaga-tjrs-notarial_retificado.pdf",
      "data": "2026-11-09"
     },
     {
-     "titulo": "Resultado Definitivo da análise dos pedidos de atendimentos especiais",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-de-ae.pdf",
+     "titulo": "Resultado Definitivo da análise dos pedidos de atendimentos especiais (retificado em 12/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial_atendimento_definitivo_retificado.pdf",
      "data": "2026-11-09"
     },
     {
      "titulo": "Resultado Definitivo de homologação de inscrições nas vagas destinadas aos quilombolas",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-quilombolas-deferidos.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial_quilombolas_definitivo.pdf",
      "data": "2026-11-09"
     },
     {
      "titulo": "Resultado Definitivo de homologação de inscrições nas vagas destinadas aos negros (pretos e pardos)",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-negros-deferidos.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial_negros_definitivo.pdf",
      "data": "2026-11-09"
     },
     {
      "titulo": "Resultado Definitivo de homologação de inscrições nas vagas destinadas aos indígenas",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-indigena-deferidos.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial_indigenas_definitivo.pdf",
      "data": "2026-11-09"
     },
     {
-     "titulo": "Resultado Definitivo de deferimento de inscrição na condição de pessoa com deficiência",
+     "titulo": "Resultado Definitivo de indeferimento de inscrição na condição de pessoa com deficiência",
      "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-pcd-indeferidos.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial_deficientes_definitivo_indeferido.pdf",
      "data": "2026-11-09"
     },
     {
-     "titulo": "Resultado Definitivo de deferimento de inscrição na condição de pessoa com deficiência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-pcd-deferidos.pdf",
+     "titulo": "Resultado Definitivo de deferimento de inscrição na condição de pessoa com deficiência (retificado em 12/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial_deficientes_definitivo_deferido_retificado.pdf",
      "data": "2026-11-09"
     },
     {
-     "titulo": "Resultado Definitivo de Homologação de Inscrições",
+     "titulo": "Resultado Definitivo de Homologação de Inscrições (retificado em 12/11/2026)",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial-resultado-definitivo-de-inscricao.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-notarial_inscricoes_definitivo_retificado.pdf",
      "data": "2026-11-09"
     },
     {
