@@ -10986,6 +10986,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 13 – Resultado final na avaliação biopsicossocial dos candidatos que solicitaram concorrer às vagas reservadas às pessoas com deficiência e o resultado final no procedimento de verificação da veracidade da autodeclaração dos candidatos negros, indígenas e quilombolas",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/UNE_AL_26/arquivos/CD53A20547CFDCA11F879DC12AFE71535841A24E0B12B22A5AB1957E17FDE0F4.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Edital nº 12 – Resultado provisório na avaliação biopsicossocial dos candidatos que solicitaram concorrer às vagas reservadas às pessoas com deficiência e o resultado provisório no procedimento de verificação da veracidade da autodeclaração dos candidatos negros, indígenas e quilombolas",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/UNE_AL_26/arquivos/047042B26E54B415AC9001BC3C476C108C720AE32CF61718F22A60D32DE9F0E6.pdf",
@@ -11068,16 +11074,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/UNE_AL_26/arquivos/5E5077950AE560EA1968FC8672FA6E3C67F324CC30441D9603E0E73DBD90AA51.pdf",
      "data": "2026-09-08"
-    },
-    {
-     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 9",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/UNE_AL_26/arquivos/AF428272D9FDFD3BBD859097CE111CA20F8FBE4243AF6CB1C28FD1C11FD6965E.pdf",
-     "data": "2026-09-08"
     }
    ],
-   "total_documentos": 53,
-   "ultima_publicacao": "2026-10-30T09:15-03:00",
+   "total_documentos": 54,
+   "ultima_publicacao": "2026-11-13T20:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -16880,6 +16880,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado da Prova de Títulos - republicação",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/notas-prova-de-titulos-republicacao-1.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "Resultado da Prova de Títulos (Ampla Concorrência)",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/12.11-notas-prova-de-titulos-ampla-concorrencia.pdf",
@@ -16962,16 +16968,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/27.10-candidato-a-inabilitado-a-provas-orais-dia-27.10_sdasssds465d.pdf",
      "data": "2026-10-27"
-    },
-    {
-     "titulo": "Relação de Candidatos Habilitados - Provas Orais - Ampla Concorrência Dia 27.10",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/27.10-relacao-de-candidatos-habilitados-provas-orais-ampla-concorrencia-dia-27.10_sdasssds465d.pdf",
-     "data": "2026-10-27"
     }
    ],
-   "total_documentos": 112,
-   "ultima_publicacao": "2026-11-12T09:00-03:00",
+   "total_documentos": 113,
+   "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -25513,6 +25513,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjap-resultado-definitivo-da-analise-dos-pedidos-de-isencao-indeferido.pdf",
+     "data": "2026-11-13"
+    },
+    {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjap-resultado-definitivo-da-analise-dos-pedidos-de-isencao-deferido.pdf",
+     "data": "2026-11-13"
+    },
+    {
      "titulo": "2ª Retificação",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/retificacao-tjap.pdf",
@@ -25543,7 +25555,7 @@
      "data": "2026-10-05"
     }
    ],
-   "total_documentos": 5,
+   "total_documentos": 7,
    "ultima_publicacao": "2026-11-13T09:00-03:00",
    "primeiro_visto": null
   },
