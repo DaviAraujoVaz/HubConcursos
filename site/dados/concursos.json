@@ -2752,6 +2752,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 21 - Resultado final na avaliação de saúde física e mental",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/12FAAD18878E920A5F7105709465F6FB5C4AA09FF2D1E736491D08BAE0E1C5B1.pdf",
+     "data": "2026-11-17"
+    },
+    {
+     "titulo": "Edital nº 20 - Retificação do subitem 3.1 do Edital nº 19 – CD/PLF, de 26 de outubro de 2026",
+     "tipo": "retificacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/4FA434EAA85C7CD4C1352B406F1B3B01B0D2802D7EBBDE0585807EA11E60ECF3.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "Edital nº 19 - Resultado provisório na avaliação de saúde física e mental",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/0A2BBA2DE7A79AFF78316A36A35F513A5FBB9F5703A9B55597DD264B9C4BF292.pdf",
@@ -2828,22 +2840,10 @@
      "tipo": "convocacao",
      "url": "https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/51DD962FBEBD155925FB399D5776149009859B3C4C23C918981343A946B8E603.pdf",
      "data": "2026-07-17"
-    },
-    {
-     "titulo": "PADRÃO DEFINITIVO DE RESPOSTAS – PROVA DISCURSIVA",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/9DE5A2A09DFA527B96AEDBB3838F7B448A59C7E4A2564F4A5778CA44B8613573.pdf",
-     "data": "2026-06-26"
-    },
-    {
-     "titulo": "Edital nº 9 - Resultado final no procedimento de confirmação complementar à autodeclaração para candidatos negros (pretos e pardos), o resultado final no procedimento de verificação documental complementar para candidatos indígenas e quilombolas e o resultado provisório na prova discursiva",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/61B09596C83BBE2BBE28A53635FECC21C669434D87C8A8CCE7DB97A86A7D143E.pdf",
-     "data": "2026-06-26"
     }
    ],
-   "total_documentos": 36,
-   "ultima_publicacao": "2026-10-27T09:30-03:00",
+   "total_documentos": 38,
+   "ultima_publicacao": "2026-11-17T15:40-03:00",
    "primeiro_visto": null
   },
   {
@@ -4327,6 +4327,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 13 – Resultado final na prova oral e o resultado provisório no procedimento de análise documental para a caracterização da deficiência",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/BFC70FA7410BFB8E0F1919D3E334BB078AD67B5084F45107489A789316214E77.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "Edital nº 12 – Resultado provisório na prova oral",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/26188C1D66D1390DFEFC38D2264FCBB03E2188033907C10A8EE36868C90B55FA.pdf",
@@ -4409,16 +4415,10 @@
      "tipo": "edital_abertura",
      "url": "https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/F57988D6E4FDCEC93F88C213A7FF01DF574B14FC3F30E9E6ABB4565EE2560C31.pdf",
      "data": "2026-07-14"
-    },
-    {
-     "titulo": "PROVA DISCURSIVA",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/B7FE9DD999164CDBF489CB9BA6AEBDB71557DFE872BCA5C82D4C04D8C26ADF9A.pdf",
-     "data": "2026-07-07"
     }
    ],
-   "total_documentos": 31,
-   "ultima_publicacao": "2026-10-26T14:45-03:00",
+   "total_documentos": 32,
+   "ultima_publicacao": "2026-11-17T10:15-03:00",
    "primeiro_visto": null
   },
   {
@@ -6096,6 +6096,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Justificativas de alterações de gabarito",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/PM_MA_26/arquivos/F391063FC1AA858ED88E10813B3445CEB77A6D00E6F82DD14DB2745CD0219D9A.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS GERAIS PARA O CARGO 1",
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/PM_MA_26/arquivos/07632E794FE98F91C9FEDBA147702CCC1CFB2C307727E98394EE440B43596F34.pdf",
@@ -6178,16 +6184,10 @@
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/PM_MA_26/arquivos/4CF56C5230D1E68FD8E1FDE2308BE0844BCA8F6B1CB223460667B8347365749C.pdf",
      "data": "2026-09-16"
-    },
-    {
-     "titulo": "Comunicado – Instruções relacionadas ao Documento de Arrecadação de Receitas Estaduais (DARE)",
-     "tipo": "comunicado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PM_MA_26/arquivos/6AE6D795D9A6814C6147DEDFDEAA83407BE9F7B97FB4630FA5AFCDAF12FBB10E.pdf",
-     "data": "2026-09-10"
     }
    ],
-   "total_documentos": 25,
-   "ultima_publicacao": "2026-11-10T10:00-03:00",
+   "total_documentos": 26,
+   "ultima_publicacao": "2026-11-17T14:48-03:00",
    "primeiro_visto": null
   },
   {
@@ -8982,9 +8982,9 @@
    ],
    "documentos": [
     {
-     "titulo": "Quantitativo de inscritos por sistema de concorrência",
+     "titulo": "Quantitativo de inscritos por sistema de concorrência - Atualizado",
      "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/064ACC9640F6DB159277D5767207509F650991C975630848B37088B9AEEE344F.pdf",
+     "url": "https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/9E3587B4DA3A6F9DCCEAE9876245802C0A78D9C98FDD528D1037996CFD0D65DF.pdf",
      "data": "2026-11-13"
     },
     {
@@ -9791,6 +9791,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 25 – Relação final dos candidatos que compareceram ao exame psicotécnico, a relação final dos candidatos que enviaram o laudo neurológico e o laudo psiquiátrico e o resultado provisório na análise de vida pregressa",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/TJ_BA_25_NOTARIOS/arquivos/502F7F35B45870862A5590B0E95EEB854D32EEB31CE7D12422D69E20E863D5EA.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "Edital nº 23 – Convocação de candidato sub judice para o exame psicotécnico e para o envio de laudos neurológico e psiquiátrico",
      "tipo": "convocacao",
      "url": "https://cdn.cebraspe.org.br/concursos/TJ_BA_25_NOTARIOS/arquivos/3A0D559386106FEE59E842C97676E0AA8EA0FB649221811F44A9AD3B05F07C31.pdf",
@@ -9873,16 +9879,10 @@
      "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/TJ_BA_25_NOTARIOS/arquivos/5F9DC8230F6554C96B3A8997D71617ACAAC9192A26BE09F2A5F37779A486C521.pdf",
      "data": "2026-08-06"
-    },
-    {
-     "titulo": "Edital nº 12 – Torna sem efeito os subitens 1.2.3, 1.2.4 e 2.2 do Edital nº 11",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/TJ_BA_25_NOTARIOS/arquivos/0626ABBA90B610F6C3A45626CC86BF9984BCA512BB1C7C6B231F08523E5E64C9.pdf",
-     "data": "2026-07-30"
     }
    ],
-   "total_documentos": 49,
-   "ultima_publicacao": "2026-11-04T10:00-03:00",
+   "total_documentos": 50,
+   "ultima_publicacao": "2026-11-17T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -10136,6 +10136,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 22/2026 – Retificação do resultado final da avaliação de títulos e do resultado final no concurso público",
+     "tipo": "retificacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/B78C7DF1F97866550C47475D768FE74B89D983ECA439D2638F677443396B623A.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "Edital nº 21/2026 – Inclusão de candidatos no resultado final na avaliação de títulos e no resultado final no concurso público",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/11392F83B286E38075A18FEED1450AA82B262768CEAC819E3CA187137A230E09.pdf",
@@ -10218,16 +10224,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/DF5D801D2DC9D8671393608AE0A95BCA56B07C313E7FCCCF0408F9AE1A6A9735.pdf",
      "data": "2026-08-04"
-    },
-    {
-     "titulo": "Edital nº 16/2026 – Inclusão de candidatos sub judice no resultado final na análise de vida pregressa",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/TJ_RO_25_NOTARIOS/arquivos/6AED7439C3CFDC93D510442E746281621F5956D4BF86DBC6824D1052D08338AC.pdf",
-     "data": "2026-08-03"
     }
    ],
-   "total_documentos": 57,
-   "ultima_publicacao": "2026-11-09T12:30-03:00",
+   "total_documentos": 58,
+   "ultima_publicacao": "2026-11-17T09:30-03:00",
    "primeiro_visto": null
   },
   {
@@ -18287,6 +18287,12 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO - Inclusão Sub Judice",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/candidato-sub-judice_0.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "Resultado Preliminar do procedimento de Heteroidentificação",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcpi-heteroidentificacao-demais-cargos_04112026.pdf",
@@ -18369,16 +18375,10 @@
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-titulos-perito.pdf",
      "data": "2026-10-01"
-    },
-    {
-     "titulo": "Edital de convocação para o Teste de Aptidão Física",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-taf-perito.pdf",
-     "data": "2026-10-01"
     }
    ],
-   "total_documentos": 84,
-   "ultima_publicacao": "2026-11-05T09:00-03:00",
+   "total_documentos": 85,
+   "ultima_publicacao": "2026-11-17T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26401,6 +26401,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital Nº 18/2026 – Divulgação do Resultado dos Exames Médicos e Psicotécnicos, da Sindicância e do sorteio de arguição da Prova Oral",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/downloadcaderno.do-1_0.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "Edital Nº 17/2026 – de retificação do edital Nº 01/2025 - de abertura – substituição da composição da comissão",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-5980-de-4.11.2026-1.pdf",
@@ -26483,16 +26489,10 @@
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dj-5886-2026.pdf",
      "data": "2026-06-17"
-    },
-    {
-     "titulo": "Resultado Definitivo da Prova Discursiva",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-7.2026-de-divulgacao-do-resultado-definitivo-da-primeira-prova-escrita-prova-discursiva-1.pdf",
-     "data": "2026-06-11"
     }
    ],
-   "total_documentos": 53,
-   "ultima_publicacao": "2026-11-10T09:00-03:00",
+   "total_documentos": 54,
+   "ultima_publicacao": "2026-11-17T09:00-03:00",
    "primeiro_visto": null
   },
   {
