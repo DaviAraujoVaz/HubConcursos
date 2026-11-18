@@ -2571,7 +2571,7 @@
    "id": "cebraspe:CD_26_ANALISTA",
    "titulo": "CÂMARA DOS DEPUTADOS 26 ANALISTA LEGISLATIVO",
    "banca": "cebraspe",
-   "situacao": "aberto",
+   "situacao": "andamento",
    "esfera": "federal",
    "areas": [
     "Comunicação",
@@ -16752,6 +16752,24 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Final PcD",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-final-pessoas-com-deficiencia.pdf",
+     "data": "2026-11-17"
+    },
+    {
+     "titulo": "Resultado Final - Ampla Concorrência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-final-ampla-concorrencia.pdf",
+     "data": "2026-11-17"
+    },
+    {
+     "titulo": "Classificação Lista Única",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/classificacao-lista-unica.pdf",
+     "data": "2026-11-17"
+    },
+    {
      "titulo": "Resultado da Prova de Títulos - republicação",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/notas-prova-de-titulos-republicacao-1.pdf",
@@ -16822,28 +16840,10 @@
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-aviso-convocacao-prova-de-titulos.pdf",
      "data": "2026-11-03"
-    },
-    {
-     "titulo": "Resultado do recurso - Provas orais",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/03.11-recurso-parcialmente-deferido-marina-gregory-moraes.pdf",
-     "data": "2026-11-03"
-    },
-    {
-     "titulo": "Relação de Candidatos Habilitados - Provas Orais - Ampla Concorrência Dia 28.10",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-de-candidatos-habilitados-provas-orais-ampla-concorrencia-dia-28.10.pdf",
-     "data": "2026-10-28"
-    },
-    {
-     "titulo": "Relação de Candidato(a) Inabilitado(a) - Provas Orais - Dia 27.10",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/27.10-candidato-a-inabilitado-a-provas-orais-dia-27.10_sdasssds465d.pdf",
-     "data": "2026-10-27"
     }
    ],
-   "total_documentos": 113,
-   "ultima_publicacao": "2026-11-13T09:00-03:00",
+   "total_documentos": 116,
+   "ultima_publicacao": "2026-11-17T09:00-03:00",
    "primeiro_visto": null
   },
   {
