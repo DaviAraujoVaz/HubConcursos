@@ -13752,6 +13752,42 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital de convocação para Procedimento de Verificação Documental Complementar para Pessoas Quilombolas",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/18.11-edital-de-convocacao-quilombola-dataprev.pdf",
+     "data": "2026-11-18"
+    },
+    {
+     "titulo": "Edital de convocação para Procedimento de Verificação Documental Complementar para Pessoas Indígenas",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/18.11-edital_convocacao-indigenas.dataprev.pdf",
+     "data": "2026-11-18"
+    },
+    {
+     "titulo": "Edital de convocação para o Procedimento de Confirmação Complementar à Autodeclaração para Pessoas Pretas e Pardas",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/18.11-edital_convocacao-negros-dataprev.pdf",
+     "data": "2026-11-18"
+    },
+    {
+     "titulo": "Edital de convocação para Avaliação Biopsicossocial",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/18.11-edital_convocacao-avaliacao-biopsicossocial-dataprev.pdf",
+     "data": "2026-11-18"
+    },
+    {
+     "titulo": "Resultado da Prova Objetiva",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/18.11-dataprev2026-resultado-prova-objetiva.pdf",
+     "data": "2026-11-18"
+    },
+    {
+     "titulo": "Respostas aos recursos contra o Gabarito Oficial Preliminar da Prova Objetiva",
+     "tipo": "gabarito",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/18.11-gabarito-definitivo_ajustado.pdf",
+     "data": "2026-11-18"
+    },
+    {
      "titulo": "2ª Retificação",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/extrato-2a-retificacao-tac-e-avaliacoes.pdf",
@@ -13804,46 +13840,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-advocacia-cns007-tipo-2.pdf",
      "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 3",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-advocacia-cns007-tipo-3.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 4",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-advocacia-cns007-tipo-4.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 1",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-analise-de-negocio-de-ti-cns001-tipo-1.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 2",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-analise-de-negocio-de-ti-cns001-tipo-2.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 3",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-analise-de-negocio-de-ti-cns001-tipo-3.pdf",
-     "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 4",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-analise-de-negocio-de-ti-cns001-tipo-4.pdf",
-     "data": "2026-10-13"
     }
    ],
-   "total_documentos": 67,
-   "ultima_publicacao": "2026-11-04T09:00-03:00",
+   "total_documentos": 73,
+   "ultima_publicacao": "2026-11-18T09:00-03:00",
    "primeiro_visto": null
   },
   {
