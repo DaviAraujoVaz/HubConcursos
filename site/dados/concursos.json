@@ -2716,7 +2716,7 @@
     {
      "titulo": "Edital nº 1 - Abertura – Atualizado conforme retificações",
      "tipo": "edital_abertura",
-     "url": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf",
+     "url": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/560D92CE673D575FC9D1F95DF564F68524BC7CA9146A6E113C2F0C04313D67EB.pdf",
      "data": "2026-10-02"
     },
     {
@@ -4002,6 +4002,24 @@
    ],
    "documentos": [
     {
+     "titulo": "CAPA DA PROVA – CURSO DE FORMAÇÃO – 3ª TURMA",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/AAF3ABA210BABED54B4BDA2869DDC76F8898DE68F9570B914D0AB880CAE9FE50.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "PROVA OBJETIVA – CURSO DE FORMAÇÃO – 3ª TURMA",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/FFB2E3DE28B2E723B48CFB6F1716AB5D6229F6B85365E9C14BACEFB6EC20887C.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "GABARITO PRELIMINAR – CURSO DE FORMAÇÃO – 3ª TURMA",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/F48E76368365E325B969FD669D3DCBF66330A894D52F83C1830E87A5E3205980.pdf",
+     "data": "2026-11-19"
+    },
+    {
      "titulo": "Comunicado – Prova objetiva do curso de formação – terceira turma",
      "tipo": "comunicado",
      "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/CAA045A6EA4FF13CD086717D4A2A755410B26F31AE16D5DC52AD25A80C93B7D1.pdf",
@@ -4072,28 +4090,10 @@
      "tipo": "convocacao",
      "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/AB5039BBA60A19C07CE0206BAA0C248C43CDF48F2CAD0D5A0211FE5009A757DB.pdf",
      "data": "2025-12-02"
-    },
-    {
-     "titulo": "Edital nº 15 – Convocação, em segunda chamada, para o curso de formação – Segunda turma",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/E8963AD67032C82C3C708630AED9401143B846AA0133176BBB1392A2CF516F3D.pdf",
-     "data": "2025-11-26"
-    },
-    {
-     "titulo": "Edital nº 14 – Convocação para o curso de formação – Segunda turma",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/8630C84981DA1738A230F15FCA0ED42AA6C7720212BDBF43BFE90C9DD011DE2C.pdf",
-     "data": "2025-11-14"
-    },
-    {
-     "titulo": "Edital nº 13 – Inclusão de candidato sub judice.",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/MRE_23/arquivos/ED_13_MRE_2023_INC_SUB_JUDICE_HETERO_1A_ETAPA_IVO.PDF",
-     "data": "2025-01-28"
     }
    ],
-   "total_documentos": 45,
-   "ultima_publicacao": "2026-11-05T10:40-03:00",
+   "total_documentos": 48,
+   "ultima_publicacao": "2026-11-19T19:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -21305,6 +21305,48 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado preliminar dos pedidos de atendimento especial",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-da-analise-dos-pedidos-de-atendimentos-especiais_1.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "Resultado preliminar de indeferimento de inscrição na condição de pessoa com deficiência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-pcd-indeferidos_0.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "Resultado preliminar de deferimento de inscrição na condição de pessoa com deficiência",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-pcd-deferidos-1.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas às pessoas quilombolas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-quilombolas.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas às pessoas indígenas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-indigenas.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas às pessoas pretas ou pardas",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-negros.pdf",
+     "data": "2026-11-19"
+    },
+    {
+     "titulo": "Resultado preliminar de homologação de inscrição",
+     "tipo": "homologacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-homologacao-de-inscricoes-1.pdf",
+     "data": "2026-11-19"
+    },
+    {
      "titulo": "2ª Retificação",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-retificacao-2a-retificacao-edital-01-2026-abdi.pdf",
@@ -21353,7 +21395,7 @@
      "data": "2026-10-20"
     }
    ],
-   "total_documentos": 8,
+   "total_documentos": 15,
    "ultima_publicacao": "2026-11-19T09:00-03:00",
    "primeiro_visto": null
   },
@@ -24711,7 +24753,7 @@
     {
      "titulo": "Edital",
      "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_sp_aguas_versao-final-revisao-comissao-versao-aprovada_aasncskaj_0.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_sp_aguas_versao-final-revisao-comissao-versao-aprovada-1.pdf",
      "data": "2026-11-10"
     }
    ],
@@ -26624,6 +26666,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Preliminar da Avaliação de Títulos",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427_tjms_resultado-preliminar-titulos-2026-11-17.pdf",
+     "data": "2026-11-19"
+    },
+    {
      "titulo": "Comunicado nº 18",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-n-18-tjms-notarial.pdf",
@@ -26706,15 +26754,9 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427_tjms_resultado-definitivo-inscricao-definitiva-2026-10-23.pdf",
      "data": "2026-10-23"
-    },
-    {
-     "titulo": "Resultado Definitivo da Perícia Médica",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427-tjms_notarial_resultado_definitivo_pericia_medica.pdf",
-     "data": "2026-10-23"
     }
    ],
-   "total_documentos": 91,
+   "total_documentos": 92,
    "ultima_publicacao": "2026-11-19T09:00-03:00",
    "primeiro_visto": null
   },

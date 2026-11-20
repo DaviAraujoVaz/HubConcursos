@@ -757,6 +757,69 @@
   "remuneracao_unica": "6149.08",
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/560D92CE673D575FC9D1F95DF564F68524BC7CA9146A6E113C2F0C04313D67EB.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-20T04:19-03:00",
+  "cargos": [
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: COMUNICAÇÃO SOCIAL – ÁREA: DIVULGAÇÃO INSTITUCIONAL",
+    "remuneracao": "32070.88",
+    "numero": 1
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: COMUNICAÇÃO SOCIAL – ÁREA: JORNALISMO",
+    "remuneracao": "32070.88",
+    "numero": 2
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: COMUNICAÇÃO SOCIAL – ÁREA: RELAÇÕES PÚBLICAS",
+    "remuneracao": "32070.88",
+    "numero": 3
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: DOCUMENTAÇÃO E INFORMAÇÃO LEGISLATIVA – ÁREA: ARQUIVOLOGIA",
+    "remuneracao": "32070.88",
+    "numero": 4
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: DOCUMENTAÇÃO E INFORMAÇÃO LEGISLATIVA – ÁREA: BIBLIOTECONOMIA",
+    "remuneracao": "32070.88",
+    "numero": 5
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: ENGENHEIRO – ÁREA: ENGENHARIA CIVIL",
+    "remuneracao": "32070.88",
+    "numero": 6
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: ENGENHEIRO – ÁREA: ENGENHARIA ELÉTRICA",
+    "remuneracao": "32070.88",
+    "numero": 7
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: ENGENHEIRO – ÁREA: ENGENHARIA ELETRÔNICA/TELECOMUNICAÇÕES",
+    "remuneracao": "32070.88",
+    "numero": 8
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: ENGENHEIRO – ÁREA: ENGENHARIA MECÂNICA",
+    "remuneracao": "32070.88",
+    "numero": 9
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: MUSEÓLOGO",
+    "remuneracao": "32070.88",
+    "numero": 10
+   },
+   {
+    "nome": "ANALISTA LEGISLATIVO – ESPECIALIDADE: REGISTRO E REDAÇÃO",
+    "remuneracao": "32070.88",
+    "numero": 11
+   }
+  ],
+  "remuneracao_unica": "32070.88",
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -8620,6 +8683,13 @@
     "numero": null
    }
   ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital_sp_aguas_versao-final-revisao-comissao-versao-aprovada-1.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-20T04:19-03:00",
+  "cargos": [],
   "remuneracao_unica": null,
   "erro": ""
  },
