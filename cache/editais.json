@@ -1190,6 +1190,13 @@
   "remuneracao_unica": "6514.30",
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/AAED06B47981545300F40651E70CBB8BE7667FB9484DF6A09CC437F80DBEC4AB.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-23T20:55-03:00",
+  "cargos": [],
+  "remuneracao_unica": "6514.30",
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/6DCA6B8C8E2589F81E87C75800D8AACB64F97F77C9B26095C5F8D62BDDBB0B80.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -6102,6 +6109,49 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital-cro-pr.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-23T20:55-03:00",
+  "cargos": [
+   {
+    "nome": "Jornada",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Auxiliar Administrativo Curitiba (Sede)",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Foz do Iguaçu",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Fiscal Cascavel",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Técnico em Informática Curitiba (Sede)",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Analista de Conteúdo e IA Curitiba (Sede)",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Tecnólogo em Gestão de Recursos Humanos ou Administração de Empresas ou Psicologia ou Ciências Contábeis…",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-abertura-alerj-procurador-apos-1-retificacao-06.11.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -8585,6 +8635,54 @@
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
   "cargos": [],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital_pefm_2027_retificado.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-23T20:55-03:00",
+  "cargos": [
+   {
+    "nome": "Ciências",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Educação Especial – DI",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Educação Especial – TEA",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Educação Física",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Física",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Geografia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Língua Inglesa",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Língua Portuguesa",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
   "remuneracao_unica": null,
   "erro": ""
  },

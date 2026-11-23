@@ -34,6 +34,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Relação final de candidatas que tiveram a solicitação de atendimento especializado para lactantes deferida",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/ADEAL_26/arquivos/FB644FD0C13E55968ACADECEE3C46977CD5EB8C38867C39CA6ED918E39C80D6B.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Relação final dos candidatos com a inscrição deferida para concorrer às vagas reservadas às pessoas com deficiência",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/ADEAL_26/arquivos/D0E4261D08E28645EC7344DD145452C0112262C816B9FE5CDA2568DD514776D1.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Relação provisória dos candidatas que tiveram a solicitação de atendimento especializado para lactantes deferida",
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/ADEAL_26/arquivos/13BD77A0B48626AFB68426B041B89F0207A3EF4A603F6A2C76089B2399747ADD.pdf",
@@ -70,8 +82,8 @@
      "data": "2026-08-24"
     }
    ],
-   "total_documentos": 6,
-   "ultima_publicacao": "2026-11-05T09:37-03:00",
+   "total_documentos": 8,
+   "ultima_publicacao": "2026-11-23T10:03-03:00",
    "primeiro_visto": null
   },
   {
@@ -3542,7 +3554,7 @@
     {
      "titulo": "Matriz de avaliação da prova oral",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/DREI_26_EXAME_APTIDAO/arquivos/8000A7E0A6C5538D293CF6FFD5BFD3D298A40DBF1A00B358A1926BBC1B66B553.pdf",
+     "url": "https://cdn.cebraspe.org.br/concursos/DREI_26_EXAME_APTIDAO/arquivos/DFAD8AE1C92B5B9CAC259B68F813D4A9E8E80F997E9C5ED2F2554840F9086AEC.pdf",
      "data": "2026-11-19"
     },
     {
@@ -4699,13 +4711,19 @@
      "data": "2026-08-05"
     },
     {
+     "titulo": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+     "tipo": "edital_abertura",
+     "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/AAED06B47981545300F40651E70CBB8BE7667FB9484DF6A09CC437F80DBEC4AB.pdf",
+     "data": "2026-07-13"
+    },
+    {
      "titulo": "Edital nº 1 – Abertura",
      "tipo": "edital_abertura",
      "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf",
      "data": "2026-07-13"
     }
    ],
-   "total_documentos": 6,
+   "total_documentos": 7,
    "ultima_publicacao": "2026-11-18T11:50-03:00",
    "primeiro_visto": null
   },
@@ -9728,6 +9746,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Inclusão de candidatos sub judice",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_26_ANALISTA/arquivos/61A2DC30EC54AED1D3A7B86F579DD983B474B92D2971B58D392F3191027DBADE.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Quantitativo de inscritos por sistema de concorrência",
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_26_ANALISTA/arquivos/17DE3B4848D75DD1619C189D76061240957101F24E999D1FE89A16DA11AAF226.pdf",
@@ -9788,8 +9812,8 @@
      "data": "2026-07-09"
     }
    ],
-   "total_documentos": 10,
-   "ultima_publicacao": "2026-11-13T16:05-03:00",
+   "total_documentos": 11,
+   "ultima_publicacao": "2026-11-23T10:15-03:00",
    "primeiro_visto": null
   },
   {
@@ -13448,14 +13472,20 @@
    ],
    "documentos": [
     {
-     "titulo": "Edital",
+     "titulo": "1ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-retificacao-de-publicacao-pefm-2.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Edital (retificado em 23/11/2026)",
      "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-concurso-publico-pefm-2027.word_.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_pefm_2027_retificado.pdf",
      "data": "2026-11-19"
     }
    ],
-   "total_documentos": 1,
-   "ultima_publicacao": "2026-11-19T09:00-03:00",
+   "total_documentos": 2,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": "2026-11-19"
   },
   {
@@ -13724,6 +13754,81 @@
    "total_documentos": 107,
    "ultima_publicacao": "2026-06-15T09:00-03:00",
    "primeiro_visto": null
+  },
+  {
+   "id": "fgv:concursos/cropr",
+   "titulo": "Concurso Público para o Conselho Regional de Odontologia do Paraná – CRO/PR",
+   "banca": "fgv",
+   "situacao": "andamento",
+   "esfera": "estadual",
+   "areas": [
+    "Administrativa",
+    "Contabilidade e Economia",
+    "Saúde",
+    "TI"
+   ],
+   "url": "https://conhecimento.fgv.br/concursos/cropr",
+   "ano": 2026,
+   "inscricoes_inicio": null,
+   "inscricoes_fim": null,
+   "vagas": null,
+   "remuneracao_maxima": null,
+   "cargos": [
+    {
+     "nome": "Jornada",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Auxiliar Administrativo Curitiba (Sede)",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa"
+     ]
+    },
+    {
+     "nome": "Foz do Iguaçu",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Fiscal Cascavel",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Técnico em Informática Curitiba (Sede)",
+     "remuneracao": null,
+     "areas": [
+      "TI"
+     ]
+    },
+    {
+     "nome": "Analista de Conteúdo e IA Curitiba (Sede)",
+     "remuneracao": null,
+     "areas": []
+    },
+    {
+     "nome": "Tecnólogo em Gestão de Recursos Humanos ou Administração de Empresas ou Psicologia ou Ciências Contábeis…",
+     "remuneracao": null,
+     "areas": [
+      "Administrativa",
+      "Contabilidade e Economia",
+      "Saúde"
+     ]
+    }
+   ],
+   "documentos": [
+    {
+     "titulo": "Edital",
+     "tipo": "edital_abertura",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-cro-pr.pdf",
+     "data": "2026-11-23"
+    }
+   ],
+   "total_documentos": 1,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
+   "primeiro_visto": "2026-11-23"
   },
   {
    "id": "fgv:concursos/dataprev26",
@@ -19760,6 +19865,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital complementar de Resultado Final de concurso público em cumprimento a decisão judicial",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-complementar_assinado.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Edital de Resultado Final de Investigação Social e da Vida Pregressa de candidato sub judice",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-resultado-final_assinado.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Portaria nº 701/2026",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-701-2026_ryan_vinicius.pdf",
@@ -19836,22 +19953,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-assinado.pdf",
      "data": "2026-10-19"
-    },
-    {
-     "titulo": "Edital de Resultado Final da Avaliação Médica e Odontológica de candidata com etapa adiada em razão de gestação",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_resultado_saude_thallyta_assinado_0.pdf",
-     "data": "2026-10-19"
-    },
-    {
-     "titulo": "COMUNICADO - Inclusão Sub Judice",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/convocacao-avaliacao-psicologica-sub-judice-matheus-ferreira-carvalho.pdf",
-     "data": "2026-10-19"
     }
    ],
-   "total_documentos": 169,
-   "ultima_publicacao": "2026-11-16T09:00-03:00",
+   "total_documentos": 171,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -21307,13 +21412,13 @@
     {
      "titulo": "Resultado preliminar dos pedidos de atendimento especial",
      "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-da-analise-dos-pedidos-de-atendimentos-especiais_1.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-da-analise-dos-pedidos-de-atendimentos-especiais-1.pdf",
      "data": "2026-11-19"
     },
     {
      "titulo": "Resultado preliminar de indeferimento de inscrição na condição de pessoa com deficiência",
      "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-pcd-indeferidos_0.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-pcd-indeferidos-1.pdf",
      "data": "2026-11-19"
     },
     {
@@ -21325,19 +21430,19 @@
     {
      "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas às pessoas quilombolas",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-quilombolas.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-quilombolas-1.pdf",
      "data": "2026-11-19"
     },
     {
      "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas às pessoas indígenas",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-indigenas.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-indigenas-1.pdf",
      "data": "2026-11-19"
     },
     {
      "titulo": "Resultado preliminar de homologação de inscrição nas vagas destinadas às pessoas pretas ou pardas",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-negros.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-negros-1.pdf",
      "data": "2026-11-19"
     },
     {
@@ -23272,6 +23377,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Cronograma previsto",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cronograma-previsto-seplag-rj.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Demanda de candidato por vaga",
      "tipo": "inscritos",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/demanda-candidato_vaga.pdf",
@@ -23354,16 +23465,10 @@
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-negros_1.pdf",
      "data": "2026-10-21"
-    },
-    {
-     "titulo": "Resultado preliminar de indeferimento de inscrição na condição de pessoa com deficiência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-pcd-indeferidos.pdf",
-     "data": "2026-10-21"
     }
    ],
-   "total_documentos": 25,
-   "ultima_publicacao": "2026-11-09T09:00-03:00",
+   "total_documentos": 26,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -24779,6 +24884,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Comissão de heteroidentificação",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/curriculos_banca_heteroidentificacao_tce-pe_formatado.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Resultado Preliminar da Perícia Médica - Reaplicação",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tce-pe-resultado-preliminar-da-pericia-medica_0.pdf",
@@ -24861,16 +24972,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tce-pe-resultado-definitivo-da-pericia-medica.pdf",
      "data": "2026-09-01"
-    },
-    {
-     "titulo": "Resultado Definitivo da Heteroidentificação dos Candidatos Negros",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tce-pe-resultado-definitivo-da-heteroidentificacao.pdf",
-     "data": "2026-09-01"
     }
    ],
-   "total_documentos": 104,
-   "ultima_publicacao": "2026-11-16T09:00-03:00",
+   "total_documentos": 105,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26554,6 +26659,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital Nº 19/2026 – Da convocação para Prova Oral",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-19.2026-convocacao-para-prova-oral.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Edital Nº 18/2026 – Divulgação do Resultado dos Exames Médicos e Psicotécnicos, da Sindicância e do sorteio de arguição da Prova Oral",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/downloadcaderno.do-1_0.pdf",
@@ -26636,16 +26747,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/downloadcaderno-3.pdf",
      "data": "2026-06-22"
-    },
-    {
-     "titulo": "Edital Nº 08/2026 – De Convocação para Sessão Pública de Identificação e Divulgação das Notas das Provas Práticas de Sentenças",
-     "tipo": "convocacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dj-5886-2026.pdf",
-     "data": "2026-06-17"
     }
    ],
-   "total_documentos": 54,
-   "ultima_publicacao": "2026-11-17T09:00-03:00",
+   "total_documentos": 55,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -28557,6 +28662,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Edital retificativo Nº 0055/2026 - DMAG",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/sei_10294573_edital.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Edital Nº 0056/2026-DMAG – Cumprimento de Decisão Judicial",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/sei_10293972_edital.pdf",
@@ -28635,8 +28746,8 @@
      "data": "2026-08-28"
     }
    ],
-   "total_documentos": 13,
-   "ultima_publicacao": "2026-11-16T09:00-03:00",
+   "total_documentos": 14,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -29007,6 +29118,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção – indeferido",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjsc_resultado-definitivo-de-isencao-indeferidos.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Resultado definitivo da análise dos pedidos de isenção – deferido",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjsc_resultado-definitivo-de-isencao-deferidos.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Resultado preliminar da análise dos pedidos de isenção – indeferido",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjsc_resultado-preliminar-de-isencao-indeferidos-vf.pdf",
@@ -29031,8 +29154,8 @@
      "data": "2026-10-13"
     }
    ],
-   "total_documentos": 4,
-   "ultima_publicacao": "2026-11-09T09:00-03:00",
+   "total_documentos": 6,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -32162,6 +32285,66 @@
    ],
    "documentos": [
     {
+     "titulo": "Gabarito Oficial Preliminar da Prova Objetiva",
+     "tipo": "gabarito",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-preliminar-camara-municipal-de-governador-valadares.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Administrador",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/administrador-ns01-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Tipo 1",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/assistente-legislativo-nm01-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Tipo 2",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/assistente-legislativo-nm01-tipo-2.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Comunicador Social - Jornalista",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicador-social-jornalista-ns02-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Consultor Legislativo",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/consultor-legislativo-ns07-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Contador",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/contador-ns03-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Designer Gráfico",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/designer-grafico-ns04-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Pedagogo",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pedagogo-ns05-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
+     "titulo": "Técnico Superior em Informática",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-superior-em-informatica-ns06-tipo-1.pdf",
+     "data": "2026-11-23"
+    },
+    {
      "titulo": "Resultado definitivo da análise dos pedidos de atendimentos especiais",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgv_atendimento-especializado_definitivo.pdf",
@@ -32190,70 +32373,10 @@
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgv_homologados-definitivo.pdf",
      "data": "2026-10-19"
-    },
-    {
-     "titulo": "Resultado preliminar da análise dos pedidos de atendimentos especiais",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgv_atendimento-especializado_preliminar_0.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "Relação preliminar de candidatos inscritos para concorrer as vagas destinadas aos negros (pretos e pardos)",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgv_cotas_negros_preliminar_0.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "Resultado preliminar de inscrição na condição de pessoa com deficiência – indeferidos",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgv_cotas_pcd_indeferidospreliminar_0.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "Resultado preliminar de inscrição na condição de pessoa com deficiência – deferidos",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgv_cotas_pcd_deferidospreliminar_0.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "Resultado preliminar de homologação de inscrições",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgv_homologados-preliminar_0.pdf",
-     "data": "2026-09-25"
-    },
-    {
-     "titulo": "3ª Retificação",
-     "tipo": "retificacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/3o-retificacao-edital-04-2026-concurso-publico-para-a-camara-municipal-de-governador-valadares.pdf",
-     "data": "2026-09-08"
-    },
-    {
-     "titulo": "COMUNICADO",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-prorrogacao.pdf",
-     "data": "2026-08-31"
-    },
-    {
-     "titulo": "Resultado Definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao-indeferido_1.pdf",
-     "data": "2026-08-31"
-    },
-    {
-     "titulo": "Resultado Definitivo da análise dos pedidos de isenção da taxa de inscrição (candidatos deferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-de-isencao-deferido_1.pdf",
-     "data": "2026-08-31"
-    },
-    {
-     "titulo": "Resultado preliminar da análise dos pedidos de isenção da taxa de inscrição (candidatos indeferidos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-isencao-indeferido.pdf",
-     "data": "2026-08-13"
     }
    ],
-   "total_documentos": 23,
-   "ultima_publicacao": "2026-10-19T09:00-03:00",
+   "total_documentos": 33,
+   "ultima_publicacao": "2026-11-23T09:00-03:00",
    "primeiro_visto": null
   },
   {
