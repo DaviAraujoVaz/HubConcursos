@@ -1898,6 +1898,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 33 - Suspensão do prazo de validade do concurso público.",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/CAESB_24/arquivos/77968B7AB2695896BFE3D0A1B4D13AE862A8018C7FC0C95FCA2035CF80951337.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Edital nº 32 – Resultado final no concurso público, somente para os cargos de nível superior e para o Cargo 27 e homologação",
      "tipo": "homologacao",
      "url": "https://cdn.cebraspe.org.br/concursos/CAESB_24/arquivos/7729FB37CF910978C0E1C72156C5E7457CB3829C869E528C6D567CBF994608E0.pdf",
@@ -1980,16 +1986,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/CAESB_24/arquivos/36841664DBC3B500FFF7830C9CA129E0991B64B8F7C81FAC54FAFB1FA07B9B69.pdf",
      "data": "2026-01-20"
-    },
-    {
-     "titulo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 2",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/CAESB_24/arquivos/6FDCE3942EEE95CE59DBC44D48828DB50FAB10482C20585E7E52B871F6D2A563.pdf",
-     "data": "2026-01-20"
     }
    ],
-   "total_documentos": 174,
-   "ultima_publicacao": "2026-06-22T09:03-03:00",
+   "total_documentos": 175,
+   "ultima_publicacao": "2026-11-25T17:30-03:00",
    "primeiro_visto": null
   },
   {
@@ -5294,7 +5294,7 @@
     {
      "titulo": "Edital nº 1 – Abertura – Atualizado conforme retificações",
      "tipo": "edital_abertura",
-     "url": "https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/7B8E014BA8ECDE585BEC37F451D357C924D81B31AD756ABEEA27E2C8EA1826EE.pdf",
+     "url": "https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/F257D3CCABAA4570C81B7CE65B0E80D2F9D9D1FCFE634D6B7C1E3BBC54B42BE9.pdf",
      "data": "2026-07-17"
     },
     {
@@ -5456,6 +5456,12 @@
    ],
    "documentos": [
     {
+     "titulo": "PROVA ORAL - CARGO DELEGADO (APLICADO DIA 22/11/2026) SUB JUDICE",
+     "tipo": "gabarito",
+     "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/0C8006F0BE435940853951D6E96580E1058683756B400186B1FD225FE3FA3DA0.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Edital nº 49 - Resultado provisório na avaliação psicológica, somente para o cargo de Agente de Polícia Federal",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/20FF26D9A2834478365B13DE0325D91BEA0C7128E8A1E86CABAD1514826FED28.pdf",
@@ -5538,16 +5544,10 @@
      "tipo": "convocacao",
      "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/CB693E474CBB358653CF5794E4F2896DDA7FD6504B09CCA072C1DCC9438563F8.pdf",
      "data": "2026-08-04"
-    },
-    {
-     "titulo": "PROVA ORAL - CARGO DELEGADO (APLICADO DIA 19/7/2026) SUB JUDICE",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/CDC7CFAADFFCABACF7DEEF6B1C4EC87CEAC22995AD7BC9550D017C17FE24E431.pdf",
-     "data": "2026-07-27"
     }
    ],
-   "total_documentos": 154,
-   "ultima_publicacao": "2026-11-10T19:09-03:00",
+   "total_documentos": 155,
+   "ultima_publicacao": "2026-11-25T15:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -7600,98 +7600,98 @@
    ],
    "documentos": [
     {
-     "titulo": "CAPA DE PROVAS OBJETIVAS E DISCURSIVA",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA TODAS AS DISCIPLINAS",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/8A481EEEA62B1BF9FCDD8349A73BE07B2613B0671E88C5C119B9984A2C0DE1CC.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/916F8843EE1E3E593A5009C7F10DCA9FB9876F7AB9FD2CAEC932348CF0FAB621.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA TODAS AS DISCIPLINAS",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 1",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/BF9A436F2884EB4527ED958B99AEA281F412F09650DB1FE09BD2EF6DA3281772.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 1",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 2",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/FBD47291E2570CF4EC5DE67FAD988C3607F7A6A1069C2E853BE5C18558541C6C.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/75E9CF634494D29DC95FC3D9C375BC36F0B597D3D3F685FEF8BF4E82529F82B8.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 2",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 3",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/95AA1F78A4796CD44922CD381F6786C49AD2E4E7A585C8C726C65349362B8EBE.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/DB17E804D9272AB333C55BB39E64E5BCEA3A9E7B4F1148A7ECB12F86B778B41F.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 3",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 4",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/D852DAE03A840D08214F8901ED2A86934DCED8CD05A073AD3E7B77527BB66A7C.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/0CA9B9FAB0E535929BA7384FDADB71FB0E8853686D0B15C53F24AA577896BD1A.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 4",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 5",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/BA04AF54BF35B072EAC1E37B569C3033352A0254E4628ED6FCB47737640220CB.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/1B0C02761BA15F29F77F6A46ED70D90DFD60973E06B6D1C5C1CD6B4B68F48595.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 5",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 6",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/91AF34F8A7C6AE47FC094BD8C3D26BCAFA1D10A4FFC982D012B70454439A87C0.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/538324E52E30507FDD8F08BAA4BC268C8DF9FD90430DED722053EC121C8A90AC.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 6",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 7",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/97304C4038017A02991B1188CCA48DEE6936750DCDCAE94D7E90D17AD6B255C2.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/70F44C4A8454A933530162368D772DA7DE6CB4EEF8DF5FF81E7CE485077B2517.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 7",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 8",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/4809719B8214276921D98DE2C9050F125AACAE5F2A4F6BE6CD7372B318EDE333.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/A22316CD9DFCE843F83BC9A70CCAE32316B40065BC6AA93467421964E2DEA76D.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 8",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 9",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/24868CE12F17D9151E0A07A1A87A4CC53BDCC16F65582D605D185FB47CA40F90.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/7A0360EE348A4431B34F835D3BF1F1C6375C96AE4DF1CECA52AD5DEE434D7DC8.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 9",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 10",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/E7DE33606A8F82AFF56D04B48542582FAD8F55732F91DF54DCB663ADDF079375.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/E32B701F9D07CD04EB3E59C19277699404CDA17B3485FBCBBF808F8C7E9E31B2.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 10",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 11",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/92E7E1B32254E4559A331AF29BADCDE20D0F29CC8E515F026A99B660FB23C61B.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/60832A535374DFB585C84C1B99A0026F3365E8552B4A9DA947FC74455E331CEB.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 11",
+     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 12",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/AEA319EB163AC816793443B0C4C5AF81713FA1F471C0C584458D2165CAA769E8.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/66351A078EED5691B2F5CEEB1CE2627E84F1DE6EEE95B9F0790B2C290AC61D7D.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – DISCIPLINA 12",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/CAE17E7D9FE939E9362F8D18DEF62D8365EEB9E7E8DC3C1A5318EEB5ABFB9637.pdf",
-     "data": "2026-10-28"
+     "titulo": "Edital nº 6 - Resultado final nas provas objetivas e o resultado provisório na prova discursiva",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/0E50029B082C5AA272D50390135EB89530037AAB26B8F4C76AD289A9B91D8826.pdf",
+     "data": "2026-11-25"
     },
     {
-     "titulo": "GABARITO PRELIMINAR – CONHECIMENTOS BÁSICOS PARA TODAS AS DISCIPLINAS",
+     "titulo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA",
      "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/41DB2A32C2F50BE96D941FC1F4AB61AF469D9CD8A789D0594CF7A533319551E5.pdf",
-     "data": "2026-10-28"
+     "url": "https://cdn.cebraspe.org.br/concursos/SEDUC_AL_26/arquivos/9DE5A2A09DFA527B96AEDBB3838F7B448A59C7E4A2564F4A5778CA44B8613573.pdf",
+     "data": "2026-11-25"
     }
    ],
-   "total_documentos": 43,
-   "ultima_publicacao": "2026-10-28T19:00-03:00",
+   "total_documentos": 44,
+   "ultima_publicacao": "2026-11-25T10:15-03:00",
    "primeiro_visto": null
   },
   {
@@ -7935,6 +7935,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Relação final dos candidatos com a inscrição deferida para concorrer às vagas reservadas às pessoas com deficiência",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEFAZ_AL_26/arquivos/973028959BD0B4B22E8DBB256A09BEA46D29E6AC7D114C5991A312B11AF0C2B1.pdf",
+     "data": "2026-11-25"
+    },
+    {
+     "titulo": "Relação final de candidatas que tiveram a solicitação de atendimento especializado para lactantes deferida",
+     "tipo": "outro",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEFAZ_AL_26/arquivos/98413AA70C399EEC731291AF16137FCF54558A4CCD52A6F6C6DCABA3C1614588.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Relação provisória das candidatas que tiveram a solicitação de atendimento especializado para lactantes deferida",
      "tipo": "outro",
      "url": "https://cdn.cebraspe.org.br/concursos/SEFAZ_AL_26/arquivos/F5DB542D52420626DB28C9CE483468D5651A0F98407618B16BCAD08795550DEE.pdf",
@@ -7989,8 +8001,8 @@
      "data": "2026-08-25"
     }
    ],
-   "total_documentos": 9,
-   "ultima_publicacao": "2026-11-09T10:05-03:00",
+   "total_documentos": 11,
+   "ultima_publicacao": "2026-11-25T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -8278,6 +8290,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 42/2026 – Resultado final na avaliação de títulos e o resultado final no concurso público",
+     "tipo": "resultado",
+     "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/19835F3FB8896CAE1C4D14989BF6B0D0D961519ED1D03CDDB4F6D6758141D85F.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Edital nº 40/2026 – Resultado provisório de candidato sub judice na avaliação de títulos, bem como os procedimentos para acesso ao espelho de avaliação de títulos e interposição de recursos contra o referido resultado",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/C64863F19D0E0CE8E96EF5CE39156EBA9C6C15A69919EE141FE3CBA679845B7D.pdf",
@@ -8360,16 +8378,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/4FA3240AA771DB0FBB8BF2E29631D1D79DF3AD772C423506842C284439E4E9F9.pdf",
      "data": "2026-09-02"
-    },
-    {
-     "titulo": "PROVA OBJETIVA - CONHECIMENTOS GERAIS – CARGO 1",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/SEMEC_PORTO_VELHO_RO_26/arquivos/502CD888B4655DC70CC4A3FB726BEADC345C62A579F39D05D30E646DB6313673.pdf",
-     "data": "2026-08-07"
     }
    ],
-   "total_documentos": 29,
-   "ultima_publicacao": "2026-11-24T10:50-03:00",
+   "total_documentos": 30,
+   "ultima_publicacao": "2026-11-25T16:35-03:00",
    "primeiro_visto": null
   },
   {
@@ -13526,20 +13538,26 @@
    ],
    "documentos": [
     {
+     "titulo": "2ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-retificacao-de-publicacao-n-2-pefm.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "1ª Retificação",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-retificacao-de-publicacao-pefm-2.pdf",
      "data": "2026-11-23"
     },
     {
-     "titulo": "Edital (retificado em 23/11/2026)",
+     "titulo": "Edital (retificado em 25/11/2026)",
      "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_pefm_2027_retificado.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_pefm_2027_retificado_02-25.11.2026.pdf",
      "data": "2026-11-19"
     }
    ],
-   "total_documentos": 2,
-   "ultima_publicacao": "2026-11-23T09:00-03:00",
+   "total_documentos": 3,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": "2026-11-19"
   },
   {
@@ -16530,6 +16548,12 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-subjudice-glicia-chierici-002.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Convocação para Avaliação de Títulos",
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/mpes-convocacao-para-a-avaliacao-de-titulos-v2.pdf",
@@ -16612,16 +16636,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-apoio-administrativa-cnm001-tipo-4.pdf",
      "data": "2026-08-03"
-    },
-    {
-     "titulo": "Agente Especializado - Analista de Experiência do Usuário - UX",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/agente-especializado-analista-de-experiencia-do-usuario-ux-cns201-tipo-1.pdf",
-     "data": "2026-08-03"
     }
    ],
-   "total_documentos": 84,
-   "ultima_publicacao": "2026-11-11T09:00-03:00",
+   "total_documentos": 85,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -21876,6 +21894,18 @@
    ],
    "documentos": [
     {
+     "titulo": "Gabarito Oficial Preliminar - Curso de Formação (Módulo 1)",
+     "tipo": "gabarito",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/sead-se-2025-gabaritos-para-publicacao-modulo-1.pdf",
+     "data": "2026-11-25"
+    },
+    {
+     "titulo": "Especialista em Políticas Públicas e Gestão Governamental – EPPGG",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/curso-de-formacao-de-especialista-em-politicas-publicas-e-gestao-governamental-modulo-1-mod01-tipo-1_0.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "COMUNICADO",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_sead-se_convocacao_pericia_jimmy_dionisio_dos_santos.pdf",
@@ -21952,22 +21982,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/curso-de-formacao-de-especialista-em-politicas-publicas-e-gestao-governamental-modulo-4-mod04-tipo-1.pdf",
      "data": "2026-03-02"
-    },
-    {
-     "titulo": "Gabarito Oficial Preliminar - Curso de Formação (Módulo 3)",
-     "tipo": "gabarito",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/sead_se-gabarito-preliminar_modulo-3-002.pdf",
-     "data": "2026-02-09"
-    },
-    {
-     "titulo": "Especialista em Políticas Públicas e Gestão Governamental – EPPGG",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/curso-de-formacao-de-especialista-em-politicas-publicas-e-gestao-governamental-modulo-3-mod03-tipo-1.pdf",
-     "data": "2026-02-09"
     }
    ],
-   "total_documentos": 71,
-   "ultima_publicacao": "2026-11-10T09:00-03:00",
+   "total_documentos": 73,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -22742,6 +22760,12 @@
    ],
    "documentos": [
     {
+     "titulo": "2ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-009-de-24.11.2026-doe-no-36.852-de-25.11.2026-retificacao-do-edital-001-abertura.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Demanda de candidato por vaga (retificado em 10/11/2026)",
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-candidato_vaga-seduc-pa_0.pdf",
@@ -22824,16 +22848,10 @@
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_preliminar_negro-com-anexo.pdf",
      "data": "2026-10-15"
-    },
-    {
-     "titulo": "Resultado preliminar de homologação de inscrição",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/607-seduc-pa_homologados_preliminar-com-anexo.pdf",
-     "data": "2026-10-15"
     }
    ],
-   "total_documentos": 21,
-   "ultima_publicacao": "2026-11-03T09:00-03:00",
+   "total_documentos": 22,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -23078,6 +23096,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Resultado Definitivo da Entrevista de Heteroidentificação",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seduc-sp-tecnico-2026-resultado-definitivo-da-entrevista-de-heteroidentificacao.pdf",
+     "data": "2026-11-25"
+    },
+    {
+     "titulo": "Resultado Definitivo Prova Discursiva",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seduc-sp-tecnico-resultado-definitivo-prova-discursiva.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Resultado Preliminar da Heteroidentificação",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/seducsp_tecnico_resultado-preliminar-de-heteroidentificacao-2026-11-09.pdf",
@@ -23154,22 +23184,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/eixo-i-gestao-e-negocios-tipo-4.pdf",
      "data": "2026-08-24"
-    },
-    {
-     "titulo": "Tipo 1",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/eixo-ii-ambiente-e-saude-tipo-1.pdf",
-     "data": "2026-08-24"
-    },
-    {
-     "titulo": "Tipo 2",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/eixo-ii-ambiente-e-saude-tipo-2.pdf",
-     "data": "2026-08-24"
     }
    ],
-   "total_documentos": 52,
-   "ultima_publicacao": "2026-11-09T09:00-03:00",
+   "total_documentos": 54,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26487,6 +26505,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Resultado Definitivo da avaliação quanto à existência de deficiência e sua extensão",
+     "tipo": "resultado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-definitivo-avaliacao-pcds-tjgo-1.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Resultado Preliminar da Heteroidentificação",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-heteroidentificacao_0.pdf",
@@ -26569,16 +26593,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/476_tjgo-resultado-definitivo-prova-discursiva-2026-08-26.pdf",
      "data": "2026-09-01"
-    },
-    {
-     "titulo": "Sessão pública de divulgação do julgamento dos recursos contra o Resultado da Prova Escrita Discursiva",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-comunicado_sessao-publica-de-divulgacao-do-julgamento-de-recursos-contra-o-resultado-da-prova-escrita-discursiva-assina.pdf",
-     "data": "2026-08-25"
     }
    ],
-   "total_documentos": 72,
-   "ultima_publicacao": "2026-11-24T09:00-03:00",
+   "total_documentos": 73,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26755,6 +26773,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital Nº 20/2026 – Da divulgação do programa específico para a Prova Oral",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-5994-de-25.11.2026-1.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Edital Nº 19/2026 – Da convocação para Prova Oral",
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-19.2026-convocacao-para-prova-oral.pdf",
@@ -26837,16 +26861,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-10-2026-de-divulgacao-provas-de-sentencas-sub-judice-1.pdf",
      "data": "2026-07-03"
-    },
-    {
-     "titulo": "EDITAL Nº 09/2026 – DE DIVULGAÇÃO DO RESULTADO PRELIMINAR DAS PROVAS DE SENTENÇAS",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/downloadcaderno-3.pdf",
-     "data": "2026-06-22"
     }
    ],
-   "total_documentos": 55,
-   "ultima_publicacao": "2026-11-23T09:00-03:00",
+   "total_documentos": 56,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -30184,6 +30202,12 @@
     {
      "titulo": "Inclusão sub judice",
      "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/2026_11_25_assinado_do3_pagina-201.pdf",
+     "data": "2026-11-25"
+    },
+    {
+     "titulo": "Inclusão sub judice",
+     "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-17-de-novembro-de-2026-edital-de-17-de-novembro-de-2026-dou-imprensa-nacional.pdf",
      "data": "2026-11-19"
     },
@@ -30264,16 +30288,10 @@
      "tipo": "homologacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/trf5-resultado-preliminar-de-negros.pdf",
      "data": "2026-10-16"
-    },
-    {
-     "titulo": "Resultado preliminar de indeferimento de inscrição na condição de pessoa com deficiência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/trf5-resultado-preliminar-de-pcd-indeferidos.pdf",
-     "data": "2026-10-16"
     }
    ],
-   "total_documentos": 25,
-   "ultima_publicacao": "2026-11-19T09:00-03:00",
+   "total_documentos": 26,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -33696,6 +33714,12 @@
    ],
    "documentos": [
     {
+     "titulo": "DJE 24.11.2026",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-24.11.2026.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "DJE 17.11.2026",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-17.11.2026.pdf",
@@ -33778,16 +33802,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-20.10.2026.pdf",
      "data": "2026-10-27"
-    },
-    {
-     "titulo": "Resultado Definitivo da Heteroidentificação - Inclusão - Candidato Sub Judice",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-resultado-da-heteroidentificacao-vitoria-queiroz-dos-santos.pdf",
-     "data": "2026-10-23"
     }
    ],
-   "total_documentos": 74,
-   "ultima_publicacao": "2026-11-18T09:00-03:00",
+   "total_documentos": 75,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {

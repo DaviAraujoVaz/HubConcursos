@@ -1412,6 +1412,124 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/F257D3CCABAA4570C81B7CE65B0E80D2F9D9D1FCFE634D6B7C1E3BBC54B42BE9.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-25T18:43-03:00",
+  "cargos": [
+   {
+    "nome": "AGENTE DE PERÍCIA CRIMINAL – ESPECIALIDADE: GENERALISTA",
+    "remuneracao": "8638.77",
+    "numero": 1
+   },
+   {
+    "nome": "AGENTE DE PERÍCIA MÉDICO-LEGAL – ESPECIALIDADE: GENERALISTA",
+    "remuneracao": "4557.67",
+    "numero": 2
+   },
+   {
+    "nome": "MÉDICO LEGISTA – ESPECIALIDADE: MÉDICO",
+    "remuneracao": "14675.58",
+    "numero": 3
+   },
+   {
+    "nome": "MÉDICO LEGISTA – ESPECIALIDADE: PSIQUIATRA",
+    "remuneracao": "14675.58",
+    "numero": 4
+   },
+   {
+    "nome": "MÉDICO LEGISTA – ESPECIALIDADE: RADIOLOGISTA",
+    "remuneracao": "14675.58",
+    "numero": 5
+   },
+   {
+    "nome": "ODONTOLEGISTA – ESPECIALIDADE: ODONTÓLOGO",
+    "remuneracao": "14675.58",
+    "numero": 6
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: ANALISTA DE SISTEMA, ENGENHEIRO DE SISTEMAS, BACHAREL EM CIÊNCIAS DA COMPUTAÇÃO",
+    "remuneracao": "14675.58",
+    "numero": 7
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: ARQUITETO",
+    "remuneracao": "14675.58",
+    "numero": 8
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: ASSISTENTE SOCIAL",
+    "remuneracao": "14675.58",
+    "numero": 9
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: BIÓLOGO",
+    "remuneracao": "14675.58",
+    "numero": 10
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: CONTADOR, ECONOMISTA, MATEMÁTICO",
+    "remuneracao": "14675.58",
+    "numero": 11
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: ENGENHEIRO AGRÔNOMO, ENGENHEIRO AMBIENTAL, ENGENHEIRO SANITARISTA, ENGENHEIRO FLORESTAL, BIÓLOGO",
+    "remuneracao": "14675.58",
+    "numero": 12
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: ENGENHEIRO CIVIL",
+    "remuneracao": "14675.58",
+    "numero": 13
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: ENGENHEIRO ELETRICISTA, ENGENHEIRO ELETRÔNICO, ENGENHEIRO DE TELECOMUNICAÇÕES",
+    "remuneracao": "14675.58",
+    "numero": 14
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: ENGENHEIRO MECÂNICO, ENGENHEIRO MECATRÔNICO",
+    "remuneracao": "14675.58",
+    "numero": 15
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: FARMACÊUTICO, BIOMÉDICO",
+    "remuneracao": "14675.58",
+    "numero": 16
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: FÍSICO",
+    "remuneracao": "14675.58",
+    "numero": 17
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: FONOAUDIÓLOGO",
+    "remuneracao": "14675.58",
+    "numero": 18
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: GEÓLOGO, GEÓGRAFO",
+    "remuneracao": "14675.58",
+    "numero": 19
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: MÉDICO VETERINÁRIO",
+    "remuneracao": "14675.58",
+    "numero": 20
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: PSICÓLOGO",
+    "remuneracao": "14675.58",
+    "numero": 21
+   },
+   {
+    "nome": "PERITO CRIMINAL – ESPECIALIDADE: QUÍMICO, QUÍMICO INDUSTRIAL, ENGENHEIRO QUÍMICO",
+    "remuneracao": "14675.58",
+    "numero": 22
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/208B2F9CD7C49B6E7FF2FB6F027B9D7D7904F50E049EF749BD4C2DEA8ED30B3D.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -8686,6 +8804,54 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital_pefm_2027_retificado_02-25.11.2026.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-25T18:43-03:00",
+  "cargos": [
+   {
+    "nome": "Ciências",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Educação Especial – DI",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Educação Especial – TEA",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Educação Física",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Física",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Geografia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Língua Inglesa",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Língua Portuguesa",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://conhecimento.fgv.br/sites/default/files/concursos/edital_peritos04.11.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
@@ -9596,6 +9762,209 @@
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
   "cargos": [],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-no-6-de-11-de-janeiro-de-2024-eiro-de-2024-dou-imprensa-nacional.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-25T18:43-03:00",
+  "cargos": [
+   {
+    "nome": "METROPOLITA NA Ananindeua, Belém, Benevides, Marituba, Santa Bárbara do Pará Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor História",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Geografia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Filosofia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Sociologia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Física",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Química",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Biologia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Língua Inglesa",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Artes",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Analista de Gestão Governamental e Política Educacional Estatística",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Analista de Suporte Educacional Nutrição",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Analista de Suporte Educacional Psicologia",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Analista de Suporte Educacional Serviço Social",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Assistente de Gestão Governamental e Educacional Assistente de Gestão Governament al e Educacional",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - ABAETETUBA Abaetetuba, Acará, Barcarena, Igarapé-Miri Tailândia, Moju Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - AFUÁ Afuá, Chaves Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - ALTAMIRA Altamira, Anapu, Brasil Novo, Medicilândia, Porto de Moz, Senador José Porfírio, Uruará,…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - BREVES Anajás, Bagre, Breves, Gurupá, Melgaço, Portel Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - CACHOEIRA DO ARARI Cachoeira do Arari, Salvaterra, Santa Cruz do Arari, Soure Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - CAMETÁ Baião, Cametá, Limoeiro do Ajuru, Mocajuba Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - CAPANEMA Bonito, Capanema, Nova Timboteua, Ourém, Peixe Boi, Primavera, Quatipuru, Salinópolis, Santa…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Especialista em Especialista",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - CAPITÃO POÇO Capitão Poço, Garrafão do Norte, Nova Esperança do Piriá Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - CASTANHAL Castanhal, Curuçá, Inhangapi, Santa Maria do Pará, São Domingos do Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "Professor Língua",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - CONCEIÇÃO DO ARAGUAIA Conceição do Araguaia, Cumaru do Norte, Floresta do Araguaia, Pau D'Arco,…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - CURRALINHO Curralinho, Muaná, Oeiras do Pará, Ponta de Pedras, São Sebastião da Boa Vista Professor…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - ITAITUBA Aveiro, Itaituba, Jacareacanga, Novo Progresso, Placas, Rurópolis, Trairão Professor…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - MÃE DORIO Aurora do Pará, Dom Eliseu, Ipixuna do Pará, Irituia, Mãe do Rio, Paragominas, Ulianópolis…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - MARABÁ Abel Figueiredo, Bom Jesus do Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - MARACANÃ Igarapé Açu, Magalhães Barata, Maracanã Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - MONTE ALEGRE Alenquer, Almerim, Monte Alegre, Prainha Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - ÓBIDOS Curuá, Faro, Juruti, Óbidos, Oriximiná, Terra Santa Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - PARAUAPEBAS Canaã dos Carajás, Curionópolis, Eldorado dos Carajás, Parauapebas Professor Matemática…",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - SANTARÉM Belterra, Mojuí dos Campos, Santarém Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - TUCURUÍ Breu Branco, Goianésia do Pará, Novo Repartimento, Pacajá, Tucuruí Professor Matemática",
+    "remuneracao": null,
+    "numero": null
+   },
+   {
+    "nome": "DRE - XINGUARA Água Azul do Norte, Bannach, Ourilândia do Norte, Rio Maria, São Félix do Xingu, Sapucaia,…",
+    "remuneracao": null,
+    "numero": null
+   }
+  ],
   "remuneracao_unica": null,
   "erro": ""
  },
