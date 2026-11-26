@@ -26885,6 +26885,12 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Comunicado nº 19",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-no-19-2026.pdf",
+     "data": "2026-11-25"
+    },
+    {
      "titulo": "Resultado Preliminar da Avaliação de Títulos",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427_tjms_resultado-preliminar-titulos-2026-11-17.pdf",
@@ -26967,16 +26973,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427_tjms-resultado-definitivo-exames-de-personalidade.pdf",
      "data": "2026-10-23"
-    },
-    {
-     "titulo": "Resultado Definitiva da Inscrição Definitiva",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/427_tjms_resultado-definitivo-inscricao-definitiva-2026-10-23.pdf",
-     "data": "2026-10-23"
     }
    ],
-   "total_documentos": 92,
-   "ultima_publicacao": "2026-11-19T09:00-03:00",
+   "total_documentos": 93,
+   "ultima_publicacao": "2026-11-25T09:00-03:00",
    "primeiro_visto": null
   },
   {
