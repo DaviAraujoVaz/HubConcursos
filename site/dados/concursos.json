@@ -3037,6 +3037,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 4 – Convocação dos candidatos inscritos ao Cargo 1: Auditor Federal de Finanças e Controle (AFFC) – Especialidade: Auditoria para a indicação da sua opção de lotação, de acordo com os subitens 4.1 e 6.4.1 do Edital nº 1",
+     "tipo": "convocacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/2163FC938B0EFD78E3910E9BBDA9D670D8B8189687A47C10B02A107A3BFE32AF.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "Edital nº 3 – Retificação do subitem 13.14 do Edital nº 1",
      "tipo": "retificacao",
      "url": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/73234D1D0E80CD1BBF1DCDDF568C6DE78C7CE7E6FDD42386520B685E49290810.pdf",
@@ -3067,8 +3073,8 @@
      "data": "2026-10-09"
     }
    ],
-   "total_documentos": 5,
-   "ultima_publicacao": "2026-11-06T16:50-03:00",
+   "total_documentos": 6,
+   "ultima_publicacao": "2026-11-26T10:45-03:00",
    "primeiro_visto": null
   },
   {
@@ -4206,126 +4212,6 @@
    "primeiro_visto": null
   },
   {
-   "id": "cebraspe:PC_CE_25_DELEGADO",
-   "titulo": "Concurso Público de Delegado de Polícia Civil",
-   "banca": "cebraspe",
-   "situacao": "andamento",
-   "esfera": "",
-   "areas": [
-    "Policial"
-   ],
-   "url": "https://www.cebraspe.org.br/concursos/PC_CE_25_DELEGADO",
-   "ano": 2025,
-   "inscricoes_inicio": "2025-03-28T00:00-03:00",
-   "inscricoes_fim": "2025-04-11T18:00-03:00",
-   "vagas": 100,
-   "remuneracao_maxima": 22165.53,
-   "cargos": [
-    {
-     "nome": "DELEGADO DE POLÍCIA CIVIL",
-     "remuneracao": 22165.53,
-     "areas": [
-      "Policial"
-     ]
-    }
-   ],
-   "documentos": [
-    {
-     "titulo": "Justificativas de alterações de gabarito - Avaliação de verificação de aprendizagem do curso de formação",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/CC998DE2209A76865450BC3EF2C7CDA036E869F76FF3EB51680FF1FEEBD203B4.pdf",
-     "data": "2026-10-22"
-    },
-    {
-     "titulo": "GABARITO DEFINITIVO - AVALIAÇÃO DE VERIFICAÇÃO DE APRENDIZAGEM - CURSO DE FORMAÇÃO",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/13B93CC93E58DF69DFCF9B0A88188515DA2365AFAAE2E51FCFBB6C6B2E1451C5.pdf",
-     "data": "2026-10-14"
-    },
-    {
-     "titulo": "Comunicado – Resultado final na avaliação de verificação de aprendizagem do curso de formação",
-     "tipo": "comunicado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/43CF021C10744B53A7C54273AF81C704D7AE3542058CB872C41056C80B75A733.pdf",
-     "data": "2026-10-14"
-    },
-    {
-     "titulo": "AVALIAÇÃO DE VERIFICAÇÃO DE APRENDIZAGEM - CURSO DE FORMAÇÃO",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/EEEA250CCEF80AA47825F7F9C52351C83DD6E54D9015020C8AC6F7D6617D5391.pdf",
-     "data": "2026-10-01"
-    },
-    {
-     "titulo": "Comunicado – Retificação dos subitens 2.1 e 2.13.2 constantes do Comunicado de convocação para a avaliação de verificação de aprendizagem do curso de formação e treinamento",
-     "tipo": "comunicado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/343D1F1304A0FEAC5B64A11CB922A40798F511391200EF8D54813AB5E1588A09.pdf",
-     "data": "2026-09-22"
-    },
-    {
-     "titulo": "Comunicado – Convocação para a avaliação de verificação de aprendizagem do curso de formação e treinamento",
-     "tipo": "comunicado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/9E3D759F1A7860DEC1CAE0491FEB7B0DBE6A58B4B00E3CDCFA58AE77DAFB5C99.pdf",
-     "data": "2026-09-18"
-    },
-    {
-     "titulo": "Edital nº 31 – Inclusão de candidatos sub judice no resultado final na investigação social e a retificação do novo resultado final consolidado com as decisões judiciais",
-     "tipo": "retificacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/E1A7C6345E78150D1E1327DB339F572CD0D1FA185A4170DB4D77DB9739926969.pdf",
-     "data": "2026-08-05"
-    },
-    {
-     "titulo": "Edital nº 30 – Inclusão no resultado final no teste de aptidão física",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/4FC82E6DD2F1445140F7849CFB4111C5606D4335415C602C11DD52AFBBC8A2BA.pdf",
-     "data": "2026-07-07"
-    },
-    {
-     "titulo": "Edital nº 29 – Convocação para o teste de aptidão física",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/1ECDEBC9A9936BEBB47871E374315DCC3737C09805602D495209104F9EC2E3D2.pdf",
-     "data": "2026-06-18"
-    },
-    {
-     "titulo": "Edital nº 1/2026 – Convocação para realização de inspeção médica oficial e entrega de documentos para fins de nomeação",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/4B9243B8DC6D48BFF5FDAE74AFCF687B7A3F1D7C3E2311E97735BEAC0A4DAFD4.pdf",
-     "data": "2026-05-06"
-    },
-    {
-     "titulo": "Comunicado – Inspeção médica oficial e entrega de documentos",
-     "tipo": "comunicado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/8A5DC16621B7EB7A26F5334C2F319B4B786D956A286EC4CEA12BD2FA9307FEA7.pdf",
-     "data": "2026-04-30"
-    },
-    {
-     "titulo": "Comunicado – Relação de exames médicos e documentos a serem apresentados por ocasião de futura convocação",
-     "tipo": "comunicado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/44B60F5B0A43BB9C49938D4F99AC0402059461B4FA75EEAD4F503BE3B0F03BE0.pdf",
-     "data": "2026-04-23"
-    },
-    {
-     "titulo": "Edital nº 28 – Homologação do concurso público",
-     "tipo": "homologacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/696902C0AD205E3C570EC723C1ADE7C669805BA2989DFFA11BD9FCA2C4119E94.pdf",
-     "data": "2026-04-23"
-    },
-    {
-     "titulo": "Edital nº 27 – Resultado final consolidado com as decisões judiciais",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/4231C080C440AF184F7B3D22280BBB282A4B797151FF03AEC2E0137D6DB8DE32.pdf",
-     "data": "2026-04-13"
-    },
-    {
-     "titulo": "Edital nº 26 – Inclusão de candidatos sub judice no resultado final do concurso público",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_CE_25_DELEGADO/arquivos/BEFEF49C796C7BA49E2F0680DC69B6FFCD2D67D3F0DFA128A50818DD32B652F2.pdf",
-     "data": "2026-03-24"
-    }
-   ],
-   "total_documentos": 58,
-   "ultima_publicacao": "2026-10-22T09:34-03:00",
-   "primeiro_visto": null
-  },
-  {
    "id": "cebraspe:PC_DF_26_DELEGADO",
    "titulo": "PC DF 26 DELEGADO",
    "banca": "cebraspe",
@@ -4725,124 +4611,6 @@
    ],
    "total_documentos": 7,
    "ultima_publicacao": "2026-11-18T11:50-03:00",
-   "primeiro_visto": null
-  },
-  {
-   "id": "cebraspe:PC_MG_25_TPAG",
-   "titulo": "PC MG 25 TPAG",
-   "banca": "cebraspe",
-   "situacao": "andamento",
-   "esfera": "estadual",
-   "areas": [
-    "Policial"
-   ],
-   "url": "https://www.cebraspe.org.br/concursos/PC_MG_25_TPAG",
-   "ano": 2025,
-   "inscricoes_inicio": "2026-01-07T00:00-03:00",
-   "inscricoes_fim": "2026-02-06T18:00-03:00",
-   "vagas": null,
-   "remuneracao_maxima": 1990.97,
-   "cargos": [
-    {
-     "nome": "TÉCNICO-ASSISTENTE DA POLÍCIA CIVIL E DE ATIVIDADES GOVERNAMENTAIS (TPAG), ÁREA DE CONHECIMENTO AUXILIAR DE PERÍCIA",
-     "remuneracao": 1990.97,
-     "areas": []
-    }
-   ],
-   "documentos": [
-    {
-     "titulo": "Edital nº 8 - Inclusão de candidato sub judice.",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/64DE332FF8EF5BD78B09E6A8B20812482C2DD5B7A3843983EAFD7E5A52438484.pdf",
-     "data": "2026-10-15"
-    },
-    {
-     "titulo": "Edital nº 7 – Retificação do subitem 13.4 do Edital nº 01/2025",
-     "tipo": "retificacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/B5F8E29024036463CBB5112F652912F5AEFF6C8BD4867B1A4B54F60B4FFDE51E.pdf",
-     "data": "2026-10-14"
-    },
-    {
-     "titulo": "PORTARIA Nº 209/DRS/ACADEPOL/PCMG/2026 - Convoca os candidatos nomeados para apresentação dos documentos comprobatórios da idoneidade e conduta ilibada",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/92004BAF2300455A935DF00C66B0D9B1DB53D451FDA0861AF022CE9046EA43BE.pdf",
-     "data": "2026-09-17"
-    },
-    {
-     "titulo": "Boletim de verificação da idoneidade e conduta ilibada",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/BBCF6722D3AC5518765C50326B20F5308AEDA991A843FEA59F44E24F0D6DA9A8.pdf",
-     "data": "2026-07-27"
-    },
-    {
-     "titulo": "Portaria nº 174/26 — Convoca os candidatos nomeados para apresentação dos documentos comprobatórios da idoneidade e conduta ilibada",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/DE4F94821294EF2BE5D038692C5B2DCCB756A5243613D7321C70BC946C04768E.pdf",
-     "data": "2026-07-27"
-    },
-    {
-     "titulo": "Portaria de homologação do concurso",
-     "tipo": "homologacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/D2FFEE4F00643C7B66BEEBC444F6A0D089FCE2CC8772C6D66706366357A7F86F.pdf",
-     "data": "2026-06-23"
-    },
-    {
-     "titulo": "Edital nº 6 – Resultado final no concurso público, após julgamento dos recursos",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/0C53A198592B3ABC2E50245BD238EE075E5181A41DFCEBFA5FAB64EA3B81EA2A.pdf",
-     "data": "2026-06-23"
-    },
-    {
-     "titulo": "Edital nº 5 – Resultado final no exame de verificação da deficiência dos candidatos que solicitaram concorrer às vagas reservadas às pessoas com deficiência e o resultado final no concurso público",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/48FE2650D8F3FCA84C44BD92D5E0C25BE1B32BC79B38519AF2C6CFBA13ACC39B.pdf",
-     "data": "2026-06-09"
-    },
-    {
-     "titulo": "Edital nº 4 – Resultado provisório no exame de verificação da deficiência dos candidatos que solicitaram concorrer às vagas reservadas às pessoas com deficiência",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/23E274C9DCA15F5A8B97C3EA7DF915EDBFE3D0C2F1C1465FB9C898A702C30666.pdf",
-     "data": "2026-05-22"
-    },
-    {
-     "titulo": "Banca examinadora de perícia médica para exame de verificação de deficiência",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/367913D49D0EB7D8BCCBA78C31417812FC65D2E30A853BF03A512DF71871F96E.pdf",
-     "data": "2026-05-07"
-    },
-    {
-     "titulo": "GABARITO DEFINITIVO – EIXO GERAL",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/C61D250D6FA81D954109D271929695930BDC2CF6E777C9B9BF32B966811EB72E.pdf",
-     "data": "2026-04-28"
-    },
-    {
-     "titulo": "GABARITO DEFINITIVO – EIXO LEGISLAÇÃO",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/982FAA75AC3D0AF6CA2FB43803C8C0233309F3F2F1802CF44235B0EF6F914B27.pdf",
-     "data": "2026-04-28"
-    },
-    {
-     "titulo": "GABARITO DEFINITIVO – EIXO ESPECÍFICO",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/D127CA9DB485BDFFD7CD053335ACE89962D7A841B50452E032D876BF5D65A350.pdf",
-     "data": "2026-04-28"
-    },
-    {
-     "titulo": "Edital nº 3 – Resultado final na prova objetiva, para todos os candidatos, e a convocação para o exame de verificação da deficiência dos candidatos que solicitaram concorrer às vagas reservadas às pessoas com deficiência",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/80133AF583C59CEA08B8DFD605488D0CD74B8F475253EA9ECB16D8D29D03D9AA.pdf",
-     "data": "2026-04-28"
-    },
-    {
-     "titulo": "PROVA OBJETIVA – EIXO GERAL",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PC_MG_25_TPAG/arquivos/31AD6B36C6C09518DD76EEECD97707FCCC25AF3CBF9C9643A3A5B739E548A0A6.pdf",
-     "data": "2026-04-02"
-    }
-   ],
-   "total_documentos": 27,
-   "ultima_publicacao": "2026-10-15T11:20-03:00",
    "primeiro_visto": null
   },
   {
@@ -5668,126 +5436,6 @@
    ],
    "total_documentos": 28,
    "ultima_publicacao": "2026-11-19T10:00-03:00",
-   "primeiro_visto": null
-  },
-  {
-   "id": "cebraspe:PGE_RN_26",
-   "titulo": "PGE RN 26",
-   "banca": "cebraspe",
-   "situacao": "andamento",
-   "esfera": "estadual",
-   "areas": [
-    "Jurídica"
-   ],
-   "url": "https://www.cebraspe.org.br/concursos/PGE_RN_26",
-   "ano": 2026,
-   "inscricoes_inicio": "2026-03-12T00:00-03:00",
-   "inscricoes_fim": "2026-04-13T18:00-03:00",
-   "vagas": 22,
-   "remuneracao_maxima": 8977.79,
-   "cargos": [
-    {
-     "nome": "ANALISTA JURÍDICO",
-     "remuneracao": null,
-     "areas": [
-      "Jurídica"
-     ]
-    }
-   ],
-   "documentos": [
-    {
-     "titulo": "Edital nº 13 – Resultado final na avaliação de títulos e o resultado final no concurso público",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/D6CF4D2C2548071E4ABAC64842FBF4763E970C5D81401FA39E1F178E535E6BBA.pdf",
-     "data": "2026-10-19"
-    },
-    {
-     "titulo": "Edital nº 12 – Resultado provisório na avaliação de títulos",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/EFACD93B05707FCDF25BC0B565C283C480F0A9E602AA1D60C8B6A18C942A8F9B.pdf",
-     "data": "2026-10-05"
-    },
-    {
-     "titulo": "Edital nº 11 – Resultado final na prova discursiva e a convocação para a prova de títulos",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/D4219A9209A8BFF8361DFFC56585727E4DD72DECFD7600C1E259758480C8033D.pdf",
-     "data": "2026-09-18"
-    },
-    {
-     "titulo": "PADRÃO DEFINITIVO DE RESPOSTAS – PROVA DISCURSIVA",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/37CA592F5541A2B68E17E13216DD64D0393440712A892BE9DD6861C3C4FFB860.pdf",
-     "data": "2026-09-01"
-    },
-    {
-     "titulo": "Edital nº 10 – Resultado final no procedimento de análise telepresencial para a caracterização da deficiência, a relação final dos candidatos considerados pessoas com deficiência, o resultado final no procedimento de confirmação complementar à autodeclaração para candidatos negros (pretos e pardos) e o resultado provisório na prova discursiva",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/C8722B1F5CED021208834D6D677D2723366F813A2822545CB14D51B78C53613A.pdf",
-     "data": "2026-09-01"
-    },
-    {
-     "titulo": "Edital nº 9 – Reabertura do prazo para interposição de recurso contra o resultado provisório da análise telepresencial para caracterização da deficiência",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/E25CF03F25188B58A4D3DD5170AEF5538AE085878A8350B1E645AD4A8CD9FA0F.pdf",
-     "data": "2026-08-25"
-    },
-    {
-     "titulo": "Edital nº 8 – Resultado provisório no procedimento de análise telepresencial para a caracterização da deficiência e o resultado provisório no procedimento de confirmação complementar à autodeclaração para candidatos negros (pretos e pardos)",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/362616FEADD1F7AB7CE7087CCB934B667E1BDD1967BB92199581D2CEDE5E986B.pdf",
-     "data": "2026-08-19"
-    },
-    {
-     "titulo": "Currículos dos integrantes da comissão recursal",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/0BD231CD7933E38ABFBFCEA66FBB5C090C7BE8FE4A88EF39720A4A92FA8A2915.pdf",
-     "data": "2026-08-19"
-    },
-    {
-     "titulo": "Currículos dos integrantes da comissão de confirmação complementar à autodeclaração para candidatos negros",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/EF5C68771183E7B66ADD4F5925E77616275CA9FC91C491A9669C43F52BE47022.pdf",
-     "data": "2026-08-05"
-    },
-    {
-     "titulo": "Edital nº 7 – Resultado final na análise documental para a caracterização da deficiência, a convocação para o procedimento de análise telepresencial para a caracterização da deficiência e a convocação para o procedimento de confirmação complementar à autodeclaração para candidatos negros",
-     "tipo": "convocacao",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/0754AFD5E74F5EABDED72E0F5303569C92D5F60A7225DA7E3123EF952F88AB5A.pdf",
-     "data": "2026-08-03"
-    },
-    {
-     "titulo": "Justificativas de alterações de gabarito",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/77050DC6452A71DB7E8316040F7CB1C577D3E0EA417DA8DFB00EBA0DCE9FE169.pdf",
-     "data": "2026-07-27"
-    },
-    {
-     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS GERAIS",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/80780B33D77B4E927B84590FE5774140791E94256A34AE268E22A8F8A91CA89C.pdf",
-     "data": "2026-07-20"
-    },
-    {
-     "titulo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/E281AA41FC8761D60B72411507FBBB406AD65D65E32B897DDC1A499DD2EDB871.pdf",
-     "data": "2026-07-20"
-    },
-    {
-     "titulo": "Edital nº 6 – Resultado final nas provas objetivas e o resultado provisório na análise documental para a caracterização da deficiência (Atualizado conforme publicação no Diário Oficial do Estado do Rio Grande do Norte)",
-     "tipo": "resultado",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/6FC0C6A5B238A03E31B49C1B40D6CB5C56472346D453D8E14B1E5E7BA33A0B75.pdf",
-     "data": "2026-07-20"
-    },
-    {
-     "titulo": "PROVA OBJETIVA – CONHECIMENTOS GERAIS",
-     "tipo": "gabarito",
-     "url": "https://cdn.cebraspe.org.br/concursos/PGE_RN_26/arquivos/96044335EF8662808909A348164A59333FDD5B674B86E9A089F82AA2A8DAB2E1.pdf",
-     "data": "2026-06-26"
-    }
-   ],
-   "total_documentos": 24,
-   "ultima_publicacao": "2026-10-19T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -7202,6 +6850,12 @@
    ],
    "documentos": [
     {
+     "titulo": "Edital nº 41 – Resultado final na inscrição definitiva e a convocação para a prova oral",
+     "tipo": "convocacao",
+     "url": "https://cdn.cebraspe.org.br/concursos/PREF_PORTO_VELHO_26_PROCURADOR/arquivos/01C03B7C056E0BBCBA21B91939D6D78B964ADAF2076596D5104B5984033D7FA7.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "Edital nº 35 – Resultado provisório na inscrição definitiva",
      "tipo": "resultado",
      "url": "https://cdn.cebraspe.org.br/concursos/PREF_PORTO_VELHO_26_PROCURADOR/arquivos/B8F2EA3DBAA9F1219964843279B4347B8C2054FB2D38AD16ECAA1BCB8B4F767E.pdf",
@@ -7284,16 +6938,10 @@
      "tipo": "gabarito",
      "url": "https://cdn.cebraspe.org.br/concursos/PREF_PORTO_VELHO_26_PROCURADOR/arquivos/D7D0156B9F8B9FE194A27B7538F9CF7BDC768DB52C70EB6B1DC59DCAE4812033.pdf",
      "data": "2026-06-26"
-    },
-    {
-     "titulo": "Quantitativo de inscritos por sistema de concorrência",
-     "tipo": "outro",
-     "url": "https://cdn.cebraspe.org.br/concursos/PREF_PORTO_VELHO_26_PROCURADOR/arquivos/17DE3B4848D75DD1619C189D76061240957101F24E999D1FE89A16DA11AAF226.pdf",
-     "data": "2026-06-12"
     }
    ],
-   "total_documentos": 21,
-   "ultima_publicacao": "2026-11-10T10:00-03:00",
+   "total_documentos": 22,
+   "ultima_publicacao": "2026-11-26T10:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -14022,6 +13670,12 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/26.11-comunicado-cci.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "Gabarito Oficial Definitivo da Prova Objetiva",
      "tipo": "gabarito",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/18.11-gabarito-definitivo_ajustado.pdf",
@@ -14104,16 +13758,10 @@
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-advocacia-cns007-tipo-1.pdf",
      "data": "2026-10-13"
-    },
-    {
-     "titulo": "Tipo 2",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-tecnologia-da-informacao-advocacia-cns007-tipo-2.pdf",
-     "data": "2026-10-13"
     }
    ],
-   "total_documentos": 73,
-   "ultima_publicacao": "2026-11-19T09:00-03:00",
+   "total_documentos": 74,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -19739,45 +19387,51 @@
    "cargos": [],
    "documentos": [
     {
-     "titulo": "Resultado preliminar da análise dos pedidos de atendimentos especiais",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-da-analise-dos-pedidos-de-atendimentos-especiais_1.pdf",
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-guarda_.pdf",
+     "data": "2026-11-26"
+    },
+    {
+     "titulo": "Resultado preliminar da análise dos pedidos de atendimentos especiais (retificado em 26/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-da-analise-dos-pedidos-de-atendimentos-especiais_2.pdf",
      "data": "2026-11-24"
     },
     {
-     "titulo": "Resultado preliminar de indeferimento de inscrição na condição de pessoa com deficiência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-de-inscricao-na-condicao-de-pessoa-com-deficiencia-indeferidos.pdf",
+     "titulo": "Resultado preliminar de indeferimento de inscrição na condição de pessoa com deficiência (retificado em 26/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-de-inscricao-na-condicao-de-pessoa-com-deficiencia-indeferidos_0.pdf",
      "data": "2026-11-24"
     },
     {
-     "titulo": "Resultado preliminar de deferimento de inscrição na condição de pessoa com deficiência",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-de-inscricao-na-condicao-de-pessoa-com-deficiencia-deferidos.pdf",
+     "titulo": "Resultado preliminar de deferimento de inscrição na condição de pessoa com deficiência (retificado em 26/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-de-inscricao-na-condicao-de-pessoa-com-deficiencia-deferidos_0.pdf",
      "data": "2026-11-24"
     },
     {
-     "titulo": "Resultado preliminar de candidatos inscritos para concorrer às vagas destinadas às candidatas do sexo feminino - indeferidas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-preliminar-de-candidatos-inscritos-para-concorrer-as-vagas-destinadas-destinadas-as-candidatas-do-sexo-feminino-indefe.pdf",
+     "titulo": "Resultado preliminar de candidatos inscritos para concorrer às vagas destinadas às candidatas do sexo feminino - indeferidas (retificado em 26/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-preliminar-de-candidatos-inscritos-para-concorrer-as-vagas-destinadas-destinadas-as-candidatas-do-sexo-feminino-indeferidas.pdf",
      "data": "2026-11-24"
     },
     {
-     "titulo": "Resultado preliminar de candidatos inscritos para concorrer às vagas destinadas às candidatas do sexo feminino - deferidas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-preliminar-de-candidatos-inscritos-para-concorrer-as-vagas-destinadas-destinadas-as-candidatas-do-sexo-feminino-deferi.pdf",
+     "titulo": "Resultado preliminar de candidatos inscritos para concorrer às vagas destinadas às candidatas do sexo feminino - deferidas (retificado em 26/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-preliminar-de-candidatos-inscritos-para-concorrer-as-vagas-destinadas-destinadas-as-candidatas-do-sexo-feminino-deferidas.pdf",
      "data": "2026-11-24"
     },
     {
-     "titulo": "Resultado preliminar de candidatos inscritos para concorrer às vagas destinadas aos negros (pretos e pardos)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-preliminar-de-candidatos-inscritos-para-concorrer-as-vagas-destinadas-ppp.pdf",
+     "titulo": "Resultado preliminar de candidatos inscritos para concorrer às vagas destinadas aos negros (pretos e pardos) (retificado em 26/11/2026)",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/relacao-preliminar-de-candidatos-inscritos-para-concorrer-as-vagas-destinadas-aos-negros-pretos-e-pardos.pdf",
      "data": "2026-11-24"
     },
     {
-     "titulo": "Resultado preliminar de homologação de inscrição",
+     "titulo": "Resultado preliminar de homologação de inscrição (retificado em 26/11/2026)",
      "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-homologacao-de-inscricoes_1.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado-preliminar-de-homologacao-de-inscricoes_2.pdf",
      "data": "2026-11-24"
     },
     {
@@ -19821,16 +19475,10 @@
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/1-retificacao-do-edital-n-02-de-2026.pdf",
      "data": "2026-09-28"
-    },
-    {
-     "titulo": "Edital (retificado em 18/11/2026)",
-     "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-prefeitura-de-salvador-2026-guarda-retificado-2.pdf",
-     "data": "2026-09-18"
     }
    ],
-   "total_documentos": 15,
-   "ultima_publicacao": "2026-11-24T09:00-03:00",
+   "total_documentos": 16,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26640,6 +26288,12 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjms_comunicado_ppp-fabiane-feltrin-dos-anjos-1-1.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "COMUNICADO - Inclusão Sub Judice",
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjms_publicacao_helia-liramara-chaves-ricardo.pdf",
@@ -26722,16 +26376,10 @@
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjms_comunicado_ppp-bruna-e-karina.pdf",
      "data": "2026-06-26"
-    },
-    {
-     "titulo": "COMUNICADO (retificado em 06/10/2026)",
-     "tipo": "comunicado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-inclusao-sub-judice-iria-steffany-de-almeida-dal-pra_0.pdf",
-     "data": "2026-06-18"
     }
    ],
-   "total_documentos": 68,
-   "ultima_publicacao": "2026-10-26T09:00-03:00",
+   "total_documentos": 69,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -26772,6 +26420,12 @@
     }
    ],
    "documentos": [
+    {
+     "titulo": "Edital nº 21/2026 – De Resultado Definitivo da Prova Discursiva, da divulgação do Resultado Preliminar das Provas de Sentenças e da convocação para demais fases",
+     "tipo": "convocacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-5995-de-26.11.2026-1.pdf",
+     "data": "2026-11-26"
+    },
     {
      "titulo": "Edital Nº 20/2026 – Da divulgação do programa específico para a Prova Oral",
      "tipo": "outro",
@@ -26855,16 +26509,10 @@
      "tipo": "convocacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-11.2026-convocacao-para-sessao-publica-dos-recursos-contra-provas-de-sentencas.pdf",
      "data": "2026-08-05"
-    },
-    {
-     "titulo": "Edital Nº 10/2026 – De Divulgação do Resultado Preliminar das Provas de Sentenças (candidatos sub judice)",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-10-2026-de-divulgacao-provas-de-sentencas-sub-judice-1.pdf",
-     "data": "2026-07-03"
     }
    ],
-   "total_documentos": 56,
-   "ultima_publicacao": "2026-11-25T09:00-03:00",
+   "total_documentos": 57,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -30770,20 +30418,32 @@
    ],
    "documentos": [
     {
+     "titulo": "COMUNICADO OFICIAL",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-oficial_0.pdf",
+     "data": "2026-11-26"
+    },
+    {
+     "titulo": "1ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-retificacao-1-retificacao-edital-01-2026-crp-05.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "Cronograma previsto",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cronograma-previsto-concurso-publico-crp-05-11.11.pdf",
      "data": "2026-11-12"
     },
     {
-     "titulo": "Edital",
+     "titulo": "Edital (retificado em 26/11/2026)",
      "tipo": "edital_abertura",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-concurso-publico-crp-05.pdf",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-concurso-publico-crp-05_0.pdf",
      "data": "2026-11-12"
     }
    ],
-   "total_documentos": 2,
-   "ultima_publicacao": "2026-11-12T09:00-03:00",
+   "total_documentos": 4,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": "2026-11-12"
   },
   {
@@ -32241,6 +31901,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "Comunicado inclusão – Sub judice",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-inclusao-sub-judice-gilberto-braz-dos-santos_.pdf",
+     "data": "2026-11-26"
+    },
+    {
+     "titulo": "Comunicado inclusão – Sub judice",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado-inclusao-sub-judice-eduardo-lo-iacono-figueiro.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "Resultado definitivo dos pedidos de atendimento especial",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/enam_atendimentos-especiais-definitivo.pdf",
@@ -32317,22 +31989,10 @@
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/enam_quilombolas_preliminar_indeferidos.pdf",
      "data": "2026-10-16"
-    },
-    {
-     "titulo": "Resultado preliminar de deferimento de inscrições destinadas a pessoas examinandas quilombolas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/enam_quilombolas_preliminar_deferidos.pdf",
-     "data": "2026-10-16"
-    },
-    {
-     "titulo": "Resultado preliminar de indeferimento de inscrições destinadas a pessoas examinandas indígenas",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/enam_indigenas_preliminar_indeferidos.pdf",
-     "data": "2026-10-16"
     }
    ],
-   "total_documentos": 24,
-   "ultima_publicacao": "2026-11-05T09:00-03:00",
+   "total_documentos": 26,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": null
   },
   {
@@ -33714,6 +33374,12 @@
    ],
    "documentos": [
     {
+     "titulo": "DJE 26.11.2026",
+     "tipo": "outro",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-26.11.2026.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "DJE 24.11.2026",
      "tipo": "outro",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-24.11.2026.pdf",
@@ -33796,16 +33462,10 @@
      "tipo": "retificacao",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/2-retificacao-edital-15-2026-processo-seletivo-juiz-leigo-tjba.pdf",
      "data": "2026-11-05"
-    },
-    {
-     "titulo": "DJE 20.10.2026",
-     "tipo": "outro",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/dje-20.10.2026.pdf",
-     "data": "2026-10-27"
     }
    ],
-   "total_documentos": 75,
-   "ultima_publicacao": "2026-11-25T09:00-03:00",
+   "total_documentos": 76,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": null
   },
   {

@@ -4030,6 +4030,39 @@
   "remuneracao_unica": null,
   "erro": ""
  },
+ "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-concurso-publico-crp-05_0.pdf": {
+  "versao": 7,
+  "lido_em": "2026-11-26T18:34-03:00",
+  "cargos": [
+   {
+    "nome": "Subsede Norte e Noroeste Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Serrana",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Sul Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Baixada Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   },
+   {
+    "nome": "Subsede Leste Fluminense",
+    "remuneracao": "6532.76",
+    "numero": null
+   }
+  ],
+  "remuneracao_unica": null,
+  "erro": ""
+ },
  "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-concurso-publico-para-a-camara-municipal-de-governador-valadares_retificado_31_08_2026.pdf": {
   "versao": 7,
   "lido_em": "2026-11-02T02:07-03:00",
