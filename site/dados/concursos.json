@@ -31214,6 +31214,18 @@
    "cargos": [],
    "documentos": [
     {
+     "titulo": "COMUNICADO",
+     "tipo": "comunicado",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cfc-eqt-comunicado-datas.pdf",
+     "data": "2026-11-26"
+    },
+    {
+     "titulo": "2ª Retificação",
+     "tipo": "retificacao",
+     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cfc-eqt-edital-2026.2-retificacao-26.11.2026.pdf",
+     "data": "2026-11-26"
+    },
+    {
      "titulo": "Resultado Definitivo da Prova Objetiva",
      "tipo": "resultado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/resultado_prova_objetiva_cfc_eqt_2026.2-2026-11-03.pdf",
@@ -31290,22 +31302,10 @@
      "tipo": "comunicado",
      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cfc-eqt-documento.pdf",
      "data": "2026-09-21"
-    },
-    {
-     "titulo": "Resultado definitivo dos pedidos de atendimento especial",
-     "tipo": "resultado",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cfc-eqt-2026.1-resultado-definitivo-da-analise-dos-pedidos-de-atendimentos-especiais_0.pdf",
-     "data": "2026-09-03"
-    },
-    {
-     "titulo": "Resultado definitivo de homologação de inscrição",
-     "tipo": "homologacao",
-     "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cfc-eqt-2026.1_resultado_homologacao-de-inscricoes_definitivo_0.pdf",
-     "data": "2026-09-03"
     }
    ],
-   "total_documentos": 19,
-   "ultima_publicacao": "2026-11-03T09:00-03:00",
+   "total_documentos": 21,
+   "ultima_publicacao": "2026-11-26T09:00-03:00",
    "primeiro_visto": null
   },
   {
